@@ -1,0 +1,133 @@
+#!/bin/bash
+
+rank_day_star () {
+    local day=$1
+    local star=$2
+    local basedate
+    local name
+    local time
+
+    printf -v basedate '2016-12-%02dT00:00:00-05:00' "$day"
+
+    jq -r --arg day "$day" --arg star "$star" '
+        [.members[]] |
+        map( {name, tstamp: .completion_day_level[$day][$star].get_star_ts} ) |
+        sort_by(.tstamp)[] |
+        select(.name != null) |
+        select(.tstamp != null) |
+        [.name, .tstamp] |
+        @tsv
+    ' < leaderboard.json |
+    while IFS=$'\t' read name time; do
+        printf '%s\t%s\n' "$name" "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))"
+    done |
+    awk -F "\t" -v day="$day" -v star="$star" '
+        { printf "%2d\t%s\t%3d:%02d\n", NR, $1, int($2/3600), int(($2%3600)/60) }
+    '
+}
+
+print_header () {
+    local title=$1
+
+    cat <<EOF
+        <!doctype html>
+        <html>
+        <head>
+        <meta charset=utf-8>
+        <title>$title</title>
+        </head>
+        <body>
+        <h1>$title</h1>
+EOF
+}
+
+tablify () {
+    local fname=$1
+    awk -v fname="$fname" '
+        BEGIN {
+            FS = "\t"
+            print "<div><table>"
+            print "<tr>"
+            print "<th>Rank</th>"
+            print "<th>Name</th>"
+            print "<th>Time to solve [H:M]</th>"
+            print "</tr>"
+        }
+        {
+            print "<tr>"
+            for (i = 1; i <= NF; ++i)
+                print "<td>" $i "</td>"
+            print "</tr>"
+        }
+        END {
+            print "</table></div>"
+            print "<p>Raw text file: <a href=\"" fname "\">" fname "</a></p>"
+            print "<p><a href=\"../index.html\">Return to index</a></p>"
+        }
+    '
+}
+
+gen_txt_files () {
+    local day
+    local star
+
+    for day in {01..25}; do
+        for star in 1 2; do
+            rank_day_star "${day#0}" "$star" > "day${day}star$star".txt
+        done
+    done
+}
+
+gen_html_files () {
+    local re='day([0-9]+)star([0-9])'
+    local fname
+    for fname in day*star*.txt; do
+        [[ $fname =~ $re ]]
+        day=${BASH_REMATCH[1]}
+        star=${BASH_REMATCH[2]}
+
+        {
+            print_header "Ranking day ${day#0}, star $star"
+            tablify "$fname" < "$fname"
+        } | tidy -iq --tidy-mark no > "${fname%.txt}.html"
+    done
+}
+
+gen_index () {
+    {
+        print_header "Advent of Code IX Stats"
+
+        echo "<h2>Rankings per day and star</h2>"
+        echo "<div>"
+        echo "<table>"
+
+        local re='day([0-9]+)star([0-9])'
+        for fname in day*star*.html; do
+            [[ $fname =~ $re ]]
+            day=${BASH_REMATCH[1]}
+            star=${BASH_REMATCH[2]}
+
+            if (( star == 1 )); then
+                echo "<tr>"
+                echo "<td>Day ${day#0}</td>"
+                echo "<td><a href=\"data/$fname\">Star 1</a></td>"
+            elif (( star == 2 )); then
+                echo "<td><a href=\"data/$fname\">Star 2</a></td>"
+                echo "</tr>"
+            fi
+        done
+
+        echo "</table>"
+        echo "</div>"
+        echo "<ul>"
+        echo '<li><p>Script to generate all the stats: <a href="data/rankings">rankings</a></p></li>'
+        echo '<li><p>JSON source data: <a href="data/leaderboard.json">leaderboard.json</a></p></li>'
+        echo '<li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>'
+        echo "</ul>"
+    } | tidy -iq --tidy-mark no > ../index.html
+}
+
+
+gen_txt_files
+gen_html_files
+gen_index
