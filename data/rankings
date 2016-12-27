@@ -62,7 +62,7 @@ tablify () {
         END {
             print "</table></div>"
             print "<p>Raw text file: <a href=\"" fname "\">" fname "</a></p>"
-            print "<p><a href=\"../index.html\">Return to index</a></p>"
+            print "<p><a href=\"..\">Return to index</a></p>"
         }
     '
 }
