@@ -97,7 +97,7 @@ gen_index () {
     {
         print_header "Advent of Code IX Stats"
 
-        echo "<h2>Rankings per day and star</h2>"
+        echo "<h2>2016 Rankings per day and star</h2>"
         echo "<div>"
         echo "<table>"
 
