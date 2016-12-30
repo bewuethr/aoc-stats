@@ -79,6 +79,24 @@ gen_txt_files () {
     done
 }
 
+gen_local_score () {
+    awk '
+        BEGIN {
+            FS = "\t"
+            PROCINFO["sorted_in"] = "@val_num_desc"
+        }
+        { rank[$2][FILENAME] = $1 }
+        END {
+            n = length(rank)
+            for (i in rank)
+                for (j in rank[i])
+                    score[i] += n - rank[i][j] + 1
+            for (i in score)
+                printf "%d\t%s\t%d\n", ++ranking, i, score[i]
+        }
+    ' day??star?.txt > local_score.txt
+}
+
 gen_mod_local_score () {
     awk '
         BEGIN {
@@ -113,20 +131,29 @@ gen_html_files () {
     done
 
     {
+        print_header "Local score"
+        echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
+        tablify local_score.txt Points < local_score.txt
+    } | tidy -iq --tidy-mark no > local_score.html
+
+    {
         print_header "Modified local score"
-        echo "<p>For each star, winner gets one point per submission, runner-up one less etc.</p>"
+        echo "<p>For each star, winner gets one point per submission <em>to that star</em>, runner-up one less etc.</p>"
         tablify mod_local_score.txt Points < mod_local_score.txt
     } | tidy -iq --tidy-mark no > mod_local_score.html
 }
 
 gen_index () {
     {
-        print_header "Advent of Code IX Stats"
+        print_header "Advent of Code 2016, IX Stats"
 
         cat <<EOF
             <h2>Overall rankings</h2>
-            <ul><li><p><a href="data/mod_local_score.html">Modified local score</a></p></li></ul>
-            <h2>2016 rankings per day and star</h2>
+            <ul>
+            <li><p><a href="data/local_score.html">Local score</a></p></li>
+            <li><p><a href="data/mod_local_score.html">Modified local score</a></p></li>
+            </ul>
+            <h2>Rankings per day and star</h2>
             <div>
             <table>
 EOF
@@ -161,6 +188,7 @@ EOF
 
 
 gen_txt_files
+gen_local_score
 gen_mod_local_score
 gen_html_files
 gen_index
