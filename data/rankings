@@ -43,14 +43,15 @@ EOF
 
 tablify () {
     local fname=$1
-    awk -v fname="$fname" '
+    local col3_heading=$2
+    awk -v col3_heading="$col3_heading" -v fname="$fname" '
         BEGIN {
             FS = "\t"
             print "<div><table>"
             print "<tr>"
             print "<th>Rank</th>"
             print "<th>Name</th>"
-            print "<th>Time to solve [H:M]</th>"
+            print "<th>" col3_heading "</th>"
             print "</tr>"
         }
         {
@@ -78,6 +79,25 @@ gen_txt_files () {
     done
 }
 
+gen_mod_local_score () {
+    awk '
+        BEGIN {
+            FS = "\t"
+            PROCINFO["sorted_in"] = "@val_num_desc"
+        }
+        { rank[$2] = $1 }
+        ENDFILE {
+            for (i in rank)
+                score[i] += FNR - rank[i] + 1
+            delete rank
+        }
+        END {
+            for (i in score)
+                printf "%d\t%s\t%d\n", ++ranking, i, score[i]
+        }
+    ' day??star?.txt > mod_local_score.txt
+}
+
 gen_html_files () {
     local re='day([0-9]+)star([0-9])'
     local fname
@@ -88,18 +108,28 @@ gen_html_files () {
 
         {
             print_header "Ranking day ${day#0}, star $star"
-            tablify "$fname" < "$fname"
+            tablify "$fname" 'Time to solve [H:M]' < "$fname"
         } | tidy -iq --tidy-mark no > "${fname%.txt}.html"
     done
+
+    {
+        print_header "Modified local score"
+        echo "<p>For each star, winner gets one point per submission, runner-up one less etc.</p>"
+        tablify mod_local_score.txt Points < mod_local_score.txt
+    } | tidy -iq --tidy-mark no > mod_local_score.html
 }
 
 gen_index () {
     {
         print_header "Advent of Code IX Stats"
 
-        echo "<h2>2016 Rankings per day and star</h2>"
-        echo "<div>"
-        echo "<table>"
+        cat <<EOF
+            <h2>Overall rankings</h2>
+            <ul><li><p><a href="data/mod_local_score.html">Modified local score</a></p></li></ul>
+            <h2>2016 rankings per day and star</h2>
+            <div>
+            <table>
+EOF
 
         local re='day([0-9]+)star([0-9])'
         for fname in day*star*.html; do
@@ -117,17 +147,20 @@ gen_index () {
             fi
         done
 
-        echo "</table>"
-        echo "</div>"
-        echo "<ul>"
-        echo '<li><p>Script to generate all the stats: <a href="data/rankings">rankings</a></p></li>'
-        echo '<li><p>JSON source data: <a href="data/leaderboard.json">leaderboard.json</a></p></li>'
-        echo '<li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>'
-        echo "</ul>"
+        cat <<EOF
+            </table>
+            </div>
+            <ul>
+            <li><p>Script to generate all the stats: <a href="data/rankings">rankings</a></p></li>
+            <li><p>JSON source data: <a href="data/leaderboard.json">leaderboard.json</a></p></li>
+            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
+            </ul>
+EOF
     } | tidy -iq --tidy-mark no > ../index.html
 }
 
 
 gen_txt_files
+gen_mod_local_score
 gen_html_files
 gen_index
