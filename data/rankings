@@ -131,20 +131,20 @@ gen_html_files () {
         {
             print_header "../" "Ranking day ${day#0}, star $star"
             tablify "$fname" 'Time to solve [H:M]' < "$fname"
-        } | tidy -iq --tidy-mark no > "${fname%.txt}.html"
+        } | tidy "${tidyopts[@]}" > "${fname%.txt}.html"
     done
 
     {
         print_header "../" "Local score"
         echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
         tablify local_score.txt Points < local_score.txt
-    } | tidy -iq --tidy-mark no > local_score.html
+    } | tidy "${tidyopts[@]}" > local_score.html
 
     {
         print_header "../" "Modified local score"
         echo "<p>For each star, winner gets one point per submission <em>to that star</em>, runner-up one less etc.</p>"
         tablify mod_local_score.txt Points < mod_local_score.txt
-    } | tidy -iq --tidy-mark no > mod_local_score.html
+    } | tidy "${tidyopts[@]}" > mod_local_score.html
 }
 
 gen_index () {
@@ -194,9 +194,10 @@ EOF
             <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
             </ul>
 EOF
-    } | tidy -iq --tidy-mark no > ../index.html
+    } | tidy "${tidyopts[@]}" > ../index.html
 }
 
+tidyopts=(-iq --tidy-mark no --wrap 120)
 
 gen_txt_files
 gen_local_score
