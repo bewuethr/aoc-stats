@@ -17,7 +17,7 @@ rank_day_star () {
         select(.tstamp != null) |
         [.name, .tstamp] |
         @tsv
-    ' < leaderboard.json |
+    ' < leaderboard2016.json |
     while IFS=$'\t' read name time; do
         printf '%s\t%s\n' "$name" "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))"
     done |
@@ -27,13 +27,16 @@ rank_day_star () {
 }
 
 print_header () {
-    local title=$1
+    local csspath=$1
+    local title=$2
+
 
     cat <<EOF
         <!doctype html>
         <html>
         <head>
         <meta charset=utf-8>
+        <link rel="stylesheet" href="${1}style.css">
         <title>$title</title>
         </head>
         <body>
@@ -125,19 +128,19 @@ gen_html_files () {
         star=${BASH_REMATCH[2]}
 
         {
-            print_header "Ranking day ${day#0}, star $star"
+            print_header "../" "Ranking day ${day#0}, star $star"
             tablify "$fname" 'Time to solve [H:M]' < "$fname"
         } | tidy -iq --tidy-mark no > "${fname%.txt}.html"
     done
 
     {
-        print_header "Local score"
+        print_header "../" "Local score"
         echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
         tablify local_score.txt Points < local_score.txt
     } | tidy -iq --tidy-mark no > local_score.html
 
     {
-        print_header "Modified local score"
+        print_header "../" "Modified local score"
         echo "<p>For each star, winner gets one point per submission <em>to that star</em>, runner-up one less etc.</p>"
         tablify mod_local_score.txt Points < mod_local_score.txt
     } | tidy -iq --tidy-mark no > mod_local_score.html
@@ -145,7 +148,7 @@ gen_html_files () {
 
 gen_index () {
     {
-        print_header "Advent of Code 2016, IX Stats"
+        print_header "" "Advent of Code 2016, IX Stats"
 
         cat <<EOF
             <h2>Overall rankings</h2>
@@ -155,7 +158,7 @@ gen_index () {
             </ul>
             <h2>Rankings per day and star</h2>
             <div>
-            <table>
+            <table id="left">
 EOF
 
         local re='day([0-9]+)star([0-9])'
@@ -164,9 +167,13 @@ EOF
             day=${BASH_REMATCH[1]}
             star=${BASH_REMATCH[2]}
 
+            if (( 10#$day == 14 && star == 1 )); then
+                echo '</table><table id="right">'
+            fi
+
             if (( star == 1 )); then
                 echo "<tr>"
-                echo "<td>Day ${day#0}</td>"
+                echo "<td class=\"day\">Day ${day#0}</td>"
                 echo "<td><a href=\"data/$fname\">Star 1</a></td>"
             elif (( star == 2 )); then
                 echo "<td><a href=\"data/$fname\">Star 2</a></td>"
@@ -174,12 +181,15 @@ EOF
             fi
         done
 
+        echo "<tr><td></td><td></td><td></td></tr>"
+
         cat <<EOF
             </table>
             </div>
+            <h2>Miscellaneous</h2>
             <ul>
             <li><p>Script to generate all the stats: <a href="data/rankings">rankings</a></p></li>
-            <li><p>JSON source data: <a href="data/leaderboard.json">leaderboard.json</a></p></li>
+            <li><p>JSON source data: <a href="data/leaderboard2016.json">leaderboard2016.json</a></p></li>
             <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
             </ul>
 EOF

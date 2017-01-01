@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+    border-top: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table#left {
+    float: left;
+    margin: 0 3em 0 0;
+}
+
+table#right {
+    margin: 0 0 3em 0;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+td, th {
+    padding:.5em;
+}
+
+tr td:nth-child(odd) {
+    text-align: right;
+}
+
+td.day {
+    font-weight: bold;
+}
+
+ul {
+    list-style: circle;
+}
