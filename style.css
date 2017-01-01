@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
 body {
-    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-family: Inconsolata, Consola, "Courier New", monospace;
     max-width: 640px;
     margin: 0 auto;
 }
