@@ -4,11 +4,21 @@ body {
     font-family: Inconsolata, Consola, "Courier New", monospace;
     max-width: 640px;
     margin: 0 auto;
+    color: #839496;
+    background-color: #002b36;
 }
 
 h1, h2 {
     font-variant: small-caps;
-    border-top: 2px solid;
+    border-bottom: 1px solid;
+}
+
+:link, :visited {
+    color: #b58900;
+}
+
+:link:hover {
+    background-color: #073642;
 }
 
 table {
@@ -29,7 +39,11 @@ th {
 }
 
 tr:nth-child(even) {
-    background: #CCC
+    background: #073642;
+}
+
+tr:nth-child(even) :link:hover {
+    background-color: #002b36;
 }
 
 td, th {
