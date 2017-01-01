@@ -37,6 +37,7 @@ print_header () {
         <head>
         <meta charset=utf-8>
         <link rel="stylesheet" href="${1}style.css">
+        <link rel="shortcut icon" href="${1}favicon.png" type="image/x-icon">
         <title>$title</title>
         </head>
         <body>
