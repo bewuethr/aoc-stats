@@ -1,6 +1,6 @@
 set terminal png font 'Inconsolata, 14' background rgb '#002b36'
 stats "histodata.txt" u 2 nooutput
-set xrange [0:23]
+set xrange [0:24]
 set xlabel "Time of day [hours]" tc '#839496'
 set yrange [0:STATS_max+10]
 set ylabel "Successful submissions" tc '#839496'
