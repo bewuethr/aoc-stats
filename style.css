@@ -54,7 +54,7 @@ tr td:nth-child(odd) {
     text-align: right;
 }
 
-td.day {
+td.year, td.day {
     font-weight: bold;
 }
 

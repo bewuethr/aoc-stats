@@ -1,23 +1,25 @@
 #!/bin/bash
 
 gen_histogram () {
-    jq -r '.members[].completion_day_level[][].get_star_ts' < leaderboard2016.json |
-    cut -c 12-13 |
-    sort |
-    uniq -c |
-    awk '{ print $2 "\t" $1 }' > histodata.txt
+    local year=$1
+    jq -r '.members[].completion_day_level[][].get_star_ts' "$year"/leaderboard.json \
+        | cut -c 12-13 \
+        | sort \
+        | uniq -c \
+        | awk '{ print $2 "\t" $1 }' > "$year"/histodata.txt
 
-    gnuplot < histo.gpi > histo.png
+    gnuplot -c histo.gpi "$year/histodata.txt" > "$year"/histo.png
 }
 
 rank_day_star () {
-    local day=$1
-    local star=$2
+    local year=$1
+    local day=$2
+    local star=$3
     local basedate
     local name
     local time
 
-    printf -v basedate '2016-12-%02dT00:00:00-05:00' "$day"
+    printf -v basedate '%d-12-%02dT00:00:00-05:00' "$year" "$day"
 
     jq -r --arg day "$day" --arg star "$star" '
         [.members[]] |
@@ -27,7 +29,7 @@ rank_day_star () {
         select(.tstamp != null) |
         [.name, .tstamp] |
         @tsv
-    ' < leaderboard2016.json |
+    ' < "$year"/leaderboard.json |
     while IFS=$'\t' read name time; do
         printf '%s\t%s\n' "$name" "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))"
     done |
@@ -40,14 +42,13 @@ print_header () {
     local csspath=$1
     local title=$2
 
-
     cat <<EOF
         <!doctype html>
         <html>
         <head>
         <meta charset=utf-8>
-        <link rel="stylesheet" href="${1}style.css">
-        <link rel="shortcut icon" href="${1}favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="${csspath}style.css">
+        <link rel="shortcut icon" href="${csspath}favicon.png" type="image/x-icon">
         <title>$title</title>
         </head>
         <body>
@@ -77,23 +78,25 @@ tablify () {
         END {
             print "</table></div>"
             print "<p>Raw text file: <a href=\"" fname "\">" fname "</a></p>"
-            print "<p><a href=\"..\">Return to index</a></p>"
+            print "<p><a href=\"index.html\">Return to index</a></p>"
         }
     '
 }
 
 gen_txt_files () {
+    local year=$1
     local day
     local star
 
     for day in {01..25}; do
         for star in 1 2; do
-            rank_day_star "${day#0}" "$star" > "day${day}star$star".txt
+            rank_day_star "$year" "${day#0}" "$star" > "$year/day${day}star$star".txt
         done
     done
 }
 
 gen_local_score () {
+    local year=$1
     awk '
         BEGIN {
             FS = "\t"
@@ -108,10 +111,11 @@ gen_local_score () {
             for (i in score)
                 printf "%d\t%s\t%d\n", ++ranking, i, score[i]
         }
-    ' day??star?.txt > local_score.txt
+    ' "$year"/day??star?.txt > "$year"/local_score.txt
 }
 
 gen_mod_local_score () {
+    local year=$1
     awk '
         BEGIN {
             FS = "\t"
@@ -127,58 +131,61 @@ gen_mod_local_score () {
             for (i in score)
                 printf "%d\t%s\t%d\n", ++ranking, i, score[i]
         }
-    ' day??star?.txt > mod_local_score.txt
+    ' "$year"/day??star?.txt > "$year"/mod_local_score.txt
 }
 
 gen_html_files () {
+    local year=$1
     local re='day([0-9]+)star([0-9])'
     local fname
-    for fname in day*star*.txt; do
+
+    for fname in "$year"/day*star*.txt; do
         [[ $fname =~ $re ]]
         day=${BASH_REMATCH[1]}
         star=${BASH_REMATCH[2]}
 
         {
-            print_header "../" "Ranking day ${day#0}, star $star"
-            tablify "$fname" 'Time to solve [H:M]' < "$fname"
+            print_header "../" "Ranking $year day ${day#0}, star $star"
+            tablify "${fname#*/}" 'Time to solve [H:M]' < "$fname"
         } | tidy "${tidyopts[@]}" > "${fname%.txt}.html"
     done
 
     {
-        print_header "../" "Local score"
+        print_header "../" "$year local score"
         echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
-        tablify local_score.txt Points < local_score.txt
-    } | tidy "${tidyopts[@]}" > local_score.html
+        tablify local_score.txt Points < "$year"/local_score.txt
+    } | tidy "${tidyopts[@]}" > "$year"/local_score.html
 
     {
-        print_header "../" "Modified local score"
+        print_header "../" "$year modified local score"
         echo "<p>For each star, winner gets one point per submission <em>to that star</em>, runner-up one less etc.</p>"
-        tablify mod_local_score.txt Points < mod_local_score.txt
-    } | tidy "${tidyopts[@]}" > mod_local_score.html
+        tablify mod_local_score.txt Points < "$year"/mod_local_score.txt
+    } | tidy "${tidyopts[@]}" > "$year"/mod_local_score.html
 
     {
-        print_header "../" "Histogram of submission times"
+        print_header "../" "$year histogram of submission times"
         cat <<EOF
-            <img src="histo.png" alt="Histogram of submission times">
+            <img src="histo.png" alt="$year histogram of submission times">
             <ul>
             <li><p>Source data: <a href="histodata.txt">histodata.txt</a></p></li>
-            <li><p>Script to generate histogram: <a href="histo.gpi">histo.gpi</a></p></li>
+            <li><p>Script to generate histogram: <a href="../histo.gpi">histo.gpi</a></p></li>
             </ul>
-            <p><a href="..">Return to index</a></p>
+            <p><a href="index.html">Return to index</a></p>
 EOF
-    } | tidy "${tidyopts[@]}" > histo.html
+    } | tidy "${tidyopts[@]}" > "$year"/histo.html
 }
 
 gen_index () {
+    local year=$1
     {
-        print_header "" "Advent of Code 2016, IX Stats"
+        print_header "../" "Advent of Code $year, IX Stats"
 
         cat <<EOF
             <h2>Overall rankings and statistics</h2>
             <ul>
-            <li><p><a href="data/local_score.html">Local score</a></p></li>
-            <li><p><a href="data/mod_local_score.html">Modified local score</a></p></li>
-            <li><p><a href="data/histo.html">Histogram of submission times</a></p></li>
+            <li><p><a href="local_score.html">Local score</a></p></li>
+            <li><p><a href="mod_local_score.html">Modified local score</a></p></li>
+            <li><p><a href="histo.html">Histogram of submission times</a></p></li>
             </ul>
             <h2>Rankings per day and star</h2>
             <div>
@@ -186,10 +193,19 @@ gen_index () {
 EOF
 
         local re='day([0-9]+)star([0-9])'
-        for fname in day*star*.html; do
+        local remark
+        for fname in "$year"/day*star*.html; do
             [[ $fname =~ $re ]]
             day=${BASH_REMATCH[1]}
             star=${BASH_REMATCH[2]}
+
+            local isempty
+            if [[ ! -s ${fname%.html}.txt ]]; then
+                isempty='<sup>*</sup>'
+                remark='<p><sup>*</sup>Day with no results yet</p>'
+            else
+                isempty=''
+            fi
 
             if (( 10#$day == 14 && star == 1 )); then
                 echo '</table><table id="right">'
@@ -197,10 +213,10 @@ EOF
 
             if (( star == 1 )); then
                 echo "<tr>"
-                echo "<td class=\"day\">Day ${day#0}</td>"
-                echo "<td><a href=\"data/$fname\">Star 1</a></td>"
+                echo "<td class=\"day\">${isempty}Day ${day#0}</td>"
+                echo "<td><a href=\"${fname#*/}\">Star 1</a></td>"
             elif (( star == 2 )); then
-                echo "<td><a href=\"data/$fname\">Star 2</a></td>"
+                echo "<td><a href=\"${fname#*/}\">Star 2</a></td>"
                 echo "</tr>"
             fi
         done
@@ -210,21 +226,49 @@ EOF
         cat <<EOF
             </table>
             </div>
+            $remark
+            <p><a href="../index.html">Return to index</a></p>
             <h2>Miscellaneous</h2>
             <ul>
-            <li><p>Script to generate all the stats: <a href="data/rankings">rankings</a></p></li>
-            <li><p>JSON source data: <a href="data/leaderboard2016.json">leaderboard2016.json</a></p></li>
+            <li><p>Script to generate all the stats: <a href="../rankings">rankings</a></p></li>
+            <li><p>JSON source data: <a href="leaderboard.json">leaderboard.json</a></p></li>
             <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
             </ul>
 EOF
-    } | tidy "${tidyopts[@]}" > ../index.html
+    } | tidy "${tidyopts[@]}" > "$year"/index.html
+}
+
+gen_main_index () {
+    {
+        print_header "" "Advent of Code, IX Stats"
+
+        echo '<table>'
+        for year in 201?; do
+            cat <<EOF
+                <tr><td class="year"><a href="$year/index.html">Rankings for $year</a></td></tr>
+EOF
+        done
+
+        cat <<EOF
+            </table>
+            <h2>Miscellaneous</h2>
+            <ul>
+            <li><p>Script to generate all the stats: <a href="rankings">rankings</a></p></li>
+            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
+            </ul>
+EOF
+    } | tidy "${tidyopts[@]}" > index.html
 }
 
 tidyopts=(-iq --tidy-mark no --wrap 120)
 
-gen_histogram
-gen_txt_files
-gen_local_score
-gen_mod_local_score
-gen_html_files
-gen_index
+for year in 201?; do
+    gen_histogram "$year"
+    gen_txt_files "$year"
+    gen_local_score "$year"
+    gen_mod_local_score "$year"
+    gen_html_files "$year"
+    gen_index "$year"
+done
+
+gen_main_index
