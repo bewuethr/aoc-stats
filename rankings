@@ -1,5 +1,11 @@
 #!/bin/bash
 
+update_json() {
+    local year=$1
+    local url="http://adventofcode.com/$year/leaderboard/private/view/$(< boardid).json"
+    curl -s -b session="$(< cookie)" "$url" > "$year"/leaderboard.json
+}
+
 gen_histogram () {
     local year=$1
     jq -r '.members[].completion_day_level[][].get_star_ts' "$year"/leaderboard.json \
@@ -264,9 +270,23 @@ EOF
     } | tidy "${tidyopts[@]}" > index.html
 }
 
+push_changes () {
+    git commit -am "Update rankings"
+    git push
+}
+
+while getopts ":up" opt; do
+    case $opt in
+        u) fetch='yes' ;;
+        p) push='yes' ;;
+        \?) echo "Invalid option: -$OPTARG" >&2 && exit 1 ;;
+    esac
+done
+
 tidyopts=(-iq --tidy-mark no --wrap 120)
 
 for year in 201?; do
+    [[ -n $fetch ]] && update_json "$year"
     gen_histogram "$year"
     gen_txt_files "$year"
     gen_local_score "$year"
@@ -276,3 +296,4 @@ for year in 201?; do
 done
 
 gen_main_index
+[[ -n $push ]] && push_changes
