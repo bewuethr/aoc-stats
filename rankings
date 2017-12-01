@@ -103,14 +103,14 @@ gen_txt_files () {
 
 gen_local_score () {
     local year=$1
-    awk '
+	local n=$(jq '.members | length' "$year"/leaderboard.json)
+    awk -v n="$n" '
         BEGIN {
             FS = "\t"
             PROCINFO["sorted_in"] = "@val_num_desc"
         }
         { rank[$2][FILENAME] = $1 }
         END {
-            n = length(rank)
             for (i in rank)
                 for (j in rank[i])
                     score[i] += n - rank[i][j] + 1
