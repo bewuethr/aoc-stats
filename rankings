@@ -59,7 +59,7 @@ EOF
 tablify () {
     local fname=$1
     local col3_heading=$2
-    awk -v col3_heading="$col3_heading" -v fname="$fname" '
+    awk -v col3_heading="$col3_heading" -v fname="$fname" -v date="$(date)" '
         BEGIN {
             FS = "\t"
             print "<div><table>"
@@ -79,6 +79,7 @@ tablify () {
             print "</table></div>"
             print "<p>Raw text file: <a href=\"" fname "\">" fname "</a></p>"
             print "<p><a href=\"index.html\">Return to index</a></p>"
+            print "<p class=\"tstamp\">Last updated " date "</p>"
         }
     '
 }
@@ -171,6 +172,7 @@ gen_html_files () {
             <li><p>Script to generate histogram: <a href="../histo.gpi">histo.gpi</a></p></li>
             </ul>
             <p><a href="index.html">Return to index</a></p>
+            <p class="tstamp">Last updated $(date)</p>
 EOF
     } | tidy "${tidyopts[@]}" > "$year"/histo.html
 }
@@ -233,7 +235,8 @@ EOF
             <li><p>Script to generate all the stats: <a href="../rankings">rankings</a></p></li>
             <li><p>JSON source data: <a href="leaderboard.json">leaderboard.json</a></p></li>
             <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
-            </ul>
+            </ul> 
+            <p class="tstamp">Last updated $(date)</p>
 EOF
     } | tidy "${tidyopts[@]}" > "$year"/index.html
 }
@@ -256,6 +259,7 @@ EOF
             <li><p>Script to generate all the stats: <a href="rankings">rankings</a></p></li>
             <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
             </ul>
+            <p class="tstamp">Last updated $(date)</p>
 EOF
     } | tidy "${tidyopts[@]}" > index.html
 }

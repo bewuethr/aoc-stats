@@ -61,3 +61,10 @@ td.year, td.day {
 ul {
     list-style: circle;
 }
+
+p.tstamp {
+    font-style: italic;
+    font-size: small;
+    color: #586e75;
+    text-align: right;
+}
