@@ -29,11 +29,10 @@ rank_day_star () {
 
     jq -r --arg day "$day" --arg star "$star" '
         [.members[]] |
-        map( {name, tstamp: .completion_day_level[$day][$star].get_star_ts} ) |
+        map( {name, id, tstamp: .completion_day_level[$day][$star].get_star_ts} ) |
         sort_by(.tstamp)[] |
-        select(.name != null) |
         select(.tstamp != null) |
-        [.name, .tstamp] |
+        [.name // ("User #" + .id), .tstamp] |
         @tsv
     ' < "$year"/leaderboard.json |
     while IFS=$'\t' read name time; do
