@@ -7,11 +7,11 @@ update_json() {
 
     # Compare to current leaderboard and signal in return status if year has to be built
     if cmp "$year"/leaderboard.json "$year"/leaderboard.json.tmp; then
-        mv "$year"/leaderboard.json.tmp "$year"/leaderboard.json
-        return 0
-    else
         rm -f "$year"/leaderboard.json.tmp
         return 1
+    else
+        mv "$year"/leaderboard.json.tmp "$year"/leaderboard.json
+        return 0
     fi
 }
 
