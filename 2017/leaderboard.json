@@ -19,15 +19,6 @@
       "name": "adambysice",
       "stars": 0
     },
-    "118266": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "118266",
-      "last_star_ts": "1969-12-31T19:00:00-0500",
-      "local_score": 0,
-      "name": "Christian Baran",
-      "stars": 0
-    },
     "118311": {
       "completion_day_level": {},
       "global_score": 0,
@@ -51,7 +42,7 @@
       "global_score": 0,
       "id": "118403",
       "last_star_ts": "2017-12-01T10:36:42-0500",
-      "local_score": 29,
+      "local_score": 27,
       "name": "Peter Chau",
       "stars": 2
     },
@@ -69,7 +60,7 @@
       "global_score": 0,
       "id": "118426",
       "last_star_ts": "2017-12-01T11:13:19-0500",
-      "local_score": 25,
+      "local_score": 23,
       "name": "James Bannerman",
       "stars": 2
     },
@@ -95,7 +86,7 @@
       "global_score": 6,
       "id": "118609",
       "last_star_ts": "2017-12-02T00:07:23-0500",
-      "local_score": 92,
+      "local_score": 88,
       "name": "Michael Tardibuono",
       "stars": 4
     },
@@ -130,7 +121,7 @@
       "global_score": 0,
       "id": "119166",
       "last_star_ts": "2017-12-02T01:28:00-0500",
-      "local_score": 57,
+      "local_score": 53,
       "name": "Dixon Cheung",
       "stars": 4
     },
@@ -183,7 +174,7 @@
       "global_score": 0,
       "id": "123142",
       "last_star_ts": "2017-12-02T00:10:18-0500",
-      "local_score": 80,
+      "local_score": 76,
       "name": "pingpongkingkong",
       "stars": 4
     },
@@ -209,7 +200,7 @@
       "global_score": 0,
       "id": "137785",
       "last_star_ts": "2017-12-02T00:13:40-0500",
-      "local_score": 81,
+      "local_score": 77,
       "name": "vincentr21",
       "stars": 4
     },
@@ -222,14 +213,22 @@
           "2": {
             "get_star_ts": "2017-12-01T11:27:08-0500"
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "2017-12-02T12:07:45-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-02T12:23:59-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "155047",
-      "last_star_ts": "2017-12-01T11:27:08-0500",
-      "local_score": 23,
+      "last_star_ts": "2017-12-02T12:23:59-0500",
+      "local_score": 46,
       "name": "Ivan Peng",
-      "stars": 2
+      "stars": 4
     },
     "170332": {
       "completion_day_level": {},
@@ -262,7 +261,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "2017-12-02T00:37:16-0500",
-      "local_score": 59,
+      "local_score": 55,
       "name": "Adam Harvie",
       "stars": 4
     },
@@ -288,7 +287,7 @@
       "global_score": 0,
       "id": "186094",
       "last_star_ts": "2017-12-02T00:13:40-0500",
-      "local_score": 73,
+      "local_score": 69,
       "name": "Ricky Kwan",
       "stars": 4
     },
@@ -314,7 +313,7 @@
       "global_score": 0,
       "id": "195610",
       "last_star_ts": "2017-12-02T00:17:37-0500",
-      "local_score": 68,
+      "local_score": 64,
       "name": "eolalde",
       "stars": 4
     },
@@ -336,14 +335,22 @@
           "2": {
             "get_star_ts": "2017-12-01T09:05:48-0500"
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "2017-12-02T12:12:57-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-02T12:22:44-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": "2017-12-01T09:05:48-0500",
-      "local_score": 31,
+      "last_star_ts": "2017-12-02T12:22:44-0500",
+      "local_score": 54,
       "name": "danielshanker",
-      "stars": 2
+      "stars": 4
     },
     "196695": {
       "completion_day_level": {
@@ -367,7 +374,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "2017-12-02T00:10:10-0500",
-      "local_score": 84,
+      "local_score": 80,
       "name": "Andrew Walker",
       "stars": 4
     },
@@ -393,7 +400,7 @@
       "global_score": 0,
       "id": "197423",
       "last_star_ts": "2017-12-02T00:08:03-0500",
-      "local_score": 94,
+      "local_score": 90,
       "name": null,
       "stars": 4
     },
@@ -419,7 +426,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "2017-12-02T00:08:05-0500",
-      "local_score": 84,
+      "local_score": 80,
       "name": "bewuethr",
       "stars": 4
     }
