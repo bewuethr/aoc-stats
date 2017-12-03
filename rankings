@@ -3,7 +3,16 @@
 update_json() {
     local year=$1
     local url="http://adventofcode.com/$year/leaderboard/private/view/$(< boardid).json"
-    curl -s -b session="$(< cookie)" "$url" > "$year"/leaderboard.json
+    curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "$year"/leaderboard.json.tmp
+
+    # Compare to current leaderboard and signal in return status if year has to be built
+    if cmp "$year"/leaderboard.json "$year"/leaderboard.json.tmp; then
+        mv "$year"/leaderboard.json.tmp "$year"/leaderboard.json
+        return 0
+    else
+        rm -f "$year"/leaderboard.json.tmp
+        return 1
+    fi
 }
 
 gen_histogram () {
@@ -270,9 +279,14 @@ EOF
 }
 
 push_changes () {
-    git add index.html 201?
-    git commit -m "Update rankings"
-    git push
+    local status=$(git status --porcelain index.html 201?)
+    if [[ -n $status ]]; then
+        git add index.html 201?
+        git commit -m "Update rankings"
+        git push
+    else
+        echo "No changes, not pushing anything" >&2
+    fi
 }
 
 while getopts ":up" opt; do
@@ -286,7 +300,13 @@ done
 tidyopts=(-iq --tidy-mark no --wrap 120)
 
 for year in 201?; do
-    [[ -n $fetch ]] && update_json "$year"
+    if [[ -n $fetch ]]; then
+        if ! update_json "$year"; then
+            echo "$year has not changed, skipping" >&2
+            continue
+        fi
+    fi
+    echo "Building $year" >&2
     gen_histogram "$year"
     gen_txt_files "$year"
     gen_local_score "$year"
