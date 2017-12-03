@@ -300,6 +300,8 @@ done
 
 tidyopts=(-iq --tidy-mark no --wrap 120)
 
+[[ $verbose ]] && date
+
 for year in 201?; do
     if [[ -n $fetch ]]; then
         if ! update_json "$year"; then
