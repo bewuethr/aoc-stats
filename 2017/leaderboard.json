@@ -318,14 +318,19 @@
           "2": {
             "get_star_ts": "2017-12-03T01:57:32-0500"
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "2017-12-04T00:31:11-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "155047",
-      "last_star_ts": "2017-12-03T01:57:32-0500",
-      "local_score": 80,
+      "last_star_ts": "2017-12-04T00:31:11-0500",
+      "local_score": 95,
       "name": "Ivan Peng",
-      "stars": 6
+      "stars": 7
     },
     "170332": {
       "completion_day_level": {},
