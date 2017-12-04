@@ -88,14 +88,22 @@
           "2": {
             "get_star_ts": "2017-12-01T11:13:19-0500"
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "2017-12-04T14:45:32-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-04T14:50:51-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "118426",
-      "last_star_ts": "2017-12-01T11:13:19-0500",
-      "local_score": 23,
+      "last_star_ts": "2017-12-04T14:50:51-0500",
+      "local_score": 43,
       "name": "James Bannerman",
-      "stars": 2
+      "stars": 4
     },
     "118609": {
       "completion_day_level": {
