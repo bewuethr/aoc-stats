@@ -279,6 +279,9 @@ EOF
 }
 
 push_changes () {
+    git stash
+    git pull
+    git stash pop
     local status=$(git status --porcelain index.html 201?)
     if [[ -n $status ]]; then
         git add index.html 201?
