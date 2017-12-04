@@ -480,14 +480,22 @@
           "2": {
             "get_star_ts": "2017-12-03T09:56:13-0500"
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "2017-12-04T11:12:36-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-04T11:20:19-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": "2017-12-03T09:56:13-0500",
-      "local_score": 85,
+      "last_star_ts": "2017-12-04T11:20:19-0500",
+      "local_score": 113,
       "name": "danielshanker",
-      "stars": 6
+      "stars": 8
     },
     "196695": {
       "completion_day_level": {
