@@ -153,15 +153,18 @@
         "3": {
           "1": {
             "get_star_ts": "2017-12-03T20:30:25-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-03T21:08:06-0500"
           }
         }
       },
       "global_score": 0,
       "id": "119166",
-      "last_star_ts": "2017-12-03T20:30:25-0500",
-      "local_score": 65,
+      "last_star_ts": "2017-12-03T21:08:06-0500",
+      "local_score": 77,
       "name": "Dixon Cheung",
-      "stars": 5
+      "stars": 6
     },
     "119856": {
       "completion_day_level": {},
