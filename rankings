@@ -48,7 +48,10 @@ rank_day_star () {
         printf '%s\t%s\n' "$name" "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))"
     done |
     awk -F "\t" -v day="$day" -v star="$star" '
-        { printf "%2d\t%s\t%3d:%02d\n", NR, $1, int($2/3600), int(($2%3600)/60) }
+        {
+            printf "%2d\t%s\t%3d:%02d:%02d\n", \
+                NR, $1, int($2/3600), int(($2%3600)/60), int(($2%60))
+        }
     '
 }
 
@@ -161,7 +164,7 @@ gen_html_files () {
 
         {
             print_header "../" "Ranking $year day ${day#0}, star $star"
-            tablify "${fname#*/}" 'Time to solve [H:M]' < "$fname"
+            tablify "${fname#*/}" 'Time to solve [h:m:s]' < "$fname"
         } | tidy "${tidyopts[@]}" > "${fname%.txt}.html"
     done
 
