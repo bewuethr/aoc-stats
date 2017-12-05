@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 body {
-    font-family: Inconsolata, Consola, "Courier New", monospace;
+    font-family: Inconsolata, Consolas, "Courier New", monospace;
     max-width: 700px;
     margin: 0 auto;
     color: #839496;
