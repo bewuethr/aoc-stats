@@ -2,7 +2,7 @@
 
 body {
     font-family: Inconsolata, Consola, "Courier New", monospace;
-    max-width: 640px;
+    max-width: 700px;
     margin: 0 auto;
     color: #839496;
     background-color: #002b36;
@@ -13,8 +13,12 @@ h1, h2 {
     border-bottom: 1px solid;
 }
 
-:link, :visited {
+:link {
     color: #b58900;
+}
+
+:visited {
+    color: #cb4b16;
 }
 
 :link:hover {
@@ -51,11 +55,15 @@ tr:nth-child(even) :link:hover {
 }
 
 td, th {
-    padding:.5em;
+    padding:.7em;
 }
 
-tr td:nth-child(odd) {
+tr td {
     text-align: right;
+}
+
+tr td:nth-child(2) {
+    text-align: left;
 }
 
 td.year, td.day {

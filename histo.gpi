@@ -9,4 +9,4 @@ set border lc rgb '#839496'
 set grid lc rgb '#586e75'
 set style fill solid
 set boxwidth 0.85
-plot filename u ($1+0.5):2 with boxes notitle lc rgb '#b58900'
+plot filename u ($1+0.5):2 with boxes notitle lc rgb '#268bd2'

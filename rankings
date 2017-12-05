@@ -33,6 +33,7 @@ rank_day_star () {
     local basedate
     local name
     local time
+    local n=$(jq '.members | length' "$year"/leaderboard.json)
 
     printf -v basedate '%d-12-%02dT00:00:00-05:00' "$year" "$day"
 
@@ -47,10 +48,17 @@ rank_day_star () {
     while IFS=$'\t' read name time; do
         printf '%s\t%s\n' "$name" "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))"
     done |
-    awk -F "\t" -v day="$day" -v star="$star" '
+    awk -F '\t' -v n="$n" '
         {
-            printf "%2d\t%s\t%3d:%02d:%02d\n", \
-                NR, $1, int($2/3600), int(($2%3600)/60), int(($2%60))
+            name[NR] = $1
+            time[NR] = $2
+        }
+        END {
+            for (i = 1; i <= NR; ++i) {
+                printf "%2d\t%s\t%3d:%02d:%02d\t%d\t%d\n", \
+                    i, name[i], int(time[i]/3600), int((time[i]%3600)/60), int((time[i]%60)), \
+                    n - i + 1, NR - i + 1
+            }
         }
     '
 }
@@ -75,15 +83,23 @@ EOF
 
 tablify () {
     local fname=$1
-    local col3_heading=$2
-    awk -v col3_heading="$col3_heading" -v fname="$fname" -v date="$(date)" '
+    shift
+    local col_headings=("$@")
+    local link=${fname#*/}
+
+    awk -v link="$link" -v date="$(date)" '
         BEGIN {
             FS = "\t"
             print "<div><table>"
             print "<tr>"
             print "<th>Rank</th>"
             print "<th>Name</th>"
-            print "<th>" col3_heading "</th>"
+
+            # Loop over all but last argument
+            for (i = 1; i < ARGC-1; ++i) {
+                print "<th>" ARGV[i]  "</th>"
+                delete ARGV[i]
+            }
             print "</tr>"
         }
         {
@@ -94,11 +110,11 @@ tablify () {
         }
         END {
             print "</table></div>"
-            print "<p>Raw text file: <a href=\"" fname "\">" fname "</a></p>"
+            print "<p>Raw text file: <a href=\"" link "\">" link "</a></p>"
             print "<p><a href=\"index.html\">Return to index</a></p>"
             print "<p class=\"tstamp\">Last updated " date "</p>"
         }
-    '
+    ' "${col_headings[@]}" "$fname"
 }
 
 gen_txt_files () {
@@ -157,6 +173,12 @@ gen_html_files () {
     local re='day([0-9]+)star([0-9])'
     local fname
 
+    local star_tab_headers=(
+        'Time to solve [h:m:hs]'
+        'Local score'
+        'Mod. local score'
+    )
+
     for fname in "$year"/day*star*.txt; do
         [[ $fname =~ $re ]]
         day=${BASH_REMATCH[1]}
@@ -164,20 +186,20 @@ gen_html_files () {
 
         {
             print_header "../" "Ranking $year day ${day#0}, star $star"
-            tablify "${fname#*/}" 'Time to solve [h:m:s]' < "$fname"
+            tablify "$fname" "${star_tab_headers[@]}"
         } | tidy "${tidyopts[@]}" > "${fname%.txt}.html"
     done
 
     {
         print_header "../" "$year local score"
         echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
-        tablify local_score.txt Points < "$year"/local_score.txt
+        tablify "$year"/local_score.txt 'Points'
     } | tidy "${tidyopts[@]}" > "$year"/local_score.html
 
     {
         print_header "../" "$year modified local score"
         echo "<p>For each star, winner gets one point per submission <em>to that star</em>, runner-up one less etc.</p>"
-        tablify mod_local_score.txt Points < "$year"/mod_local_score.txt
+        tablify "$year"/mod_local_score.txt 'Points'
     } | tidy "${tidyopts[@]}" > "$year"/mod_local_score.html
 
     {
