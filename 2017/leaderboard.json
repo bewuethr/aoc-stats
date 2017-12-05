@@ -317,15 +317,18 @@
         "5": {
           "1": {
             "get_star_ts": "2017-12-05T00:07:18-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-05T00:22:02-0500"
           }
         }
       },
       "global_score": 0,
       "id": "137785",
-      "last_star_ts": "2017-12-05T00:07:18-0500",
-      "local_score": 179,
+      "last_star_ts": "2017-12-05T00:22:02-0500",
+      "local_score": 196,
       "name": "vincentr21",
-      "stars": 9
+      "stars": 10
     },
     "155047": {
       "completion_day_level": {
@@ -360,14 +363,19 @@
           "2": {
             "get_star_ts": "2017-12-04T00:42:59-0500"
           }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "2017-12-05T00:28:25-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "155047",
-      "last_star_ts": "2017-12-04T00:42:59-0500",
-      "local_score": 110,
+      "last_star_ts": "2017-12-05T00:28:25-0500",
+      "local_score": 125,
       "name": "Ivan Peng",
-      "stars": 8
+      "stars": 9
     },
     "170332": {
       "completion_day_level": {},
@@ -495,14 +503,22 @@
           "2": {
             "get_star_ts": "2017-12-04T23:33:32-0500"
           }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "2017-12-05T00:23:19-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-05T00:28:27-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "195610",
-      "last_star_ts": "2017-12-04T23:33:32-0500",
-      "local_score": 128,
+      "last_star_ts": "2017-12-05T00:28:27-0500",
+      "local_score": 160,
       "name": "eolalde",
-      "stars": 8
+      "stars": 10
     },
     "195611": {
       "completion_day_level": {},
