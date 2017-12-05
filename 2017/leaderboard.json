@@ -374,14 +374,19 @@
           "2": {
             "get_star_ts": "2017-12-02T00:37:16-0500"
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "2017-12-04T23:07:05-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "186091",
-      "last_star_ts": "2017-12-02T00:37:16-0500",
-      "local_score": 55,
+      "last_star_ts": "2017-12-04T23:07:05-0500",
+      "local_score": 65,
       "name": "Adam Harvie",
-      "stars": 4
+      "stars": 5
     },
     "186094": {
       "completion_day_level": {
@@ -454,15 +459,18 @@
         "4": {
           "1": {
             "get_star_ts": "2017-12-04T22:08:34-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-04T23:33:32-0500"
           }
         }
       },
       "global_score": 0,
       "id": "195610",
-      "last_star_ts": "2017-12-04T22:08:34-0500",
-      "local_score": 115,
+      "last_star_ts": "2017-12-04T23:33:32-0500",
+      "local_score": 128,
       "name": "eolalde",
-      "stars": 7
+      "stars": 8
     },
     "195611": {
       "completion_day_level": {},
