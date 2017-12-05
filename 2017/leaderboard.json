@@ -450,14 +450,19 @@
           "2": {
             "get_star_ts": "2017-12-03T01:03:20-0500"
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "2017-12-04T22:08:34-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "195610",
-      "last_star_ts": "2017-12-03T01:03:20-0500",
-      "local_score": 102,
+      "last_star_ts": "2017-12-04T22:08:34-0500",
+      "local_score": 115,
       "name": "eolalde",
-      "stars": 6
+      "stars": 7
     },
     "195611": {
       "completion_day_level": {},
