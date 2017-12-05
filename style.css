@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
+html {
+	margin: auto;
+	display: table;
+}
+
 body {
     font-family: Inconsolata, Consolas, "Courier New", monospace;
-    max-width: 700px;
-    margin: 0 auto;
     color: #839496;
     background-color: #002b36;
 }
