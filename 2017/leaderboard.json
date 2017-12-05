@@ -263,14 +263,22 @@
           "2": {
             "get_star_ts": "2017-12-04T00:05:41-0500"
           }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "2017-12-05T00:12:12-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-05T00:13:43-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "123142",
-      "last_star_ts": "2017-12-04T00:05:41-0500",
-      "local_score": 147,
+      "last_star_ts": "2017-12-05T00:13:43-0500",
+      "local_score": 183,
       "name": "pingpongkingkong",
-      "stars": 8
+      "stars": 10
     },
     "137785": {
       "completion_day_level": {
@@ -391,15 +399,18 @@
         "3": {
           "1": {
             "get_star_ts": "2017-12-04T23:07:05-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-05T00:11:08-0500"
           }
         }
       },
       "global_score": 0,
       "id": "186091",
-      "last_star_ts": "2017-12-04T23:07:05-0500",
-      "local_score": 65,
+      "last_star_ts": "2017-12-05T00:11:08-0500",
+      "local_score": 76,
       "name": "Adam Harvie",
-      "stars": 5
+      "stars": 6
     },
     "186094": {
       "completion_day_level": {
@@ -434,14 +445,22 @@
           "2": {
             "get_star_ts": "2017-12-04T00:11:00-0500"
           }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "2017-12-05T00:11:41-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-05T00:15:33-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": "2017-12-04T00:11:00-0500",
-      "local_score": 140,
+      "last_star_ts": "2017-12-05T00:15:33-0500",
+      "local_score": 176,
       "name": "Ricky Kwan",
-      "stars": 8
+      "stars": 10
     },
     "195610": {
       "completion_day_level": {
@@ -623,15 +642,18 @@
         "5": {
           "1": {
             "get_star_ts": "2017-12-05T00:09:39-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-05T00:12:03-0500"
           }
         }
       },
       "global_score": 32,
       "id": "197423",
-      "last_star_ts": "2017-12-05T00:09:39-0500",
-      "local_score": 193,
+      "last_star_ts": "2017-12-05T00:12:03-0500",
+      "local_score": 213,
       "name": null,
-      "stars": 9
+      "stars": 10
     },
     "30841": {
       "completion_day_level": {
