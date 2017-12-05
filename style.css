@@ -25,10 +25,6 @@ h1, h2 {
     background-color: #073642;
 }
 
-table {
-    border-collapse: collapse;
-}
-
 td.day > sup {
     line-height: 0;
 }
