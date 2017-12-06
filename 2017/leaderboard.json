@@ -306,14 +306,22 @@
           "2": {
             "get_star_ts": "2017-12-05T00:22:02-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T00:12:27-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T00:15:08-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "137785",
-      "last_star_ts": "2017-12-05T00:22:02-0500",
-      "local_score": 186,
+      "last_star_ts": "2017-12-06T00:15:08-0500",
+      "local_score": 229,
       "name": "vincentr21",
-      "stars": 10
+      "stars": 12
     },
     "155047": {
       "completion_day_level": {
@@ -465,14 +473,19 @@
           "2": {
             "get_star_ts": "2017-12-05T00:15:33-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T00:15:34-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": "2017-12-05T00:15:33-0500",
-      "local_score": 166,
+      "last_star_ts": "2017-12-06T00:15:34-0500",
+      "local_score": 185,
       "name": "Ricky Kwan",
-      "stars": 10
+      "stars": 11
     },
     "195610": {
       "completion_day_level": {
@@ -674,14 +687,19 @@
           "2": {
             "get_star_ts": "2017-12-05T00:12:03-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T00:12:06-0500"
+          }
         }
       },
       "global_score": 32,
       "id": "197423",
-      "last_star_ts": "2017-12-05T00:12:03-0500",
-      "local_score": 203,
+      "last_star_ts": "2017-12-06T00:12:06-0500",
+      "local_score": 225,
       "name": null,
-      "stars": 10
+      "stars": 11
     },
     "30841": {
       "completion_day_level": {
@@ -724,14 +742,19 @@
           "2": {
             "get_star_ts": "2017-12-05T00:06:56-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T00:13:51-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "2017-12-05T00:06:56-0500",
-      "local_score": 187,
+      "last_star_ts": "2017-12-06T00:13:51-0500",
+      "local_score": 207,
       "name": "bewuethr",
-      "stars": 10
+      "stars": 11
     }
   },
   "owner_id": "30841"
