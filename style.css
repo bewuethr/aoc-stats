@@ -3,12 +3,12 @@
 html {
 	margin: auto;
 	display: table;
+    background-color: #002b36;
 }
 
 body {
     font-family: Inconsolata, Consolas, "Courier New", monospace;
     color: #839496;
-    background-color: #002b36;
 }
 
 h1, h2 {
