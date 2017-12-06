@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 html {
-	margin: auto;
-	display: table;
+    margin: auto;
+    display: table;
     background-color: #002b36;
 }
 
@@ -34,12 +34,14 @@ td.day > sup {
 
 table#left {
     float: left;
-    margin: 0 3em 0 0;
+    margin: 0 2em 0 0;
+    white-space: nowrap;
 }
 
 table#right {
-    float: left;
-    margin: 0 0 3em 0;
+    float: right;
+    margin: 0 0 2em 0;
+    white-space: nowrap;
 }
 
 th {
