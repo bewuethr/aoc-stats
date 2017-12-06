@@ -102,14 +102,22 @@
           "2": {
             "get_star_ts": "2017-12-06T10:55:04-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T12:28:23-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T12:28:43-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": "2017-12-06T10:55:04-0500",
-      "local_score": 100,
+      "last_star_ts": "2017-12-06T12:28:43-0500",
+      "local_score": 120,
       "name": "Peter Chau",
-      "stars": 10
+      "stars": 12
     },
     "118426": {
       "completion_day_level": {
@@ -629,14 +637,22 @@
           "2": {
             "get_star_ts": "2017-12-06T10:27:11-0500"
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "2017-12-06T12:27:18-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T12:34:07-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "195611",
-      "last_star_ts": "2017-12-06T10:27:11-0500",
-      "local_score": 16,
+      "last_star_ts": "2017-12-06T12:34:07-0500",
+      "local_score": 32,
       "name": "Dumtard",
-      "stars": 2
+      "stars": 4
     },
     "195615": {
       "completion_day_level": {
