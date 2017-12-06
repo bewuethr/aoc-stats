@@ -82,15 +82,34 @@
         "3": {
           "1": {
             "get_star_ts": "2017-12-06T09:47:08-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T10:05:47-0500"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "2017-12-06T10:32:38-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T10:34:38-0500"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "2017-12-06T10:53:35-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T10:55:04-0500"
           }
         }
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": "2017-12-06T09:47:08-0500",
-      "local_score": 53,
+      "last_star_ts": "2017-12-06T10:55:04-0500",
+      "local_score": 100,
       "name": "Peter Chau",
-      "stars": 5
+      "stars": 10
     },
     "118426": {
       "completion_day_level": {
@@ -468,14 +487,22 @@
           "2": {
             "get_star_ts": "2017-12-05T17:35:19-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T10:07:47-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T10:12:43-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "186091",
-      "last_star_ts": "2017-12-05T17:35:19-0500",
-      "local_score": 117,
+      "last_star_ts": "2017-12-06T10:12:43-0500",
+      "local_score": 139,
       "name": "Adam Harvie",
-      "stars": 10
+      "stars": 12
     },
     "186094": {
       "completion_day_level": {
@@ -594,13 +621,22 @@
       "stars": 12
     },
     "195611": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "2017-12-06T10:24:11-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T10:27:11-0500"
+          }
+        }
+      },
       "global_score": 0,
       "id": "195611",
-      "last_star_ts": "1969-12-31T19:00:00-0500",
-      "local_score": 0,
+      "last_star_ts": "2017-12-06T10:27:11-0500",
+      "local_score": 16,
       "name": "Dumtard",
-      "stars": 0
+      "stars": 2
     },
     "195615": {
       "completion_day_level": {
