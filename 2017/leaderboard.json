@@ -70,14 +70,27 @@
           "2": {
             "get_star_ts": "2017-12-01T10:36:42-0500"
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "2017-12-06T09:17:35-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T09:23:37-0500"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "2017-12-06T09:47:08-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": "2017-12-01T10:36:42-0500",
-      "local_score": 26,
+      "last_star_ts": "2017-12-06T09:47:08-0500",
+      "local_score": 53,
       "name": "Peter Chau",
-      "stars": 2
+      "stars": 5
     },
     "118426": {
       "completion_day_level": {
@@ -630,14 +643,22 @@
           "2": {
             "get_star_ts": "2017-12-05T07:32:57-0500"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "2017-12-06T09:35:37-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-06T09:45:18-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": "2017-12-05T07:32:57-0500",
-      "local_score": 134,
+      "last_star_ts": "2017-12-06T09:45:18-0500",
+      "local_score": 158,
       "name": "danielshanker",
-      "stars": 10
+      "stars": 12
     },
     "196695": {
       "completion_day_level": {
