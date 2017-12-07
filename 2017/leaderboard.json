@@ -168,14 +168,19 @@
           "2": {
             "get_star_ts": "2017-12-06T00:35:31-0500"
           }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "2017-12-07T00:08:25-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "118426",
-      "last_star_ts": "2017-12-06T00:35:31-0500",
-      "local_score": 140,
+      "last_star_ts": "2017-12-07T00:08:25-0500",
+      "local_score": 161,
       "name": "James Bannerman",
-      "stars": 12
+      "stars": 13
     },
     "118609": {
       "completion_day_level": {
@@ -882,14 +887,19 @@
           "2": {
             "get_star_ts": "2017-12-06T00:21:04-0500"
           }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "2017-12-07T00:06:29-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "2017-12-06T00:21:04-0500",
-      "local_score": 227,
+      "last_star_ts": "2017-12-07T00:06:29-0500",
+      "local_score": 249,
       "name": "bewuethr",
-      "stars": 12
+      "stars": 13
     }
   },
   "owner_id": "30841"
