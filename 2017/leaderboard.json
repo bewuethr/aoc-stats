@@ -340,15 +340,18 @@
         "7": {
           "1": {
             "get_star_ts": "2017-12-07T00:17:15-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-07T01:00:12-0500"
           }
         }
       },
       "global_score": 0,
       "id": "123142",
-      "last_star_ts": "2017-12-07T00:17:15-0500",
-      "local_score": 226,
+      "last_star_ts": "2017-12-07T01:00:12-0500",
+      "local_score": 242,
       "name": "pingpongkingkong",
-      "stars": 13
+      "stars": 14
     },
     "137785": {
       "completion_day_level": {
