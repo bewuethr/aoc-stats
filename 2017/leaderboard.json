@@ -172,15 +172,18 @@
         "7": {
           "1": {
             "get_star_ts": "2017-12-07T00:08:25-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-07T00:56:35-0500"
           }
         }
       },
       "global_score": 0,
       "id": "118426",
-      "last_star_ts": "2017-12-07T00:08:25-0500",
-      "local_score": 161,
+      "last_star_ts": "2017-12-07T00:56:35-0500",
+      "local_score": 179,
       "name": "James Bannerman",
-      "stars": 13
+      "stars": 14
     },
     "118609": {
       "completion_day_level": {
@@ -235,15 +238,18 @@
         "7": {
           "1": {
             "get_star_ts": "2017-12-07T00:13:11-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-07T00:52:23-0500"
           }
         }
       },
       "global_score": 6,
       "id": "118609",
-      "last_star_ts": "2017-12-07T00:13:11-0500",
-      "local_score": 260,
+      "last_star_ts": "2017-12-07T00:52:23-0500",
+      "local_score": 279,
       "name": "Michael Tardibuono",
-      "stars": 13
+      "stars": 14
     },
     "118852": {
       "completion_day_level": {},
@@ -935,15 +941,18 @@
         "7": {
           "1": {
             "get_star_ts": "2017-12-07T00:06:29-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-07T00:59:10-0500"
           }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "2017-12-07T00:06:29-0500",
-      "local_score": 249,
+      "last_star_ts": "2017-12-07T00:59:10-0500",
+      "local_score": 266,
       "name": "bewuethr",
-      "stars": 13
+      "stars": 14
     }
   },
   "owner_id": "30841"
