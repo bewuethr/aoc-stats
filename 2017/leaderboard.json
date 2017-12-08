@@ -418,14 +418,22 @@
           "2": {
             "get_star_ts": "2017-12-07T01:30:16-0500"
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "2017-12-08T00:10:20-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:11:22-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "137785",
-      "last_star_ts": "2017-12-07T01:30:16-0500",
-      "local_score": 259,
+      "last_star_ts": "2017-12-08T00:11:22-0500",
+      "local_score": 301,
       "name": "vincentr21",
-      "stars": 14
+      "stars": 16
     },
     "155047": {
       "completion_day_level": {
@@ -484,14 +492,19 @@
           "2": {
             "get_star_ts": "2017-12-07T01:36:17-0500"
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "2017-12-08T00:19:26-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "155047",
-      "last_star_ts": "2017-12-07T01:36:17-0500",
-      "local_score": 189,
+      "last_star_ts": "2017-12-08T00:19:26-0500",
+      "local_score": 206,
       "name": "Ivan Peng",
-      "stars": 14
+      "stars": 15
     },
     "170332": {
       "completion_day_level": {},
@@ -617,14 +630,22 @@
           "2": {
             "get_star_ts": "2017-12-07T00:48:02-0500"
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "2017-12-08T00:10:17-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:12:09-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": "2017-12-07T00:48:02-0500",
-      "local_score": 242,
+      "last_star_ts": "2017-12-08T00:12:09-0500",
+      "local_score": 283,
       "name": "Ricky Kwan",
-      "stars": 14
+      "stars": 16
     },
     "195610": {
       "completion_day_level": {
@@ -857,14 +878,22 @@
           "2": {
             "get_star_ts": "2017-12-07T00:49:24-0500"
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "2017-12-08T00:13:03-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:14:13-0500"
+          }
         }
       },
       "global_score": 54,
       "id": "196695",
-      "last_star_ts": "2017-12-07T00:49:24-0500",
-      "local_score": 254,
+      "last_star_ts": "2017-12-08T00:14:13-0500",
+      "local_score": 290,
       "name": "Andrew Walker",
-      "stars": 14
+      "stars": 16
     },
     "197423": {
       "completion_day_level": {
@@ -927,15 +956,18 @@
         "8": {
           "1": {
             "get_star_ts": "2017-12-08T00:09:56-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:12:01-0500"
           }
         }
       },
       "global_score": 32,
       "id": "197423",
-      "last_star_ts": "2017-12-08T00:09:56-0500",
-      "local_score": 310,
+      "last_star_ts": "2017-12-08T00:12:01-0500",
+      "local_score": 331,
       "name": null,
-      "stars": 15
+      "stars": 16
     },
     "30841": {
       "completion_day_level": {
@@ -994,14 +1026,22 @@
           "2": {
             "get_star_ts": "2017-12-07T00:59:10-0500"
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "2017-12-08T00:12:27-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:13:22-0500"
+          }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "2017-12-07T00:59:10-0500",
-      "local_score": 266,
+      "last_star_ts": "2017-12-08T00:13:22-0500",
+      "local_score": 304,
       "name": "bewuethr",
-      "stars": 14
+      "stars": 16
     }
   },
   "owner_id": "30841"
