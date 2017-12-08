@@ -250,14 +250,22 @@
           "2": {
             "get_star_ts": "2017-12-07T00:52:23-0500"
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "2017-12-08T00:22:20-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:22:47-0500"
+          }
         }
       },
       "global_score": 6,
       "id": "118609",
-      "last_star_ts": "2017-12-07T00:52:23-0500",
-      "local_score": 279,
+      "last_star_ts": "2017-12-08T00:22:47-0500",
+      "local_score": 311,
       "name": "Michael Tardibuono",
-      "stars": 14
+      "stars": 16
     },
     "118852": {
       "completion_day_level": {},
@@ -496,15 +504,18 @@
         "8": {
           "1": {
             "get_star_ts": "2017-12-08T00:19:26-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-08T00:22:21-0500"
           }
         }
       },
       "global_score": 0,
       "id": "155047",
-      "last_star_ts": "2017-12-08T00:19:26-0500",
-      "local_score": 206,
+      "last_star_ts": "2017-12-08T00:22:21-0500",
+      "local_score": 223,
       "name": "Ivan Peng",
-      "stars": 15
+      "stars": 16
     },
     "170332": {
       "completion_day_level": {},
