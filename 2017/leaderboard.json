@@ -973,15 +973,18 @@
         "9": {
           "1": {
             "get_star_ts": "2017-12-09T01:01:53-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-09T01:42:02-0500"
           }
         }
       },
       "global_score": 54,
       "id": "196695",
-      "last_star_ts": "2017-12-09T01:01:53-0500",
-      "local_score": 310,
+      "last_star_ts": "2017-12-09T01:42:02-0500",
+      "local_score": 330,
       "name": "Andrew Walker",
-      "stars": 17
+      "stars": 18
     },
     "197423": {
       "completion_day_level": {
