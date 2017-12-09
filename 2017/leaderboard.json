@@ -1047,15 +1047,18 @@
         "9": {
           "1": {
             "get_star_ts": "2017-12-09T00:27:00-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-09T00:31:37-0500"
           }
         }
       },
       "global_score": 32,
       "id": "197423",
-      "last_star_ts": "2017-12-09T00:27:00-0500",
-      "local_score": 352,
+      "last_star_ts": "2017-12-09T00:31:37-0500",
+      "local_score": 373,
       "name": null,
-      "stars": 17
+      "stars": 18
     },
     "30841": {
       "completion_day_level": {
