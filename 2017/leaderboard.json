@@ -669,15 +669,18 @@
         "9": {
           "1": {
             "get_star_ts": "2017-12-09T00:19:11-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-09T00:23:13-0500"
           }
         }
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": "2017-12-09T00:19:11-0500",
-      "local_score": 305,
+      "last_star_ts": "2017-12-09T00:23:13-0500",
+      "local_score": 327,
       "name": "Ricky Kwan",
-      "stars": 17
+      "stars": 18
     },
     "195610": {
       "completion_day_level": {
@@ -1040,14 +1043,19 @@
           "2": {
             "get_star_ts": "2017-12-08T00:12:01-0500"
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": "2017-12-09T00:27:00-0500"
+          }
         }
       },
       "global_score": 32,
       "id": "197423",
-      "last_star_ts": "2017-12-08T00:12:01-0500",
-      "local_score": 331,
+      "last_star_ts": "2017-12-09T00:27:00-0500",
+      "local_score": 352,
       "name": null,
-      "stars": 16
+      "stars": 17
     },
     "30841": {
       "completion_day_level": {
