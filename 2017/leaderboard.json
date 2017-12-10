@@ -504,6 +504,9 @@
         "10": {
           "1": {
             "get_star_ts": "2017-12-10T00:43:48-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-10T01:05:38-0500"
           }
         },
         "2": {
@@ -573,10 +576,10 @@
       },
       "global_score": 0,
       "id": "155047",
-      "last_star_ts": "2017-12-10T00:43:48-0500",
-      "local_score": 274,
+      "last_star_ts": "2017-12-10T01:05:38-0500",
+      "local_score": 293,
       "name": "Ivan Peng",
-      "stars": 19
+      "stars": 20
     },
     "170332": {
       "completion_day_level": {},
@@ -655,6 +658,11 @@
             "get_star_ts": "2017-12-01T00:19:42-0500"
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": "2017-12-10T01:19:41-0500"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "2017-12-02T00:06:43-0500"
@@ -722,10 +730,10 @@
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": "2017-12-09T00:23:13-0500",
-      "local_score": 327,
+      "last_star_ts": "2017-12-10T01:19:41-0500",
+      "local_score": 343,
       "name": "Ricky Kwan",
-      "stars": 18
+      "stars": 19
     },
     "195610": {
       "completion_day_level": {
@@ -978,6 +986,9 @@
         "10": {
           "1": {
             "get_star_ts": "2017-12-10T00:36:43-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-10T01:11:00-0500"
           }
         },
         "2": {
@@ -1047,10 +1058,10 @@
       },
       "global_score": 54,
       "id": "196695",
-      "last_star_ts": "2017-12-10T00:36:43-0500",
-      "local_score": 350,
+      "last_star_ts": "2017-12-10T01:11:00-0500",
+      "local_score": 368,
       "name": "Andrew Walker",
-      "stars": 19
+      "stars": 20
     },
     "197423": {
       "completion_day_level": {
