@@ -174,7 +174,7 @@ gen_html_files () {
     local fname
 
     local star_tab_headers=(
-        'Time to solve [h:m:hs]'
+        'Time to solve [h:m:s]'
         'Local score'
         'Mod. local score'
     )
