@@ -39,25 +39,48 @@ rank_day_star () {
 
     jq -r --arg day "$day" --arg star "$star" '
         [.members[]] |
-        map( {name, id, tstamp: .completion_day_level[$day][$star].get_star_ts} ) |
+        if $star == "1" then
+            map( {name, id, tstamp: .completion_day_level[$day][$star].get_star_ts} )
+        else
+            map( {
+                name,
+                id,
+                tstamp: .completion_day_level[$day][$star].get_star_ts,
+                tstamp1: .completion_day_level[$day]["1"].get_star_ts
+            } )
+        end |
         sort_by(.tstamp)[] |
         select(.tstamp != null) |
-        [.name // ("User #" + .id), .tstamp] |
+        [.name // ("User #" + .id), .tstamp, .tstamp1 // ""] |
         @tsv
-    ' < "$year"/leaderboard.json |
-    while IFS=$'\t' read name time; do
-        printf '%s\t%s\n' "$name" "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))"
+    ' "$year"/leaderboard.json |
+    while IFS=$'\t' read name time time1; do
+        printf '%s\t%s\t%s\n' \
+            "$name" \
+            "$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$basedate") ))" \
+            "${time1:+$(( $(date +'%s' -d "$time") - $(date +'%s' -d "$time1") ))}"
     done |
     awk -F '\t' -v n="$n" '
         {
             name[NR] = $1
             time[NR] = $2
+            if ($3 != "")
+                time1[NR] = $3
         }
         END {
             for (i = 1; i <= NR; ++i) {
-                printf "%2d\t%s\t%3d:%02d:%02d\t%d\t%d\n", \
-                    i, name[i], int(time[i]/3600), int((time[i]%3600)/60), int((time[i]%60)), \
-                    n - i + 1, NR - i + 1
+                # Rank, name and time for star since midnight
+                printf "%2d\t%s\t%3d:%02d:%02d", \
+                    i, name[i], int(time[i]/3600), int((time[i]%3600)/60), int((time[i]%60))
+
+                # If second star, print time since first star
+                if (length(time1)) {
+                    printf "\t%3d:%02d:%02d", \
+                        int(time1[i]/3600), int((time1[i]%3600)/60), int((time1[i]%60))
+                }
+
+                # Points for local and modified local ranking
+                printf "\t%d\t%d\n", n - i + 1, NR - i + 1
             }
         }
     '
@@ -179,6 +202,13 @@ gen_html_files () {
         'Mod. local score'
     )
 
+    local star2_tab_headers=(
+        'Time to solve [h:m:s]'
+        'Time since star 1 [h:m:s]'
+        'Local score'
+        'Mod. local score'
+    )
+
     for fname in "$year"/day*star*.txt; do
         [[ $fname =~ $re ]]
         day=${BASH_REMATCH[1]}
@@ -186,7 +216,11 @@ gen_html_files () {
 
         {
             print_header "../" "Ranking $year day ${day#0}, star $star"
-            tablify "$fname" "${star_tab_headers[@]}"
+            if (( star == 1 )); then
+                tablify "$fname" "${star_tab_headers[@]}"
+            else
+                tablify "$fname" "${star2_tab_headers[@]}"
+            fi
         } | tidy "${tidyopts[@]}" > "${fname%.txt}.html"
     done
 
