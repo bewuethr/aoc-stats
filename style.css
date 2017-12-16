@@ -32,15 +32,14 @@ td.day > sup {
     line-height: 0;
 }
 
-table#left {
+table.listleft {
     float: left;
     margin: 0 2em 0 0;
     white-space: nowrap;
 }
 
-table#right {
-    float: right;
-    margin: 0 0 2em 0;
+table.listright {
+    float: left;
     white-space: nowrap;
 }
 
@@ -74,6 +73,10 @@ td.year, td.day {
 
 ul {
     list-style: circle;
+}
+
+div.vertsep {
+    clear: both;
 }
 
 p.tstamp {

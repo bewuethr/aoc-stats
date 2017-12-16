@@ -273,7 +273,7 @@ gen_index () {
             </ul>
             <h2>Rankings per day and star</h2>
             <div>
-            <table id="left">
+            <table class="listleft">
 EOF
 
         local re='day([0-9]+)star([0-9])'
@@ -293,7 +293,7 @@ EOF
             fi
 
             if (( 10#$day == 14 && star == 1 )); then
-                echo '</table><table id="right">'
+                echo '</table><table class="listright">'
             fi
 
             if (( star == 1 )); then
@@ -306,11 +306,10 @@ EOF
             fi
         done
 
-        echo "<tr><td></td><td></td><td></td></tr>"
-
         cat <<EOF
             </table>
             </div>
+            <div class="vertsep"></div>
             $remark
             <p><a href="../index.html">Return to index</a></p>
             <h2>Miscellaneous</h2>
