@@ -386,8 +386,9 @@ for year in 201?; do
     gen_mod_local_score "$year"
     gen_html_files "$year"
     gen_index "$year"
+    gen_main_flag='yes'
 done
 
-gen_main_index
+[[ -n $gen_main_flag ]] && gen_main_index
 
 [[ -n $push ]] && push_changes
