@@ -87,8 +87,7 @@ rank_day_star () {
 }
 
 print_header () {
-    local csspath=$1
-    local title=$2
+    local title=$1
     local re='Ranking 201. day ([[:digit:]]+), star ([[:digit:]]+)'
     if [[ $title =~ $re ]]; then
         local day=${BASH_REMATCH[1]}
@@ -103,8 +102,8 @@ print_header () {
         <html>
         <head>
         <meta charset=utf-8>
-        <link rel="stylesheet" href="${csspath}style.css">
-        <link rel="shortcut icon" href="${csspath}favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
         <title>$title</title>
         </head>
         <body>
@@ -224,7 +223,7 @@ gen_html_files () {
         star=${BASH_REMATCH[2]}
 
         {
-            print_header "../" "Ranking $year day ${day#0}, star $star"
+            print_header "Ranking $year day ${day#0}, star $star"
             if (( star == 1 )); then
                 tablify "$fname" "${star_tab_headers[@]}"
             else
@@ -234,19 +233,19 @@ gen_html_files () {
     done
 
     {
-        print_header "../" "$year local score"
+        print_header "$year local score"
         echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
         tablify "$year"/local_score.txt 'Points'
     } | tidy "${tidyopts[@]}" > "$year"/local_score.html
 
     {
-        print_header "../" "$year modified local score"
+        print_header "$year modified local score"
         echo "<p>For each star, winner gets one point per submission <em>to that star</em>, runner-up one less etc.</p>"
         tablify "$year"/mod_local_score.txt 'Points'
     } | tidy "${tidyopts[@]}" > "$year"/mod_local_score.html
 
     {
-        print_header "../" "$year histogram of submission times"
+        print_header "$year histogram of submission times"
         cat <<EOF
             <img src="histo.png" alt="$year histogram of submission times">
             <ul>
@@ -262,7 +261,7 @@ EOF
 gen_index () {
     local year=$1
     {
-        print_header "../" "Advent of Code $year, IX Stats"
+        print_header "Advent of Code $year, IX Stats"
 
         cat <<EOF
             <h2>Overall rankings and statistics</h2>
@@ -325,7 +324,7 @@ EOF
 
 gen_main_index () {
     {
-        print_header "" "Advent of Code, IX Stats"
+        print_header "Advent of Code, IX Stats"
 
         echo '<table>'
         for year in 201?; do
