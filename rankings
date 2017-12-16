@@ -388,10 +388,6 @@ for year in 201?; do
     gen_index "$year"
 done
 
-# Do we have to rebuild the main index?
-for year in 201?; do
-    grep -q "Rankings for $year" index.html && continue
-    gen_main_index
-done
+gen_main_index
 
 [[ -n $push ]] && push_changes
