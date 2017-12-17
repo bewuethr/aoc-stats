@@ -1,5 +1,5 @@
 filename = ARG1
-set terminal png font 'Inconsolata, 14' background rgb '#002b36'
+set terminal svg font 'Inconsolata, 18' background rgb '#002b36'
 stats filename u 2 nooutput
 set xrange [0:24]
 set xlabel "Time of day [hours]" tc '#839496'

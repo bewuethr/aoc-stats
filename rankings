@@ -23,7 +23,7 @@ gen_histogram () {
         | uniq -c \
         | awk '{ print $2 "\t" $1 }' > "$year"/histodata.txt
 
-    gnuplot -c histo.gpi "$year/histodata.txt" > "$year"/histo.png
+    gnuplot -c histo.gpi "$year/histodata.txt" > "$year"/histo.svg
 }
 
 gen_submission_stamps () {
@@ -223,7 +223,7 @@ gen_subm_graphs () {
 
     for day in {01..25}; do
         [[ -e $year/day${day}subm.txt ]] || continue
-        gnuplot -c submtime.gpi "$year/day${day}subm.txt" > "$year/day${day}subm.png"
+        gnuplot -c submtime.gpi "$year/day${day}subm.txt" > "$year/day${day}subm.svg"
     done
 }
 
@@ -303,7 +303,7 @@ gen_html_files () {
     done
 
     for day in {01..25}; do
-        fname=day${day}subm.png
+        fname=day${day}subm.svg
         [[ -s $year/$fname ]] || continue
 
         {
@@ -311,14 +311,14 @@ gen_html_files () {
         cat <<EOF
             <img src="$fname" alt="$year submission times day $day">
             <ul>
-            <li><p>Source data: <a href="${fname%png}txt">${fname%png}txt</a>,
+            <li><p>Source data: <a href="${fname%svg}txt">${fname%svg}txt</a>,
             extracted from <a href="submission_times.txt">submission_times.txt</a></p></li>
             <li><p>Script to generate graph: <a href="../submtime.gpi">submtime.gpi</a></p></li>
             </ul>
             <p><a href="index.html">Return to index</a></p>
             <p class="tstamp">Last updated $(date)</p>
 EOF
-        } | tidy "${tidyopts[@]}" > "$year/${fname%png}html"
+        } | tidy "${tidyopts[@]}" > "$year/${fname%svg}html"
     done
 
     {
@@ -336,7 +336,7 @@ EOF
     {
         print_header "$year histogram of submission times"
         cat <<EOF
-            <img src="histo.png" alt="$year histogram of submission times">
+            <img src="histo.svg" alt="$year histogram of submission times">
             <ul>
             <li><p>Source data: <a href="histodata.txt">histodata.txt</a></p></li>
             <li><p>Script to generate histogram: <a href="../histo.gpi">histo.gpi</a></p></li>
