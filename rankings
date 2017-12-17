@@ -376,7 +376,7 @@ EOF
 
             if (( star == 1 )); then
                 echo "<tr>"
-                echo "<td class=\"day\">$isempty}$daylink</td>"
+                echo "<td class=\"day\">$isempty$daylink</td>"
                 echo "<td><a href=\"${fname#*/}\">Star 1</a></td>"
             elif (( star == 2 )); then
                 echo "<td><a href=\"${fname#*/}\">Star 2</a></td>"
