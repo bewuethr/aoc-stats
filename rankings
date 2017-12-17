@@ -129,13 +129,25 @@ rank_day_star () {
 
 print_header () {
     local title=$1
-    local re='Ranking 201. day ([[:digit:]]+), star ([[:digit:]]+)'
-    if [[ $title =~ $re ]]; then
+    local re1='Ranking 201. day ([[:digit:]]+), star ([[:digit:]]+)'
+    local re2='Submission times graph, 201. day ([[:digit:]]+)'
+    if [[ $title =~ $re1 ]]; then
         local day=${BASH_REMATCH[1]}
         local star=$(( BASH_REMATCH[2] == 1 ? 2 : 1 ))
         local starlink
-        printf -v starlink '<p><a href="day%02dstar%d.html">Ranking for star %d</a></p>' \
+        printf -v starlink '<a href="day%02dstar%d.html">Ranking for star %d</a>' \
             "$day" "$star" "$star"
+        local graphlink
+        printf -v graphlink '<a href="day%02dsubm.html">Submission graph for day %d</a>' \
+            "$day" "$day"
+        local linkbar="<p>$starlink $graphlink</p>"
+    elif [[ $title =~ $re2 ]]; then
+        local day=${BASH_REMATCH[1]}
+        local starlink1
+        printf -v starlink1 '<a href="day%02dstar1.html">Ranking for star 1</a>' "$day"
+        local starlink2
+        printf -v starlink2 '<a href="day%02dstar2.html">Ranking for star 2</a>' "$day"
+        local linkbar="<p>$starlink1 $starlink2</p>"
     fi
 
     cat <<EOF
@@ -149,7 +161,7 @@ print_header () {
         </head>
         <body>
         <h1>$title</h1>
-        $starlink
+        $linkbar
 EOF
 }
 
