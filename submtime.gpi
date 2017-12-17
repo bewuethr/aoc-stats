@@ -1,0 +1,11 @@
+filename = ARG1
+set terminal png size 1280, 240 font 'Inconsolata, 14' background rgb '#002b36'
+set xrange [0:24]
+set xlabel "Time after midnight [hours]" tc '#839496'
+set xtics 2
+unset ytics
+set border lc rgb '#839496'
+set grid lc rgb '#586e75'
+set key opaque textcolor '#839496'
+plot filename u ($1/3600):(1) w impulses  lc rgb '#2aa198' title 'First star', \
+    filename u ($2/3600):(1) w impulses lc rgb '#d33682' title 'Second star'
