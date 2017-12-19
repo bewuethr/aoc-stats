@@ -1,11 +1,20 @@
 filename = ARG1
-set terminal svg size 1280, 240 font 'Inconsolata, 18' background rgb '#002b36'
+set terminal svg size 1280, 480 font 'Inconsolata, 18' background rgb '#002b36'
+set multiplot layout 2,1
 set xrange [*:24]
 set logscale x
-set xlabel "Time after midnight [hours]" tc '#839496'
+set xlabel "Time after midnight, log scale [hours]" tc '#839496'
 unset ytics
 set border lc rgb '#839496'
 set grid lc rgb '#586e75'
 set key opaque textcolor '#839496'
+plot filename u ($1/3600):(1) w impulses  lc rgb '#2aa198' title 'First star', \
+    filename u ($2/3600):(1) w impulses lc rgb '#d33682' title 'Second star'
+
+set xrange [0:24]
+unset logscale x
+set xtics 2
+set mxtics 2
+set xlabel "Time after midnight, linear scale [hours]" tc '#839496'
 plot filename u ($1/3600):(1) w impulses  lc rgb '#2aa198' title 'First star', \
     filename u ($2/3600):(1) w impulses lc rgb '#d33682' title 'Second star'
