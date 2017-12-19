@@ -1,5 +1,5 @@
 filename = ARG1
-set terminal svg size 1280, 480 font 'Inconsolata, 18' background rgb '#002b36'
+set terminal svg size 1280, 480 dynamic font 'Inconsolata, 18' background rgb '#002b36'
 set multiplot layout 2,1
 set xrange [*:24]
 set logscale x
