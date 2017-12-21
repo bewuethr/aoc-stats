@@ -85,11 +85,13 @@
 </g>
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M302.1,153.6 L302.1,27.1 M318.2,153.6 L318.2,27.1  '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M302.1,153.6 L302.1,27.1 M318.2,153.6 L318.2,27.1 M943.7,153.6 L943.7,27.1
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M39.0,153.6 L39.0,27.1 M311.9,153.6 L311.9,27.1 M331.1,153.6 L331.1,27.1  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M39.0,153.6 L39.0,27.1 M311.9,153.6 L311.9,27.1 M331.1,153.6 L331.1,27.1 M945.6,153.6 L945.6,27.1
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -291,11 +293,13 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M59.1,393.6 L59.1,267.0 M99.8,393.6 L99.8,267.0 M103.4,393.6 L103.4,267.0  '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M59.1,393.6 L59.1,267.0 M99.8,393.6 L99.8,267.0 M103.4,393.6 L103.4,267.0 M525.1,393.6 L525.1,267.0
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M59.9,393.6 L59.9,267.0 M102.0,393.6 L102.0,267.0 M106.5,393.6 L106.5,267.0  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M59.9,393.6 L59.9,267.0 M102.0,393.6 L102.0,267.0 M106.5,393.6 L106.5,267.0 M527.9,393.6 L527.9,267.0
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>
