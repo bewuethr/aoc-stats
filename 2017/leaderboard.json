@@ -435,6 +435,14 @@
             "get_star_ts": "2017-12-20T00:25:29-0500"
           }
         },
+        "21": {
+          "1": {
+            "get_star_ts": "2017-12-21T00:38:44-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-21T00:39:37-0500"
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": "2017-12-03T00:12:04-0500"
@@ -492,12 +500,12 @@
           }
         }
       },
-      "global_score": 100,
+      "global_score": 131,
       "id": "118609",
-      "last_star_ts": "2017-12-20T00:25:29-0500",
-      "local_score": 803,
+      "last_star_ts": "2017-12-21T00:39:37-0500",
+      "local_score": 847,
       "name": "Michael Tardibuono",
-      "stars": 40
+      "stars": 42
     },
     "118852": {
       "completion_day_level": {},
