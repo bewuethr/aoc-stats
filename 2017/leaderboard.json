@@ -462,6 +462,9 @@
         "22": {
           "1": {
             "get_star_ts": "2017-12-22T00:18:01-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-22T00:25:07-0500"
           }
         },
         "3": {
@@ -523,10 +526,10 @@
       },
       "global_score": 131,
       "id": "118609",
-      "last_star_ts": "2017-12-22T00:18:01-0500",
-      "local_score": 869,
+      "last_star_ts": "2017-12-22T00:25:07-0500",
+      "local_score": 891,
       "name": "Michael Tardibuono",
-      "stars": 43
+      "stars": 44
     },
     "118852": {
       "completion_day_level": {},
@@ -582,6 +585,11 @@
             "get_star_ts": "2017-12-02T00:10:18-0500"
           }
         },
+        "22": {
+          "1": {
+            "get_star_ts": "2017-12-22T00:27:02-0500"
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": "2017-12-03T12:29:56-0500"
@@ -625,10 +633,10 @@
       },
       "global_score": 0,
       "id": "123142",
-      "last_star_ts": "2017-12-07T01:00:12-0500",
-      "local_score": 242,
+      "last_star_ts": "2017-12-22T00:27:02-0500",
+      "local_score": 262,
       "name": "pingpongkingkong",
-      "stars": 14
+      "stars": 15
     },
     "137785": {
       "completion_day_level": {
@@ -1941,6 +1949,11 @@
             "get_star_ts": "2017-12-21T09:53:59-0500"
           }
         },
+        "22": {
+          "1": {
+            "get_star_ts": "2017-12-22T00:28:54-0500"
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": "2017-12-03T00:48:59-0500"
@@ -2000,10 +2013,10 @@
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "2017-12-21T09:53:59-0500",
-      "local_score": 781,
+      "last_star_ts": "2017-12-22T00:28:54-0500",
+      "local_score": 800,
       "name": "bewuethr",
-      "stars": 42
+      "stars": 43
     }
   },
   "owner_id": "30841"
