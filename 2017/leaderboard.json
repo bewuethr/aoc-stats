@@ -588,6 +588,9 @@
         "22": {
           "1": {
             "get_star_ts": "2017-12-22T00:27:02-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-22T00:33:36-0500"
           }
         },
         "3": {
@@ -633,10 +636,10 @@
       },
       "global_score": 0,
       "id": "123142",
-      "last_star_ts": "2017-12-22T00:27:02-0500",
-      "local_score": 262,
+      "last_star_ts": "2017-12-22T00:33:36-0500",
+      "local_score": 282,
       "name": "pingpongkingkong",
-      "stars": 15
+      "stars": 16
     },
     "137785": {
       "completion_day_level": {
@@ -1588,6 +1591,11 @@
             "get_star_ts": "2017-12-21T01:34:47-0500"
           }
         },
+        "22": {
+          "1": {
+            "get_star_ts": "2017-12-22T00:38:25-0500"
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": "2017-12-03T00:18:30-0500"
@@ -1647,10 +1655,10 @@
       },
       "global_score": 54,
       "id": "196695",
-      "last_star_ts": "2017-12-21T01:34:47-0500",
-      "local_score": 793,
+      "last_star_ts": "2017-12-22T00:38:25-0500",
+      "local_score": 811,
       "name": "Andrew Walker",
-      "stars": 42
+      "stars": 43
     },
     "197423": {
       "completion_day_level": {
@@ -1769,6 +1777,9 @@
         "22": {
           "1": {
             "get_star_ts": "2017-12-22T00:19:29-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-22T00:30:43-0500"
           }
         },
         "3": {
@@ -1830,10 +1841,10 @@
       },
       "global_score": 108,
       "id": "197423",
-      "last_star_ts": "2017-12-22T00:19:29-0500",
-      "local_score": 889,
+      "last_star_ts": "2017-12-22T00:30:43-0500",
+      "local_score": 910,
       "name": null,
-      "stars": 43
+      "stars": 44
     },
     "30841": {
       "completion_day_level": {
@@ -1952,6 +1963,9 @@
         "22": {
           "1": {
             "get_star_ts": "2017-12-22T00:28:54-0500"
+          },
+          "2": {
+            "get_star_ts": "2017-12-22T00:38:28-0500"
           }
         },
         "3": {
@@ -2013,10 +2027,10 @@
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "2017-12-22T00:28:54-0500",
-      "local_score": 800,
+      "last_star_ts": "2017-12-22T00:38:28-0500",
+      "local_score": 819,
       "name": "bewuethr",
-      "stars": 43
+      "stars": 44
     }
   },
   "owner_id": "30841"
