@@ -160,8 +160,8 @@ print_header () {
         <html>
         <head>
         <meta charset=utf-8>
-        <link rel="stylesheet" href="/advent_of_code/style.css">
-        <link rel="shortcut icon" href="/advent_of_code/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/advent-of-code/style.css">
+        <link rel="shortcut icon" href="/advent-of-code/favicon.png" type="image/x-icon">
         <title>$title</title>
         </head>
         <body>
@@ -411,7 +411,7 @@ EOF
             <ul>
             <li><p>Script to generate all the stats: <a href="../rankings">rankings</a></p></li>
             <li><p>JSON source data: <a href="leaderboard.json">leaderboard.json</a></p></li>
-            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
+            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent-of-code/issues">issue tracker</a></p></li>
             </ul> 
             <p class="tstamp">Last updated $(date)</p>
 EOF
@@ -434,7 +434,7 @@ EOF
             <h2>Miscellaneous</h2>
             <ul>
             <li><p>Script to generate all the stats: <a href="rankings">rankings</a></p></li>
-            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent_of_code/issues">issue tracker</a></p></li>
+            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent-of-code/issues">issue tracker</a></p></li>
             </ul>
             <p class="tstamp">Last updated $(date)</p>
 EOF
