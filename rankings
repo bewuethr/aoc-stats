@@ -3,8 +3,8 @@
 update_json() {
 	local year url
     year=$1
-    url="http://adventofcode.com/$year/leaderboard/private/view/$(< boardid).json"
-    curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "$year"/leaderboard.json.tmp
+    url="https://adventofcode.com/$year/leaderboard/private/view/$(< boardid).json"
+	curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "$year"/leaderboard.json.tmp
     if [[ ! -s $year/leaderboard.json.tmp ]]; then
         echo "Could not get new data from adventofcode.com, session cookie expired?" >&2
         rm "$year"/leaderboard.json.tmp
