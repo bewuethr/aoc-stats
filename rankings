@@ -1,10 +1,12 @@
 #!/bin/bash
 
+set -eo pipefail
+
 update_json() {
-	local year url
+    local year url
     year=$1
     url="https://adventofcode.com/$year/leaderboard/private/view/$(< boardid).json"
-	curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "$year"/leaderboard.json.tmp
+    curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "$year"/leaderboard.json.tmp
     if [[ ! -s $year/leaderboard.json.tmp ]]; then
         echo "Could not get new data from adventofcode.com, session cookie expired?" >&2
         rm "$year"/leaderboard.json.tmp
@@ -24,7 +26,8 @@ update_json() {
 gen_histogram () {
     local year=$1
     jq -r '.members[].completion_day_level[][].get_star_ts' "$year"/leaderboard.json \
-        | cut -c 12-13 \
+        | sed 's/^/@/' \
+        | date -f - '+%H' \
         | sort \
         | uniq -c \
         | awk '{ print $2 "\t" $1 }' > "$year"/histodata.txt
@@ -70,19 +73,21 @@ gen_submission_stamps_day () {
         }
     ' <(paste \
         <(cut -f 1,2 "$year"/submission_times.txt) \
-        <(date -f <(cut -f 3 "$year"/submission_times.txt) '+%s'))
+        <(cut -f 3 "$year"/submission_times.txt))
 }
 
 rank_day_star () {
     local year=$1
     local day=$2
     local star=$3
-    local basedate
+    local basedate basedate_unix
     local name
-    local time
-    local n=$(jq '.members | length' "$year"/leaderboard.json)
+    local tstamp1 tstamp2
+    local n
+    n=$(jq '.members | length' "$year"/leaderboard.json)
 
     printf -v basedate '%d-12-%02dT00:00:00-0500' "$year" "$day"
+    basedate_unix=$(date '+%s' -d "$basedate")
 
     jq -r --arg day "$day" --arg star "$star" '
         [.members[]] |
@@ -100,12 +105,12 @@ rank_day_star () {
         select(.tstamp != null) |
         [.name // ("User #" + .id), .tstamp, .tstamp1 // ""] |
         @tsv
-    ' "$year"/leaderboard.json |
-    while IFS=$'\t' read name time time1; do
+    ' "$year"/leaderboard.json | tee analysis |
+    while IFS=$'\t' read -r name tstamp1 tstamp2; do
         printf '%s\t%s\t%s\n' \
             "$name" \
-            "$(( $(date '+%s' -d "$time") - $(date '+%s' -d "$basedate") ))" \
-            "${time1:+$(( $(date '+%s' -d "$time") - $(date '+%s' -d "$time1") ))}"
+            "$(( tstamp1 - basedate_unix ))" \
+            "${tstamp2:+$(( tstamp1 - tstamp2 ))}"
     done |
     awk -F '\t' -v n="$n" '
         {
@@ -161,8 +166,8 @@ print_header () {
         <html>
         <head>
         <meta charset=utf-8>
-        <link rel="stylesheet" href="/advent-of-code/style.css">
-        <link rel="shortcut icon" href="/advent-of-code/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/aoc-stats/style.css">
+        <link rel="shortcut icon" href="/aoc-stats/favicon.png" type="image/x-icon">
         <title>$title</title>
         </head>
         <body>
@@ -235,7 +240,8 @@ gen_subm_graphs () {
 
 gen_local_score () {
     local year=$1
-	local n=$(jq '.members | length' "$year"/leaderboard.json)
+    local n
+    n=$(jq '.members | length' "$year"/leaderboard.json)
     awk -v n="$n" '
         BEGIN {
             FS = "\t"
@@ -412,7 +418,7 @@ EOF
             <ul>
             <li><p>Script to generate all the stats: <a href="../rankings">rankings</a></p></li>
             <li><p>JSON source data: <a href="leaderboard.json">leaderboard.json</a></p></li>
-            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent-of-code/issues">issue tracker</a></p></li>
+            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/aoc-stats/issues">issue tracker</a></p></li>
             </ul> 
             <p class="tstamp">Last updated $(date)</p>
 EOF
@@ -435,7 +441,7 @@ EOF
             <h2>Miscellaneous</h2>
             <ul>
             <li><p>Script to generate all the stats: <a href="rankings">rankings</a></p></li>
-            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/advent-of-code/issues">issue tracker</a></p></li>
+            <li><p>Suggest more stats in the <a href="https://github.com/bewuethr/aoc-stats/issues">issue tracker</a></p></li>
             </ul>
             <p class="tstamp">Last updated $(date)</p>
 EOF
@@ -446,7 +452,8 @@ push_changes () {
     git stash --quiet
     git pull --quiet
     git stash pop --quiet
-    local status=$(git status --porcelain index.html 201?)
+    local status
+    status=$(git status --porcelain index.html 201?)
     if [[ -n $status ]]; then
         git add index.html 201?
         git commit -m "Update rankings"
