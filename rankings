@@ -105,7 +105,7 @@ rank_day_star () {
         select(.tstamp != null) |
         [.name // ("User #" + .id), .tstamp, .tstamp1 // ""] |
         @tsv
-    ' "$year"/leaderboard.json | tee analysis |
+    ' "$year"/leaderboard.json |
     while IFS=$'\t' read -r name tstamp1 tstamp2; do
         printf '%s\t%s\t%s\n' \
             "$name" \
