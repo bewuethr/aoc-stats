@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -eo pipefail
-
 update_json() {
 	local year url
 	year=$1
