@@ -364,23 +364,29 @@ gen_html_files()  {
 
 gen_index()  {
 	local year=$1
+	local histo_link
 	{
 		print_header "Advent of Code $year, IX Stats"
+		if [[ -s $year/histo.svg ]]; then
+			histo_link='<li><p><a href="histo.html">Histogram of submission times</a></p></li>'
+		else
+			histo_link=''
+		fi
 
 		cat <<- EOF
 			<h2>Overall rankings and statistics</h2>
 			<ul>
 			<li><p><a href="local_score.html">Local score</a></p></li>
 			<li><p><a href="mod_local_score.html">Modified local score</a></p></li>
-			<li><p><a href="histo.html">Histogram of submission times</a></p></li>
+			$histo_link
 			</ul>
 			<h2>Graphs and rankings per day and star</h2>
 			<div>
 			<table class="listleft">
 		EOF
 
-		local re='day([0-9]+)star([0-9])'
-		local remark
+		local re='day([[:digit:]]+)star([12])'
+		local remark1 remark2
 		local fname
 		for fname in "$year"/day*star*.html; do
 			[[ $fname =~ $re ]]
@@ -390,7 +396,11 @@ gen_index()  {
 			local isempty
 			if [[ ! -s ${fname%.html}.txt ]]; then
 				isempty='<sup>*</sup>'
-				remark='<p><sup>*</sup>Day with no results yet</p>'
+				remark1='<p><sup>*</sup>Day with no results yet</p>'
+				daylink="Day ${day#0}"
+			elif [[ ! -f $year/day${day}subm.svg ]]; then
+				isempty='<sup>+</sup>'
+				remark2='<p><sup>+</sup>Day without submissions in the first 24 hours</p>'
 				daylink="Day ${day#0}"
 			else
 				isempty=''
@@ -402,12 +412,16 @@ gen_index()  {
 			fi
 
 			if ((star == 1)); then
-				echo "<tr>"
-				echo "<td class=\"day\">$isempty$daylink</td>"
-				echo "<td><a href=\"${fname#*/}\">Star 1</a></td>"
+				cat <<- EOF
+					<tr>
+					<td class="day">$isempty$daylink</td>
+					<td><a href="${fname#*/}">Star 1</a></td>
+				EOF
 			elif ((star == 2)); then
-				echo "<td><a href=\"${fname#*/}\">Star 2</a></td>"
-				echo "</tr>"
+				cat <<- EOF
+					<td><a href="${fname#*/}">Star 2</a></td>
+					</tr>
+				EOF
 			fi
 		done
 
@@ -415,7 +429,8 @@ gen_index()  {
 			</table>
 			</div>
 			<div class="vertsep"></div>
-			$remark
+			$remark1
+			$remark2
 			<p><a href="../index.html">Return to index</a></p>
 			<h2>Miscellaneous</h2>
 			<ul>
