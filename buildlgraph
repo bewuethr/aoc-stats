@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+# Create graph of running totals over time
+
+year=$1
+
+# Get number of participiants with at least 1 star
+n=$(jq -r '[.members[].stars | select(. > 0)] | length' "$year"/leaderboard.json)
+
+# This produces a four column TSV file: name/ID - day - star - timestamp,
+# sorted by day, then star, then timestamp, i.e., it is the concatenation of
+# the ranking lists for each star.
+# shellcheck disable=SC2016
+jq -r '
+	[
+		.members[] |
+		select(.stars > 0) |
+		(.name // .id) as $n |
+		{($n): .completion_day_level} |
+		paths(scalars) as $p |
+		getpath($p) as $v |
+		($p + [$v]) |
+		[.[0], (.[1,2,4] | tonumber)]
+	] | sort_by(.[1,2,3]) |
+	.[] |
+	@tsv
+' "$year"/leaderboard.json \
+| awk -v n="$n" '
+	# Add 5th column  with score indicating how many points a star added to
+	# the total
+	BEGIN { FS = OFS = "\t" }
+	{
+		if ($2 != prev_day || $3 != prev_star) {
+			score = n
+			prev_day = $2
+			prev_star = $3
+		}
+		$5 = score--
+		print
+	}
+' \
+| sort -t $'\t' -n -k 4,4 \
+| awk '
+	# Sort previous list by time, then add 6th column with running total per
+	# participant
+	BEGIN { FS = OFS = "\t" }
+	{
+		total[$1] += $5
+		$6 = total[$1]
+		print
+	}
+' > "$year"/point_totals.tsv
+
+# First pass: collect names for hash and column headers; second pass: populate
+# sparse table with total score per person as a function of time.
+awk '
+	BEGIN { FS = OFS = "\t" }
+	# Build name array
+	NR == FNR {
+		if (! ($1 in nameset)) {
+			nameset[$1] = 1
+			names[++i] = $1
+		}
+		next
+	}
+	# Print header line
+	FNR == 1 {
+		line = "Time"
+		for (i = 1; i <= length(names); ++i) {
+			line = line OFS names[i]
+		}
+		print line
+	}
+	# Build row of sparse table
+	{
+		line = $4
+		for (i = 1; i <= length(names) ; ++i) {
+			if (names[i] == $1)
+				line = line OFS $6
+			else
+				line = line OFS "?"
+		}
+		print line
+	}
+' "$year"/point_totals.tsv{,} > "$year"/time_vs_points.tsv
+
+gnuplot -c over_time.gpi "$year"/time_vs_points.tsv > "$year"/time_vs_points.svg

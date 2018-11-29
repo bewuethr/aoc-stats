@@ -360,11 +360,25 @@ gen_html_files()  {
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
 	} | tidy "${tidyopts[@]}" > "$year"/histo.html
+
+	{
+		print_header "$year running total over time"
+		cat <<- EOF
+			<img src="time_vs_points.svg" alt="$year running total over time">
+			<ul>
+			<li><p>Source data: <a href="time_vs_points.tsv">time_vs_points.tsv</a></p></li>
+			<li><p>Script to generate source data: <a href="../buildlgraph">buildlgraph</a></p></li>
+			<li><p>Script to generate graph: <a href="../over_time.gpi">over_time.gpi</a></p></li>
+			</ul>
+			<p><a href="index.html">Return to index</a></p>
+			<p class="tstamp">Last updated $(date)</p>
+		EOF
+	} | tidy "${tidyopts[@]}" > "$year"/over_time.html
 }
 
 gen_index()  {
 	local year=$1
-	local histo_link
+	local histo_link over_time_link
 	{
 		print_header "Advent of Code $year, IX Stats"
 		if [[ -s $year/histo.svg ]]; then
@@ -373,12 +387,19 @@ gen_index()  {
 			histo_link=''
 		fi
 
+		if [[ -s $year/time_vs_points.svg ]]; then
+			over_time_link='<li><p><a href="over_time.html">Graph of running totals</a></p></li>'
+		else
+			over_time_link=''
+		fi
+
 		cat <<- EOF
 			<h2>Overall rankings and statistics</h2>
 			<ul>
 			<li><p><a href="local_score.html">Local score</a></p></li>
 			<li><p><a href="mod_local_score.html">Modified local score</a></p></li>
 			$histo_link
+			$over_time_link
 			</ul>
 			<h2>Graphs and rankings per day and star</h2>
 			<div>
@@ -501,6 +522,7 @@ for year in 201?; do
 	fi
 	[[ $verbose ]] && echo "Building $year" >&2
 	gen_histogram "$year"
+	./buildlgraph "$year"
 	gen_submission_stamps "$year"
 	gen_txt_files "$year"
 	gen_subm_graphs "$year"
