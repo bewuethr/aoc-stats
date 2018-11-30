@@ -5,7 +5,7 @@
 year=$1
 
 # Get number of participiants with at least 1 star
-n=$(jq -r '[.members[].stars | length' "$year"/leaderboard.json)
+n=$(jq -r '.members[].stars | length' "$year"/leaderboard.json)
 
 # This produces a four column TSV file: name/ID - day - star - timestamp,
 # sorted by day, then star, then timestamp, i.e., it is the concatenation of
