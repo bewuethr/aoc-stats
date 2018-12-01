@@ -488,9 +488,7 @@ gen_main_index()  {
 }
 
 push_changes()  {
-	git stash --quiet
 	git pull --quiet
-	git stash pop --quiet
 	local status
 	status=$(git status --porcelain index.html 201?)
 	if [[ -n $status ]]; then
