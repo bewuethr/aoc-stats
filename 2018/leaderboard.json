@@ -146,13 +146,19 @@
       "stars": 0
     },
     "186091": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543696270"
+          }
+        }
+      },
       "global_score": 0,
       "id": "186091",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543696270",
+      "local_score": 17,
       "name": "Adam Harvie",
-      "stars": 0
+      "stars": 1
     },
     "186094": {
       "completion_day_level": {},
