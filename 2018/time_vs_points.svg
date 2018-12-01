@@ -280,7 +280,8 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 114, 178)'  d='M348.3,189.1 L412.2,189.1 M130.8,788.9  '/>	<use xlink:href='#gpPt5' transform='translate(130.8,788.9) scale(3.71)' color='rgb(  0, 114, 178)'/>
+	<path stroke='rgb(  0, 114, 178)'  d='M348.3,189.1 L412.2,189.1 M130.8,788.9 L140.7,281.0  '/>	<use xlink:href='#gpPt5' transform='translate(130.8,788.9) scale(3.71)' color='rgb(  0, 114, 178)'/>
+	<use xlink:href='#gpPt5' transform='translate(140.7,281.0) scale(3.71)' color='rgb(  0, 114, 178)'/>
 	<use xlink:href='#gpPt5' transform='translate(380.2,189.1) scale(3.71)' color='rgb(  0, 114, 178)'/>
 </g>
 	</g>
