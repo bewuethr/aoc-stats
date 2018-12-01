@@ -490,9 +490,7 @@ gen_main_index()  {
 push_changes()  {
 	git stash --quiet
 	git pull --quiet
-	if git reflog exists refs/stash; then
-		git stash pop --quiet
-	fi
+	git stash pop --quiet
 	local status
 	status=$(git status --porcelain index.html 201?)
 	if [[ -n $status ]]; then
