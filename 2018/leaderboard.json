@@ -47,13 +47,22 @@
       "stars": 0
     },
     "118609": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640510"
+          },
+          "2": {
+            "get_star_ts": "1543640730"
+          }
+        }
+      },
       "global_score": 0,
       "id": "118609",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543640730",
+      "local_score": 45,
       "name": "Michael Tardibuono",
-      "stars": 0
+      "stars": 2
     },
     "118852": {
       "completion_day_level": {},
@@ -101,13 +110,19 @@
       "stars": 0
     },
     "137785": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640502"
+          }
+        }
+      },
       "global_score": 0,
       "id": "137785",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543640502",
+      "local_score": 23,
       "name": "vincentr21",
-      "stars": 0
+      "stars": 1
     },
     "155047": {
       "completion_day_level": {},
@@ -164,22 +179,37 @@
       "stars": 0
     },
     "195615": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640674"
+          }
+        }
+      },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543640674",
+      "local_score": 19,
       "name": "danielshanker",
-      "stars": 0
+      "stars": 1
     },
     "196695": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640602"
+          },
+          "2": {
+            "get_star_ts": "1543640846"
+          }
+        }
+      },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543640846",
+      "local_score": 42,
       "name": "Andrew Walker",
-      "stars": 0
+      "stars": 2
     },
     "197423": {
       "completion_day_level": {},
@@ -191,22 +221,37 @@
       "stars": 0
     },
     "294290": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640737"
+          }
+        }
+      },
       "global_score": 0,
       "id": "294290",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543640737",
+      "local_score": 18,
       "name": "ellen-h",
-      "stars": 0
+      "stars": 1
     },
     "30841": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640534"
+          },
+          "2": {
+            "get_star_ts": "1543640991"
+          }
+        }
+      },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1543640991",
+      "local_score": 42,
       "name": "bewuethr",
-      "stars": 0
+      "stars": 2
     }
   },
   "owner_id": "30841"
