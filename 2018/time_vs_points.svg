@@ -220,7 +220,8 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M348.3,54.1 L412.2,54.1 M130.7,647.9  '/>	<use xlink:href='#gpPt0' transform='translate(130.7,647.9) scale(3.71)' color='rgb(148,   0, 211)'/>
+	<path stroke='rgb(148,   0, 211)'  d='M348.3,54.1 L412.2,54.1 M130.7,647.9 L130.9,83.5  '/>	<use xlink:href='#gpPt0' transform='translate(130.7,647.9) scale(3.71)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt0' transform='translate(130.9,83.5) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt0' transform='translate(380.2,54.1) scale(3.71)' color='rgb(148,   0, 211)'/>
 </g>
 	</g>
