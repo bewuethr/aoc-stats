@@ -8,7 +8,7 @@ set border lc rgb '#839496'
 set grid lc rgb '#586e75'
 set datafile separator "\t"
 set key left top autotitle columnhead tc '#839496'
-stats filename nooutput
+stats filename u 1 nooutput
 set xdata time
 set timefmt "%s"
 set format x "%F"
