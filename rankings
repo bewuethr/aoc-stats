@@ -481,7 +481,7 @@ gen_main_index()  {
 
 push_changes()  {
 	local status
-	status=$(git status --porcelain index.html 201?)
+	status=$(git status --porcelain docs)
 	if [[ -n $status ]]; then
 		git add docs
 		git commit -m "Update rankings"
