@@ -28,9 +28,9 @@ gen_histogram()  {
 		| date -f - '+%H' \
 		| sort \
 		| uniq -c \
-		| awk '{ print $2 "\t" $1 }' > "$year"/histodata.txt
+		| awk '{ print $2 "\t" $1 }' > "$year"/histodata.tsv
 
-	gnuplot -c histo.gpi "$year/histodata.txt" > "$year"/histo.svg
+	gnuplot -c histo.gpi "$year/histodata.tsv" > "$year"/histo.svg
 }
 
 gen_submission_stamps()  {
@@ -46,7 +46,7 @@ gen_submission_stamps()  {
 			($p | map(strings) + [$v]) |
 			[(.[0,1] | tonumber), .[3]]
 		] | sort | .[] | @tsv
-	' "$year"/leaderboard.json > "$year"/submission_times.txt
+	' "$year"/leaderboard.json > "$year"/submission_times.tsv
 }
 
 gen_submission_stamps_day()  {
@@ -71,8 +71,8 @@ gen_submission_stamps_day()  {
 			print first[i] "\t" second[i]
 		}
 	' <(paste \
-		<(cut -f 1,2 "$year"/submission_times.txt) \
-		<(cut -f 3 "$year"/submission_times.txt))
+		<(cut -f 1,2 "$year"/submission_times.tsv) \
+		<(cut -f 3 "$year"/submission_times.tsv))
 }
 
 rank_day_star()  {
@@ -226,19 +226,19 @@ tablify()  {
 	' "${col_headings[@]}" "$fname"
 }
 
-gen_txt_files()  {
+gen_tsv_files()  {
 	local year=$1
 	local day
 	local star
 
 	for day in {01..25}; do
 		for star in 1 2; do
-			rank_day_star "$year" "${day#0}" "$star" > "$year/day${day}star$star.txt"
+			rank_day_star "$year" "${day#0}" "$star" > "$year/day${day}star$star.tsv"
 		done
-		gen_submission_stamps_day "$year" "${day#0}" > "$year/day${day}subm.txt"
+		gen_submission_stamps_day "$year" "${day#0}" > "$year/day${day}subm.tsv"
 
 		# Throw away empty file
-		[[ -s $year/day${day}subm.txt ]] || rm -f "$year/day${day}subm.txt"
+		[[ -s $year/day${day}subm.tsv ]] || rm -f "$year/day${day}subm.tsv"
 	done
 }
 
@@ -247,8 +247,8 @@ gen_subm_graphs()  {
 	local day
 
 	for day in {01..25}; do
-		[[ -e $year/day${day}subm.txt ]] || continue
-		gnuplot -c submtime.gpi "$year/day${day}subm.txt" > "$year/day${day}subm.svg"
+		[[ -e $year/day${day}subm.tsv ]] || continue
+		gnuplot -c submtime.gpi "$year/day${day}subm.tsv" > "$year/day${day}subm.svg"
 	done
 }
 
@@ -269,7 +269,7 @@ gen_local_score()  {
 			for (i in score)
 				printf "%d\t%s\t%d\n", ++ranking, i, score[i]
 		}
-	' "$year"/day??star?.txt > "$year"/local_score.txt
+	' "$year"/day??star?.tsv > "$year"/local_score.tsv
 }
 
 gen_mod_local_score()  {
@@ -289,7 +289,7 @@ gen_mod_local_score()  {
 			for (i in score)
 				printf "%d\t%s\t%d\n", ++ranking, i, score[i]
 		}
-	' "$year"/day??star?.txt > "$year"/mod_local_score.txt
+	' "$year"/day??star?.tsv > "$year"/mod_local_score.tsv
 }
 
 gen_html_files()  {
@@ -313,7 +313,7 @@ gen_html_files()  {
 	local day
 	local star
 
-	for fname in "$year"/day*star*.txt; do
+	for fname in "$year"/day*star*.tsv; do
 		[[ $fname =~ $re ]]
 		day=${BASH_REMATCH[1]}
 		star=${BASH_REMATCH[2]}
@@ -325,7 +325,7 @@ gen_html_files()  {
 			else
 				tablify "$fname" "${star2_tab_headers[@]}"
 			fi
-		} | tidy "${tidyopts[@]}" > "${fname%.txt}.html"
+		} | tidy "${tidyopts[@]}" > "${fname%.tsv}.html"
 	done
 
 	for day in {01..25}; do
@@ -337,8 +337,8 @@ gen_html_files()  {
 			cat <<- EOF
 				<img src="$fname" alt="$year submission times day $day">
 				<ul>
-				<li><p>Source data: <a href="${fname%svg}txt">${fname%svg}txt</a>,
-				extracted from <a href="submission_times.txt">submission_times.txt</a></p></li>
+				<li><p>Source data: <a href="${fname%svg}tsv">${fname%svg}tsv</a>,
+				extracted from <a href="submission_times.tsv">submission_times.tsv</a></p></li>
 				<li><p>Script to generate graph: <a href="../submtime.gpi">submtime.gpi</a></p></li>
 				</ul>
 				<p><a href="index.html">Return to index</a></p>
@@ -350,7 +350,7 @@ gen_html_files()  {
 	{
 		print_header "$year local score"
 		echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
-		tablify "$year"/local_score.txt 'Points'
+		tablify "$year"/local_score.tsv 'Points'
 	} | tidy "${tidyopts[@]}" > "$year"/local_score.html
 
 	{
@@ -359,7 +359,7 @@ gen_html_files()  {
 			"For each start, winner gets one point per submission " \
 			"to that star" \
 			", runner-up one less etc."
-		tablify "$year"/mod_local_score.txt 'Points'
+		tablify "$year"/mod_local_score.tsv 'Points'
 	} | tidy "${tidyopts[@]}" > "$year"/mod_local_score.html
 
 	{
@@ -367,7 +367,7 @@ gen_html_files()  {
 		cat <<- EOF
 			<img src="histo.svg" alt="$year histogram of submission times">
 			<ul>
-			<li><p>Source data: <a href="histodata.txt">histodata.txt</a></p></li>
+			<li><p>Source data: <a href="histodata.tsv">histodata.tsv</a></p></li>
 			<li><p>Script to generate histogram: <a href="../histo.gpi">histo.gpi</a></p></li>
 			</ul>
 			<p><a href="index.html">Return to index</a></p>
@@ -429,7 +429,7 @@ gen_index()  {
 			local star=${BASH_REMATCH[2]}
 
 			local isempty
-			if [[ ! -s ${fname%.html}.txt ]]; then
+			if [[ ! -s ${fname%.html}.tsv ]]; then
 				isempty='<sup>*</sup>'
 				remark1='<p><sup>*</sup>Day with no results yet</p>'
 				daylink="Day ${day#0}"
@@ -538,7 +538,7 @@ for year in 201?; do
 	gen_histogram "$year"
 	./buildlgraph "$year"
 	gen_submission_stamps "$year"
-	gen_txt_files "$year"
+	gen_tsv_files "$year"
 	gen_subm_graphs "$year"
 	gen_local_score "$year"
 	gen_mod_local_score "$year"
