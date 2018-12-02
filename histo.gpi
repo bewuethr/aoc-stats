@@ -1,12 +1,12 @@
 filename = ARG1
 set terminal svg font 'Inconsolata, 18' background rgb '#002b36'
-stats filename u 2 nooutput
+stats filename using 2 nooutput
 set xrange [0:24]
-set xlabel "Time of day [hours]" tc '#839496'
+set xlabel "Time of day [hours]" textcolor '#839496'
 set yrange [0:STATS_max+10]
-set ylabel "Successful submissions" tc '#839496'
-set border lc rgb '#839496'
-set grid lc rgb '#586e75'
+set ylabel "Successful submissions" textcolor '#839496'
+set border linecolor rgb '#839496'
+set grid linecolor rgb '#586e75'
 set style fill solid
 set boxwidth 0.85
-plot filename u ($1+0.5):2 with boxes notitle lc rgb '#268bd2'
+plot filename using ($1+0.5):2 with boxes notitle linecolor rgb '#268bd2'

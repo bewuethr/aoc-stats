@@ -1,17 +1,17 @@
 filename = ARG1
 set terminal svg size 1200, 960 font 'Inconsolata, 18' background rgb '#002b36'
-stats filename u 1 nooutput
+stats filename using 1 nooutput
 set xrange [STATS_min-3600*24:STATS_min+3600*24*30]
-set xlabel "Date" tc '#839496'
-set ylabel "Points" tc '#839496'
-set border lc rgb '#839496'
-set grid lc rgb '#586e75'
+set xlabel "Date" textcolor '#839496'
+set ylabel "Points" textcolor '#839496'
+set border linecolor rgb '#839496'
+set grid linecolor rgb '#586e75'
 set datafile separator "\t"
-set key left top autotitle columnhead tc '#839496'
-stats filename u 1 nooutput
+set key left top autotitle columnhead textcolor '#839496'
+stats filename using 1 nooutput
 set xdata time
 set timefmt "%s"
 set format x "%F"
 set pointsize 0.55
-set linetype 8 lc rgb '#839496'
-plot for [i=2:STATS_columns] filename u 1:i with linespoints
+set linetype 8 linecolor rgb '#839496'
+plot for [i=2:STATS_columns] filename using 1:i with linespoints
