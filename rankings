@@ -137,7 +137,7 @@ rank_day_star()  {
 		}
 	'
 }
-# https://adventofcode.com/2018/day/1
+
 print_header()  {
 	local title=$1
 	local re1='Ranking (201.) day ([[:digit:]]+), star ([[:digit:]]+)'
@@ -219,7 +219,6 @@ tablify()  {
 		}
 		END {
 			print "</table></div>"
-			print "<p>Raw text file: <a href=\"" link "\">" link "</a></p>"
 			print "<p><a href=\"index.html\">Return to index</a></p>"
 			print "<p class=\"tstamp\">Last updated " date "</p>"
 		}
@@ -336,11 +335,6 @@ gen_html_files()  {
 			print_header "Submission times graph, $year day ${day#0}"
 			cat <<- EOF
 				<img src="$fname" alt="$year submission times day $day">
-				<ul>
-				<li><p>Source data: <a href="${fname%svg}tsv">${fname%svg}tsv</a>,
-				extracted from <a href="submission_times.tsv">submission_times.tsv</a></p></li>
-				<li><p>Script to generate graph: <a href="../submtime.gpi">submtime.gpi</a></p></li>
-				</ul>
 				<p><a href="index.html">Return to index</a></p>
 				<p class="tstamp">Last updated $(date)</p>
 			EOF
@@ -366,10 +360,6 @@ gen_html_files()  {
 		print_header "$year histogram of submission times"
 		cat <<- EOF
 			<img src="histo.svg" alt="$year histogram of submission times">
-			<ul>
-			<li><p>Source data: <a href="histodata.tsv">histodata.tsv</a></p></li>
-			<li><p>Script to generate histogram: <a href="../histo.gpi">histo.gpi</a></p></li>
-			</ul>
 			<p><a href="index.html">Return to index</a></p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
@@ -379,11 +369,6 @@ gen_html_files()  {
 		print_header "$year running total over time"
 		cat <<- EOF
 			<img src="time_vs_points.svg" alt="$year running total over time">
-			<ul>
-			<li><p>Source data: <a href="time_vs_points.tsv">time_vs_points.tsv</a></p></li>
-			<li><p>Script to generate source data: <a href="../buildlgraph">buildlgraph</a></p></li>
-			<li><p>Script to generate graph: <a href="../over_time.gpi">over_time.gpi</a></p></li>
-			</ul>
 			<p><a href="index.html">Return to index</a></p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
@@ -467,12 +452,9 @@ gen_index()  {
 			$remark1
 			$remark2
 			<p><a href="../index.html">Return to index</a></p>
-			<h2>Miscellaneous</h2>
-			<ul>
-			<li><p>Script to generate all the stats: <a href="../rankings">rankings</a></p></li>
-			<li><p>JSON source data: <a href="leaderboard.json">leaderboard.json</a></p></li>
-			<li><p>Suggest more stats in the <a href="https://github.com/bewuethr/aoc-stats/issues">issue tracker</a></p></li>
-			</ul> 
+			<p>
+				Suggest more stats in the <a href="https://github.com/bewuethr/aoc-stats/issues">issue tracker</a>
+			</p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
 	} | tidy "${tidyopts[@]}" > "$year"/index.html
@@ -491,11 +473,9 @@ gen_main_index()  {
 
 		cat <<- EOF
 			</table>
-			<h2>Miscellaneous</h2>
-			<ul>
-			<li><p>Script to generate all the stats: <a href="rankings">rankings</a></p></li>
-			<li><p>Suggest more stats in the <a href="https://github.com/bewuethr/aoc-stats/issues">issue tracker</a></p></li>
-			</ul>
+			<p>
+				Suggest more stats in the <a href="https://github.com/bewuethr/aoc-stats/issues">issue tracker</a>
+			</p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
 	} | tidy "${tidyopts[@]}" > index.html
@@ -548,5 +528,7 @@ for year in 201?; do
 done
 
 [[ -n $gen_main_flag ]] && gen_main_index
+
+rm -rf ./**/*.tsv
 
 [[ -n $push ]] && push_changes
