@@ -463,7 +463,9 @@ gen_main_index()  {
 		print_header "Advent of Code, IX Stats"
 
 		echo '<table>'
-		for year in 201?; do
+		local yearpath year
+		for yearpath in docs/201?; do
+			year=${yearpath#*/}
 			cat <<- EOF
 				<tr><td class="year"><a href="$year/index.html">Rankings for $year</a></td></tr>
 			EOF
