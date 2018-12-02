@@ -5,7 +5,7 @@
 year=$1
 
 # Get number of participiants with at least 1 star
-n=$(jq -r '.members | length' "$year"/leaderboard.json)
+n=$(jq -r '.members | length' "leaderboards/$year.json")
 
 # This produces a four column TSV file: name/ID - day - star - timestamp,
 # sorted by day, then star, then timestamp, i.e., it is the concatenation of
@@ -24,7 +24,7 @@ jq -r '
 	] | sort_by(.[1,2,3]) |
 	.[] |
 	@tsv
-' "$year"/leaderboard.json \
+' "leaderboards/$year.json" \
 | awk -v n="$n" '
 	# Add 5th column  with score indicating how many points a star added to
 	# the total
@@ -49,7 +49,7 @@ jq -r '
 		$6 = total[$1]
 		print
 	}
-' > "$year"/point_totals.tsv
+' > "docs/$year/point_totals.tsv"
 
 # First pass: collect names for hash and column headers; second pass: populate
 # sparse table with total score per person as a function of time.
@@ -82,6 +82,6 @@ awk '
 		}
 		print line
 	}
-' "$year"/point_totals.tsv{,} > "$year"/time_vs_points.tsv
+' "docs/$year"/point_totals.tsv{,} > "docs/$year/time_vs_points.tsv"
 
-gnuplot -c over_time.gpi "$year"/time_vs_points.tsv > "$year"/time_vs_points.svg
+gnuplot -c gnuplot/over_time.gpi "docs/$year/time_vs_points.tsv" > "docs/$year/time_vs_points.svg"

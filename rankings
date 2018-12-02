@@ -1,36 +1,36 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 update_json() {
 	local year url
 	year=$1
 	url="https://adventofcode.com/$year/leaderboard/private/view/$(< boardid).json"
-	curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "$year"/leaderboard.json.tmp
-	if [[ ! -s $year/leaderboard.json.tmp ]]; then
+	curl -s -b session="$(< cookie)" "$url" | jq -S '.' > "leaderboards/$year.json.tmp"
+	if [[ ! -s leaderboards/$year.json.tmp ]]; then
 		echo "Could not get new data from adventofcode.com, session cookie expired?" >&2
-		rm "$year"/leaderboard.json.tmp
+		rm "leaderboards/$year.json.tmp"
 		exit 1
 	fi
 
 	# Compare to current leaderboard and signal in return status if year has to be built
-	if cmp -s "$year"/leaderboard.json "$year"/leaderboard.json.tmp; then
-		rm -f "$year"/leaderboard.json.tmp
+	if cmp -s "leaderboards/$year.json" "leaderboards/$year.json.tmp"; then
+		rm -f "leaderboards/$year.json.tmp"
 		return 1
 	else
-		mv "$year"/leaderboard.json.tmp "$year"/leaderboard.json
+		mv "leaderboards/$year.json.tmp" "leaderboards/$year.json"
 		return 0
 	fi
 }
 
 gen_histogram()  {
 	local year=$1
-	jq -r '.members[].completion_day_level[][].get_star_ts' "$year"/leaderboard.json \
+	jq -r '.members[].completion_day_level[][].get_star_ts' "leaderboards/$year.json" \
 		| sed 's/^/@/' \
 		| date -f - '+%H' \
 		| sort \
 		| uniq -c \
-		| awk '{ print $2 "\t" $1 }' > "$year"/histodata.tsv
+		| awk '{ print $2 "\t" $1 }' > "docs/$year/histodata.tsv"
 
-	gnuplot -c histo.gpi "$year/histodata.tsv" > "$year"/histo.svg
+	gnuplot -c gnuplot/histo.gpi "docs/$year/histodata.tsv" > "docs/$year/histo.svg"
 }
 
 gen_submission_stamps()  {
@@ -46,7 +46,7 @@ gen_submission_stamps()  {
 			($p | map(strings) + [$v]) |
 			[(.[0,1] | tonumber), .[3]]
 		] | sort | .[] | @tsv
-	' "$year"/leaderboard.json > "$year"/submission_times.tsv
+	' "leaderboards/$year.json" > "docs/$year/submission_times.tsv"
 }
 
 gen_submission_stamps_day()  {
@@ -70,9 +70,7 @@ gen_submission_stamps_day()  {
 			for (i = 1; i <= length(first); ++i)
 			print first[i] "\t" second[i]
 		}
-	' <(paste \
-		<(cut -f 1,2 "$year"/submission_times.tsv) \
-		<(cut -f 3 "$year"/submission_times.tsv))
+	' "docs/$year/submission_times.tsv"
 }
 
 rank_day_star()  {
@@ -83,7 +81,7 @@ rank_day_star()  {
 	local name
 	local tstamp1 tstamp2
 	local n
-	n=$(jq '.members | length' "$year"/leaderboard.json)
+	n=$(jq '.members | length' "leaderboards/$year.json")
 
 	printf -v basedate '%d-12-%02dT00:00:00-0500' "$year" "$day"
 	basedate_unix=$(date '+%s' -d "$basedate")
@@ -105,7 +103,7 @@ rank_day_star()  {
 		select(.tstamp != null) |
 		[.name // ("User #" + .id), .tstamp, .tstamp1 // ""] |
 		@tsv
-	' "$year"/leaderboard.json \
+	' "leaderboards/$year.json" \
 		| while IFS=$'\t' read -r name tstamp1 tstamp2; do
 			printf '%s\t%s\t%s\n' \
 				"$name" \
@@ -194,7 +192,7 @@ tablify()  {
 	local fname=$1
 	shift
 	local col_headings=("$@")
-	local link=${fname#*/}
+	local link=${fname##*/}
 
 	awk -v link="$link" -v date="$(date)" '
 		BEGIN {
@@ -232,12 +230,12 @@ gen_tsv_files()  {
 
 	for day in {01..25}; do
 		for star in 1 2; do
-			rank_day_star "$year" "${day#0}" "$star" > "$year/day${day}star$star.tsv"
+			rank_day_star "$year" "${day#0}" "$star" > "docs/$year/day${day}star$star.tsv"
 		done
-		gen_submission_stamps_day "$year" "${day#0}" > "$year/day${day}subm.tsv"
+		gen_submission_stamps_day "$year" "${day#0}" > "docs/$year/day${day}subm.tsv"
 
 		# Throw away empty file
-		[[ -s $year/day${day}subm.tsv ]] || rm -f "$year/day${day}subm.tsv"
+		[[ -s docs/$year/day${day}subm.tsv ]] || rm -f "docs/$year/day${day}subm.tsv"
 	done
 }
 
@@ -246,15 +244,15 @@ gen_subm_graphs()  {
 	local day
 
 	for day in {01..25}; do
-		[[ -e $year/day${day}subm.tsv ]] || continue
-		gnuplot -c submtime.gpi "$year/day${day}subm.tsv" > "$year/day${day}subm.svg"
+		[[ -e docs/$year/day${day}subm.tsv ]] || continue
+		gnuplot -c gnuplot/submtime.gpi "docs/$year/day${day}subm.tsv" > "docs/$year/day${day}subm.svg"
 	done
 }
 
 gen_local_score()  {
 	local year=$1
 	local n
-	n=$(jq '.members | length' "$year"/leaderboard.json)
+	n=$(jq '.members | length' "leaderboards/$year.json")
 	awk -v n="$n" '
 		BEGIN {
 			FS = "\t"
@@ -268,7 +266,7 @@ gen_local_score()  {
 			for (i in score)
 				printf "%d\t%s\t%d\n", ++ranking, i, score[i]
 		}
-	' "$year"/day??star?.tsv > "$year"/local_score.tsv
+	' "docs/$year"/day??star?.tsv > "docs/$year/local_score.tsv"
 }
 
 gen_mod_local_score()  {
@@ -288,7 +286,7 @@ gen_mod_local_score()  {
 			for (i in score)
 				printf "%d\t%s\t%d\n", ++ranking, i, score[i]
 		}
-	' "$year"/day??star?.tsv > "$year"/mod_local_score.tsv
+	' "docs/$year"/day??star?.tsv > "docs/$year/mod_local_score.tsv"
 }
 
 gen_html_files()  {
@@ -312,7 +310,7 @@ gen_html_files()  {
 	local day
 	local star
 
-	for fname in "$year"/day*star*.tsv; do
+	for fname in "docs/$year"/day*star*.tsv; do
 		[[ $fname =~ $re ]]
 		day=${BASH_REMATCH[1]}
 		star=${BASH_REMATCH[2]}
@@ -329,7 +327,7 @@ gen_html_files()  {
 
 	for day in {01..25}; do
 		fname=day${day}subm.svg
-		[[ -s $year/$fname ]] || continue
+		[[ -s docs/$year/$fname ]] || continue
 
 		{
 			print_header "Submission times graph, $year day ${day#0}"
@@ -338,14 +336,14 @@ gen_html_files()  {
 				<p><a href="index.html">Return to index</a></p>
 				<p class="tstamp">Last updated $(date)</p>
 			EOF
-		} | tidy "${tidyopts[@]}" > "$year/${fname%svg}html"
+		} | tidy "${tidyopts[@]}" > "docs/$year/${fname%svg}html"
 	done
 
 	{
 		print_header "$year local score"
 		echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
-		tablify "$year"/local_score.tsv 'Points'
-	} | tidy "${tidyopts[@]}" > "$year"/local_score.html
+		tablify "docs/$year/local_score.tsv" 'Points'
+	} | tidy "${tidyopts[@]}" > "docs/$year/local_score.html"
 
 	{
 		print_header "$year modified local score"
@@ -353,8 +351,8 @@ gen_html_files()  {
 			"For each start, winner gets one point per submission " \
 			"to that star" \
 			", runner-up one less etc."
-		tablify "$year"/mod_local_score.tsv 'Points'
-	} | tidy "${tidyopts[@]}" > "$year"/mod_local_score.html
+		tablify "docs/$year/mod_local_score.tsv" 'Points'
+	} | tidy "${tidyopts[@]}" > "docs/$year/mod_local_score.html"
 
 	{
 		print_header "$year histogram of submission times"
@@ -363,7 +361,7 @@ gen_html_files()  {
 			<p><a href="index.html">Return to index</a></p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
-	} | tidy "${tidyopts[@]}" > "$year"/histo.html
+	} | tidy "${tidyopts[@]}" > "docs/$year/histo.html"
 
 	{
 		print_header "$year running total over time"
@@ -372,7 +370,7 @@ gen_html_files()  {
 			<p><a href="index.html">Return to index</a></p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
-	} | tidy "${tidyopts[@]}" > "$year"/over_time.html
+	} | tidy "${tidyopts[@]}" > "docs/$year/over_time.html"
 }
 
 gen_index()  {
@@ -380,13 +378,13 @@ gen_index()  {
 	local histo_link over_time_link
 	{
 		print_header "Advent of Code $year, IX Stats"
-		if [[ -s $year/histo.svg ]]; then
+		if [[ -s docs/$year/histo.svg ]]; then
 			histo_link='<li><p><a href="histo.html">Histogram of submission times</a></p></li>'
 		else
 			histo_link=''
 		fi
 
-		if [[ -s $year/time_vs_points.svg ]]; then
+		if [[ -s docs/$year/time_vs_points.svg ]]; then
 			over_time_link='<li><p><a href="over_time.html">Graph of running totals</a></p></li>'
 		else
 			over_time_link=''
@@ -408,7 +406,7 @@ gen_index()  {
 		local re='day([[:digit:]]+)star([12])'
 		local remark1 remark2
 		local fname
-		for fname in "$year"/day*star*.html; do
+		for fname in "docs/$year"/day*star*.html; do
 			[[ $fname =~ $re ]]
 			local day=${BASH_REMATCH[1]}
 			local star=${BASH_REMATCH[2]}
@@ -418,7 +416,7 @@ gen_index()  {
 				isempty='<sup>*</sup>'
 				remark1='<p><sup>*</sup>Day with no results yet</p>'
 				daylink="Day ${day#0}"
-			elif [[ ! -f $year/day${day}subm.svg ]]; then
+			elif [[ ! -f docs/$year/day${day}subm.svg ]]; then
 				isempty='<sup>+</sup>'
 				remark2='<p><sup>+</sup>Day without submissions in the first 24 hours</p>'
 				daylink="Day ${day#0}"
@@ -435,11 +433,11 @@ gen_index()  {
 				cat <<- EOF
 					<tr>
 					<td class="day">$isempty$daylink</td>
-					<td><a href="${fname#*/}">Star 1</a></td>
+					<td><a href="${fname##*/}">Star 1</a></td>
 				EOF
 			elif ((star == 2)); then
 				cat <<- EOF
-					<td><a href="${fname#*/}">Star 2</a></td>
+					<td><a href="${fname##*/}">Star 2</a></td>
 					</tr>
 				EOF
 			fi
@@ -457,7 +455,7 @@ gen_index()  {
 			</p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
-	} | tidy "${tidyopts[@]}" > "$year"/index.html
+	} | tidy "${tidyopts[@]}" > "docs/$year/index.html"
 }
 
 gen_main_index()  {
@@ -478,14 +476,14 @@ gen_main_index()  {
 			</p>
 			<p class="tstamp">Last updated $(date)</p>
 		EOF
-	} | tidy "${tidyopts[@]}" > index.html
+	} | tidy "${tidyopts[@]}" > docs/index.html
 }
 
 push_changes()  {
 	local status
 	status=$(git status --porcelain index.html 201?)
 	if [[ -n $status ]]; then
-		git add index.html 201?
+		git add docs
 		git commit -m "Update rankings"
 		git push --quiet
 	else
@@ -493,8 +491,11 @@ push_changes()  {
 	fi
 }
 
-while getopts ":fpv" opt; do
+shopt -s globstar
+
+while getopts ":dfpv" opt; do
 	case $opt in
+		d) debug='yes' ;;
 		f) fetch='yes' ;;
 		p) push='yes' ;;
 		v) verbose='yes' ;;
@@ -507,7 +508,8 @@ tidyopts=(-iq --tidy-mark no --wrap 120)
 [[ $verbose ]] && date
 [[ -n $fetch ]] && git pull --quiet
 
-for year in 201?; do
+for yearpath in docs/201?; do
+	year=${yearpath##*/}
 	if [[ -n $fetch ]]; then
 		if ! update_json "$year"; then
 			[[ $verbose ]] && echo "$year has not changed, skipping" >&2
@@ -529,6 +531,6 @@ done
 
 [[ -n $gen_main_flag ]] && gen_main_index
 
-rm -rf ./**/*.tsv
+[[ $debug == 'yes' ]] || rm -rf ./**/*.tsv
 
 [[ -n $push ]] && push_changes
