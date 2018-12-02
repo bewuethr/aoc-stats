@@ -140,18 +140,24 @@ rank_day_star()  {
 
 print_header()  {
 	local title=$1
-	local re1='Ranking 201. day ([[:digit:]]+), star ([[:digit:]]+)'
+	local re1='Ranking (201.) day ([[:digit:]]+), star ([[:digit:]]+)'
 	local re2='Submission times graph, 201. day ([[:digit:]]+)'
 	if [[ $title =~ $re1 ]]; then
-		local day=${BASH_REMATCH[1]}
-		local star=$((BASH_REMATCH[2] == 1 ? 2 : 1))
+		local year=${BASH_REMATCH[1]}
+		local day
+		printf -v day '%02d' "${BASH_REMATCH[2]}"
+		local star=$((BASH_REMATCH[3] == 1 ? 2 : 1))
 		local starlink
-		printf -v starlink '<a href="day%02dstar%d.html">Ranking for star %d</a>' \
+		printf -v starlink '<a href="day%sstar%d.html">Ranking for star %d</a>' \
 			"$day" "$star" "$star"
 		local graphlink
-		printf -v graphlink '<a href="day%02dsubm.html">Submission graph for day %d</a>' \
-			"$day" "$day"
-		local linkbar="<p>$starlink $graphlink</p>"
+		if [[ -s $year/day${day}subm.html ]]; then
+			printf -v graphlink ' <a href="day%ssubm.html">Submission graph for day %s</a>' \
+				"$day" "${day#0}"
+		else
+			graphlink=''
+		fi
+		local linkbar="<p>$starlink$graphlink</p>"
 	elif [[ $title =~ $re2 ]]; then
 		local day=${BASH_REMATCH[1]}
 		local starlink1
@@ -488,7 +494,6 @@ gen_main_index()  {
 }
 
 push_changes()  {
-	git pull --quiet
 	local status
 	status=$(git status --porcelain index.html 201?)
 	if [[ -n $status ]]; then
@@ -500,9 +505,9 @@ push_changes()  {
 	fi
 }
 
-while getopts ":upv" opt; do
+while getopts ":fpv" opt; do
 	case $opt in
-		u) fetch='yes' ;;
+		f) fetch='yes' ;;
 		p) push='yes' ;;
 		v) verbose='yes' ;;
 		\?) echo "Invalid option: -$OPTARG" >&2 && exit 1 ;;
@@ -512,6 +517,7 @@ done
 tidyopts=(-iq --tidy-mark no --wrap 120)
 
 [[ $verbose ]] && date
+[[ -n $fetch ]] && git pull --quiet
 
 for year in 201?; do
 	if [[ -n $fetch ]]; then
