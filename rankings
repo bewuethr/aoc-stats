@@ -137,11 +137,11 @@ rank_day_star()  {
 		}
 	'
 }
-
+# https://adventofcode.com/2018/day/1
 print_header()  {
 	local title=$1
 	local re1='Ranking (201.) day ([[:digit:]]+), star ([[:digit:]]+)'
-	local re2='Submission times graph, 201. day ([[:digit:]]+)'
+	local re2='Submission times graph, (201.) day ([[:digit:]]+)'
 	if [[ $title =~ $re1 ]]; then
 		local year=${BASH_REMATCH[1]}
 		local day
@@ -157,14 +157,22 @@ print_header()  {
 		else
 			graphlink=''
 		fi
-		local linkbar="<p>$starlink$graphlink</p>"
+		local linkbar="<p>$starlink$graphlink"
 	elif [[ $title =~ $re2 ]]; then
-		local day=${BASH_REMATCH[1]}
+		local year=${BASH_REMATCH[1]}
+		local day=${BASH_REMATCH[2]}
 		local starlink1
 		printf -v starlink1 '<a href="day%02dstar1.html">Ranking for star 1</a>' "$day"
 		local starlink2
 		printf -v starlink2 '<a href="day%02dstar2.html">Ranking for star 2</a>' "$day"
-		local linkbar="<p>$starlink1 $starlink2</p>"
+		local linkbar="<p>$starlink1 $starlink2"
+	fi
+
+	if [[ -n $linkbar ]]; then
+		local problemlink
+		printf -v problemlink '<a href="https://adventofcode.com/%d/day/%d">' "$year" "${day#0}"
+		problemlink+='Problem definition</a>'
+		linkbar+=" $problemlink</p>"
 	fi
 
 	cat <<- EOF
