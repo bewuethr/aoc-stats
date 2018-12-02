@@ -499,7 +499,7 @@ push_changes()  {
 	if [[ -n $status ]]; then
 		git add index.html 201?
 		git commit -m "Update rankings"
-		git push
+		git push --quiet
 	else
 		echo "No changes, not pushing anything" >&2
 	fi
