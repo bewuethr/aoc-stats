@@ -2,10 +2,11 @@
 
 # Create graph of running totals over time
 
-year=$1
+board=$1
+year=$2
 
 # Get number of participiants with at least 1 star
-n=$(jq -r '.members | length' "leaderboards/$year.json")
+n=$(jq -r '.members | length' "leaderboards/$board/$year.json")
 
 # This produces a four column TSV file: name/ID - day - star - timestamp,
 # sorted by day, then star, then timestamp, i.e., it is the concatenation of
@@ -24,32 +25,32 @@ jq -r '
 	] | sort_by(.[1,2,3]) |
 	.[] |
 	@tsv
-' "leaderboards/$year.json" \
-| awk -v n="$n" '
-	# Add 5th column  with score indicating how many points a star added to
-	# the total
-	BEGIN { FS = OFS = "\t" }
-	{
-		if ($2 != prev_day || $3 != prev_star) {
-			score = n
-			prev_day = $2
-			prev_star = $3
+' "leaderboards/$board/$year.json" \
+	| awk -v n="$n" '
+		# Add 5th column  with score indicating how many points a star added to
+		# the total
+		BEGIN { FS = OFS = "\t" }
+		{
+			if ($2 != prev_day || $3 != prev_star) {
+				score = n
+				prev_day = $2
+				prev_star = $3
+			}
+			$5 = score--
+			print
 		}
-		$5 = score--
-		print
-	}
-' \
-| sort -t $'\t' -n -k 4,4 \
-| awk '
-	# Sort previous list by time, then add 6th column with running total per
-	# participant
-	BEGIN { FS = OFS = "\t" }
-	{
-		total[$1] += $5
-		$6 = total[$1]
-		print
-	}
-' > "docs/$year/point_totals.tsv"
+	' \
+	| sort -t $'\t' -n -k 4,4 \
+	| awk '
+		# Sort previous list by time, then add 6th column with running total
+		# per participant
+		BEGIN { FS = OFS = "\t" }
+		{
+			total[$1] += $5
+			$6 = total[$1]
+			print
+		}
+	' > "docs/$board/$year/point_totals.tsv"
 
 # First pass: collect names for hash and column headers; second pass: populate
 # sparse table with total score per person as a function of time.
@@ -82,6 +83,7 @@ awk '
 		}
 		print line
 	}
-' "docs/$year"/point_totals.tsv{,} > "docs/$year/time_vs_points.tsv"
+' "docs/$board/$year"/point_totals.tsv{,} > "docs/$board/$year/time_vs_points.tsv"
 
-gnuplot -c gnuplot/over_time.gpi "docs/$year/time_vs_points.tsv" > "docs/$year/time_vs_points.svg"
+gnuplot -c gnuplot/over_time.gpi "docs/$board/$year/time_vs_points.tsv" \
+	> "docs/$board/$year/time_vs_points.svg"
