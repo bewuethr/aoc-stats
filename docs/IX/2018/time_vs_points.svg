@@ -352,10 +352,11 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(131, 148, 150)'  d='M1073.0,243.1 L1136.9,243.1 M164.8,770.8 L165.5,668.0 L189.2,559.2 L189.5,450.3  '/>	<use xlink:href='#gpPt7' transform='translate(164.8,770.8) scale(3.71)' color='rgb(131, 148, 150)'/>
+	<path stroke='rgb(131, 148, 150)'  d='M1073.0,243.1 L1136.9,243.1 M164.8,770.8 L165.5,668.0 L189.2,559.2 L189.5,450.3 L223.5,347.6  '/>	<use xlink:href='#gpPt7' transform='translate(164.8,770.8) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(165.5,668.0) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(189.2,559.2) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(189.5,450.3) scale(3.71)' color='rgb(131, 148, 150)'/>
+	<use xlink:href='#gpPt7' transform='translate(223.5,347.6) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(1104.9,243.1) scale(3.71)' color='rgb(131, 148, 150)'/>
 </g>
 	</g>
