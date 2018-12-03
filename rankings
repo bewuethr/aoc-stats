@@ -508,7 +508,7 @@ push_changes()  {
 	local status
 	status=$(git status --porcelain docs)
 	if [[ -n $status ]]; then
-		git add docs
+		git add docs leaderboards
 		git commit -m "Update rankings"
 		git push --quiet
 
