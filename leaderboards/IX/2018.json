@@ -93,7 +93,7 @@
       "global_score": 9,
       "id": "118609",
       "last_star_ts": "1543813791",
-      "local_score": 134,
+      "local_score": 138,
       "name": "Michael Tardibuono",
       "stars": 6
     },
@@ -172,7 +172,7 @@
       "global_score": 0,
       "id": "137785",
       "last_star_ts": "1543815050",
-      "local_score": 116,
+      "local_score": 117,
       "name": "vincentr21",
       "stars": 6
     },
@@ -320,7 +320,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1543814354",
-      "local_score": 131,
+      "local_score": 132,
       "name": "Andrew Walker",
       "stars": 6
     },
@@ -354,15 +354,18 @@
         "3": {
           "1": {
             "get_star_ts": "1543815520"
+          },
+          "2": {
+            "get_star_ts": "1543818408"
           }
         }
       },
       "global_score": 0,
       "id": "294290",
-      "last_star_ts": "1543815520",
-      "local_score": 87,
+      "last_star_ts": "1543818408",
+      "local_score": 106,
       "name": "ellen-h",
-      "stars": 5
+      "stars": 6
     },
     "30841": {
       "completion_day_level": {
@@ -394,8 +397,42 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1543816484",
-      "local_score": 125,
+      "local_score": 126,
       "name": "bewuethr",
+      "stars": 6
+    },
+    "374494": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640538"
+          },
+          "2": {
+            "get_star_ts": "1543640794"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1543727282"
+          },
+          "2": {
+            "get_star_ts": "1543727644"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1543813514"
+          },
+          "2": {
+            "get_star_ts": "1543813916"
+          }
+        }
+      },
+      "global_score": 50,
+      "id": "374494",
+      "last_star_ts": "1543813916",
+      "local_score": 137,
+      "name": null,
       "stars": 6
     }
   },
