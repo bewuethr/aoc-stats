@@ -167,14 +167,19 @@
           "2": {
             "get_star_ts": "1543815050"
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1543901404"
+          }
         }
       },
       "global_score": 0,
       "id": "137785",
-      "last_star_ts": "1543815050",
-      "local_score": 117,
+      "last_star_ts": "1543901404",
+      "local_score": 139,
       "name": "vincentr21",
-      "stars": 6
+      "stars": 7
     },
     "155047": {
       "completion_day_level": {},
@@ -331,14 +336,22 @@
           "2": {
             "get_star_ts": "1543814354"
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1543900883"
+          },
+          "2": {
+            "get_star_ts": "1543901131"
+          }
         }
       },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": "1543814354",
-      "local_score": 132,
+      "last_star_ts": "1543901131",
+      "local_score": 180,
       "name": "Andrew Walker",
-      "stars": 6
+      "stars": 8
     },
     "197423": {
       "completion_day_level": {},
@@ -442,14 +455,19 @@
           "2": {
             "get_star_ts": "1543813916"
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1543901130"
+          }
         }
       },
       "global_score": 50,
       "id": "374494",
-      "last_star_ts": "1543813916",
-      "local_score": 137,
+      "last_star_ts": "1543901130",
+      "local_score": 160,
       "name": null,
-      "stars": 6
+      "stars": 7
     }
   },
   "owner_id": "30841"
