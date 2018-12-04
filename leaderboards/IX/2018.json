@@ -428,15 +428,18 @@
         "4": {
           "1": {
             "get_star_ts": "1543901690"
+          },
+          "2": {
+            "get_star_ts": "1543902109"
           }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "1543901690",
-      "local_score": 147,
+      "last_star_ts": "1543902109",
+      "local_score": 169,
       "name": "bewuethr",
-      "stars": 7
+      "stars": 8
     },
     "374494": {
       "completion_day_level": {
@@ -467,15 +470,18 @@
         "4": {
           "1": {
             "get_star_ts": "1543901130"
+          },
+          "2": {
+            "get_star_ts": "1543902168"
           }
         }
       },
       "global_score": 50,
       "id": "374494",
-      "last_star_ts": "1543901130",
-      "local_score": 160,
+      "last_star_ts": "1543902168",
+      "local_score": 181,
       "name": null,
-      "stars": 7
+      "stars": 8
     }
   },
   "owner_id": "30841"
