@@ -375,15 +375,18 @@
         "5": {
           "1": {
             "get_star_ts": "1543986572"
+          },
+          "2": {
+            "get_star_ts": "1543987680"
           }
         }
       },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": "1543986572",
-      "local_score": 204,
+      "last_star_ts": "1543987680",
+      "local_score": 227,
       "name": "Andrew Walker",
-      "stars": 9
+      "stars": 10
     },
     "197423": {
       "completion_day_level": {},
@@ -507,15 +510,18 @@
         "5": {
           "1": {
             "get_star_ts": "1543986879"
+          },
+          "2": {
+            "get_star_ts": "1543987273"
           }
         }
       },
       "global_score": 50,
       "id": "374494",
-      "last_star_ts": "1543986879",
-      "local_score": 204,
+      "last_star_ts": "1543987273",
+      "local_score": 228,
       "name": null,
-      "stars": 9
+      "stars": 10
     }
   },
   "owner_id": "30841"
