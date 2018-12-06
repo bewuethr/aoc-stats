@@ -114,7 +114,7 @@
       "global_score": 9,
       "id": "118609",
       "last_star_ts": "1544073775",
-      "local_score": 246,
+      "local_score": 253,
       "name": "Michael Tardibuono",
       "stars": 11
     },
@@ -209,7 +209,7 @@
       "global_score": 0,
       "id": "137785",
       "last_star_ts": "1543994513",
-      "local_score": 202,
+      "local_score": 207,
       "name": "vincentr21",
       "stars": 10
     },
@@ -421,7 +421,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1544074699",
-      "local_score": 274,
+      "local_score": 284,
       "name": "Andrew Walker",
       "stars": 12
     },
@@ -522,7 +522,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1544079120",
-      "local_score": 254,
+      "local_score": 262,
       "name": "bewuethr",
       "stars": 12
     },
@@ -580,8 +580,66 @@
       "global_score": 50,
       "id": "374494",
       "last_star_ts": "1544077058",
-      "local_score": 273,
+      "local_score": 285,
       "name": null,
+      "stars": 12
+    },
+    "388499": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543640578"
+          },
+          "2": {
+            "get_star_ts": "1543640894"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1543727418"
+          },
+          "2": {
+            "get_star_ts": "1543727735"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1543814803"
+          },
+          "2": {
+            "get_star_ts": "1543815313"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1543902763"
+          },
+          "2": {
+            "get_star_ts": "1543903127"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1543987592"
+          },
+          "2": {
+            "get_star_ts": "1543989391"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1544078784"
+          },
+          "2": {
+            "get_star_ts": "1544080063"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "388499",
+      "last_star_ts": "1544080063",
+      "local_score": 258,
+      "name": "Marc-François Cochaux-Laberge",
       "stars": 12
     }
   },
