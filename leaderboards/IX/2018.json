@@ -41,7 +41,7 @@
       "global_score": 0,
       "id": "118311",
       "last_star_ts": "1543732690",
-      "local_score": 70,
+      "local_score": 72,
       "name": "Noah Kipin",
       "stars": 4
     },
@@ -117,7 +117,7 @@
       "global_score": 9,
       "id": "118609",
       "last_star_ts": "1544100767",
-      "local_score": 274,
+      "local_score": 283,
       "name": "Michael Tardibuono",
       "stars": 12
     },
@@ -212,7 +212,7 @@
       "global_score": 0,
       "id": "137785",
       "last_star_ts": "1543994513",
-      "local_score": 207,
+      "local_score": 215,
       "name": "vincentr21",
       "stars": 10
     },
@@ -264,7 +264,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "1543845875",
-      "local_score": 104,
+      "local_score": 108,
       "name": "Adam Harvie",
       "stars": 6
     },
@@ -298,7 +298,7 @@
       "global_score": 0,
       "id": "186094",
       "last_star_ts": "1543985207",
-      "local_score": 102,
+      "local_score": 104,
       "name": "Ricky Kwan",
       "stars": 6
     },
@@ -366,7 +366,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": "1544065685",
-      "local_score": 184,
+      "local_score": 192,
       "name": "danielshanker",
       "stars": 10
     },
@@ -424,7 +424,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1544074699",
-      "local_score": 284,
+      "local_score": 295,
       "name": "Andrew Walker",
       "stars": 12
     },
@@ -467,7 +467,7 @@
       "global_score": 0,
       "id": "294290",
       "last_star_ts": "1543818408",
-      "local_score": 106,
+      "local_score": 111,
       "name": "ellen-h",
       "stars": 6
     },
@@ -525,7 +525,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1544079120",
-      "local_score": 262,
+      "local_score": 270,
       "name": "bewuethr",
       "stars": 12
     },
@@ -583,8 +583,66 @@
       "global_score": 50,
       "id": "374494",
       "last_star_ts": "1544077058",
-      "local_score": 285,
+      "local_score": 297,
       "name": null,
+      "stars": 12
+    },
+    "387136": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543649889"
+          },
+          "2": {
+            "get_star_ts": "1543650982"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1543958051"
+          },
+          "2": {
+            "get_star_ts": "1543959511"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1543961513"
+          },
+          "2": {
+            "get_star_ts": "1543962226"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1543971477"
+          },
+          "2": {
+            "get_star_ts": "1543971730"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1543986940"
+          },
+          "2": {
+            "get_star_ts": "1543987567"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1544077479"
+          },
+          "2": {
+            "get_star_ts": "1544078064"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "387136",
+      "last_star_ts": "1544078064",
+      "local_score": 235,
+      "name": "Thomas Fix",
       "stars": 12
     },
     "388499": {
@@ -641,7 +699,7 @@
       "global_score": 0,
       "id": "388499",
       "last_star_ts": "1544080063",
-      "local_score": 258,
+      "local_score": 266,
       "name": "Marc-François Cochaux-Laberge",
       "stars": 12
     }
