@@ -138,8 +138,8 @@ rank_day_star()  {
 						int(time1[i]/3600), int((time1[i]%3600)/60), int((time1[i]%60))
 				}
 
-				# Points for local and modified local ranking
-				printf "\t%d\t%d\n", n - i + 1, NR - i + 1
+				# Points for local ranking
+				printf "\t%d\n", n - i + 1
 			}
 		}
 	'
@@ -279,27 +279,6 @@ gen_local_score()  {
 	' "leaderboards/$board/$year.json" > "docs/$board/$year/local_score.tsv"
 }
 
-gen_mod_local_score()  {
-	local board=$1
-	local year=$2
-	awk '
-		BEGIN {
-			FS = "\t"
-			PROCINFO["sorted_in"] = "@val_num_desc"
-		}
-		{ rank[$2] = $1 }
-		ENDFILE {
-			for (i in rank)
-				score[i] += FNR - rank[i] + 1
-			delete rank
-		}
-		END {
-			for (i in score)
-				printf "%d\t%s\t%d\n", ++ranking, i, score[i]
-		}
-	' "docs/$board/$year"/day??star?.tsv > "docs/$board/$year/mod_local_score.tsv"
-}
-
 gen_html_files()  {
 	local board=$1
 	local year=$2
@@ -307,14 +286,12 @@ gen_html_files()  {
 	local star_tab_headers=(
 		'Time to solve [h:m:s]'
 		'Local score'
-		'Mod. local score'
 	)
 
 	local star2_tab_headers=(
 		'Time to solve [h:m:s]'
 		'Time since star 1 [h:m:s]'
 		'Local score'
-		'Mod. local score'
 	)
 
 	local re='day([0-9]+)star([0-9])\.tsv$'
@@ -354,15 +331,6 @@ gen_html_files()  {
 		echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
 		tablify "docs/$board/$year/local_score.tsv" 'Points'
 	} | tidy "${tidyopts[@]}" > "docs/$board/$year/local_score.html"
-
-	{
-		print_header "$board $year modified local score"
-		printf '<p>%s<em>%s</em>%s</p>\n' \
-			"For each start, winner gets one point per submission " \
-			"to that star" \
-			", runner-up one less etc."
-		tablify "docs/$board/$year/mod_local_score.tsv" 'Points'
-	} | tidy "${tidyopts[@]}" > "docs/$board/$year/mod_local_score.html"
 
 	{
 		print_header "$board $year histogram of submission times"
@@ -405,7 +373,6 @@ gen_index()  {
 			<h2>Overall rankings and statistics</h2>
 			<ul>
 			<li><p><a href="local_score.html">Local score</a></p></li>
-			<li><p><a href="mod_local_score.html">Modified local score</a></p></li>
 			$histo_link
 			$over_time_link
 			</ul>
@@ -544,7 +511,6 @@ while read -r board boardid yearstr; do
 		gen_tsv_files "$board" "$year"
 		gen_subm_graphs "$board" "$year"
 		gen_local_score "$board" "$year"
-		gen_mod_local_score "$board" "$year"
 		gen_html_files "$board" "$year"
 		gen_index "$board" "$year"
 		gen_main_flag='yes'
