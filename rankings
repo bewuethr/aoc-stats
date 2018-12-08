@@ -270,7 +270,7 @@ gen_local_score()  {
 	local year=$2
 	jq -r '
 		[.members[]
-		| [.name // "User #" + .id, .local_score]
+		| [.name // "User #" + .id, .local_score, .global_score]
 		| select(.[1] > 0)]
 		| sort_by(-.[1])
 		| to_entries[]
@@ -329,7 +329,7 @@ gen_html_files()  {
 	{
 		print_header "$board $year local score"
 		echo "<p>For each star, winner gets one point per participant, runner-up one less etc.</p>"
-		tablify "docs/$board/$year/local_score.tsv" 'Points'
+		tablify "docs/$board/$year/local_score.tsv" 'Points' 'Global'
 	} | tidy "${tidyopts[@]}" > "docs/$board/$year/local_score.html"
 
 	{
