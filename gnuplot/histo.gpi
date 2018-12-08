@@ -3,6 +3,7 @@ set terminal svg font 'Inconsolata, 18' background rgb '#002b36'
 stats filename using 2 nooutput
 set xrange [0:24]
 set xlabel "Time of day [hours]" textcolor '#839496'
+set xtics 4
 set yrange [0:STATS_max+10]
 set ylabel "Successful submissions" textcolor '#839496'
 set border linecolor rgb '#839496'
