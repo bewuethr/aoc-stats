@@ -268,22 +268,15 @@ gen_subm_graphs()  {
 gen_local_score()  {
 	local board=$1
 	local year=$2
-	local n
-	n=$(jq '.members | length' "leaderboards/$board/$year.json")
-	awk -v n="$n" '
-		BEGIN {
-			FS = "\t"
-			PROCINFO["sorted_in"] = "@val_num_desc"
-		}
-		{ rank[$2][FILENAME] = $1 }
-		END {
-			for (i in rank)
-				for (j in rank[i])
-					score[i] += n - rank[i][j] + 1
-			for (i in score)
-				printf "%d\t%s\t%d\n", ++ranking, i, score[i]
-		}
-	' "docs/$board/$year"/day??star?.tsv > "docs/$board/$year/local_score.tsv"
+	jq -r '
+		[.members[]
+		| [.name // "User #" + .id, .local_score]
+		| select(.[1] > 0)]
+		| sort_by(-.[1])
+		| to_entries[]
+		| [.key+1, .value[]]
+		| @tsv
+	' "leaderboards/$board/$year.json" > "docs/$board/$year/local_score.tsv"
 }
 
 gen_mod_local_score()  {
