@@ -558,14 +558,19 @@
           "2": {
             "get_star_ts": "1544277223"
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": "1544336523"
+          }
         }
       },
       "global_score": 0,
       "id": "294290",
-      "last_star_ts": "1544303873",
-      "local_score": 265,
+      "last_star_ts": "1544336523",
+      "local_score": 286,
       "name": "ellen-h",
-      "stars": 14
+      "stars": 15
     },
     "30841": {
       "completion_day_level": {
@@ -715,15 +720,18 @@
         "9": {
           "1": {
             "get_star_ts": "1544332416"
+          },
+          "2": {
+            "get_star_ts": "1544336677"
           }
         }
       },
       "global_score": 93,
       "id": "374494",
-      "last_star_ts": "1544332416",
-      "local_score": 421,
+      "last_star_ts": "1544336677",
+      "local_score": 445,
       "name": null,
-      "stars": 17
+      "stars": 18
     },
     "387136": {
       "completion_day_level": {
@@ -845,14 +853,19 @@
           "1": {
             "get_star_ts": "1544325752"
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": "1544336453"
+          }
         }
       },
       "global_score": 0,
       "id": "388499",
-      "last_star_ts": "1544325752",
-      "local_score": 287,
+      "last_star_ts": "1544336453",
+      "local_score": 309,
       "name": "Marc-François Cochaux-Laberge",
-      "stars": 13
+      "stars": 14
     }
   },
   "owner_id": "30841"
