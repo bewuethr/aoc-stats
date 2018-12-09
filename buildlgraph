@@ -13,18 +13,24 @@ n=$(jq -r '.members | length' "leaderboards/$board/$year.json")
 # the ranking lists for each star.
 # shellcheck disable=SC2016
 jq -r '
-	[
-		.members[] |
-		select(.stars > 0) |
-		(.name // .id) as $n |
-		{($n): .completion_day_level} |
-		paths(scalars) as $p |
-		getpath($p) as $v |
-		($p + [$v]) |
-		[.[0], (.[1,2,4] | tonumber)]
-	] | sort_by(.[1,2,3]) |
-	.[] |
-	@tsv
+	if .event == "2018" then
+		del(.members[].completion_day_level["6"])
+	else
+		.
+	end
+	| [
+		.members[]
+		| select(.stars > 0)
+		| (.name // .id) as $n
+		| {($n): .completion_day_level}
+		| paths(scalars) as $p
+		| getpath($p) as $v
+		| ($p + [$v])
+		| [.[0], (.[1,2,4] | tonumber)]
+	]
+	| sort_by(.[1,2,3])
+	| .[]
+	| @tsv
 ' "leaderboards/$board/$year.json" \
 	| awk -v n="$n" '
 		# Add 5th column  with score indicating how many points a star added to
