@@ -165,7 +165,7 @@
       "global_score": 9,
       "id": "118609",
       "last_star_ts": "1544594295",
-      "local_score": 534,
+      "local_score": 547,
       "name": "Michael Tardibuono",
       "stars": 24
     },
@@ -284,7 +284,7 @@
       "global_score": 0,
       "id": "137785",
       "last_star_ts": "1544644295",
-      "local_score": 345,
+      "local_score": 350,
       "name": "vincentr21",
       "stars": 16
     },
@@ -352,7 +352,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "1544291934",
-      "local_score": 178,
+      "local_score": 180,
       "name": "Adam Harvie",
       "stars": 10
     },
@@ -416,6 +416,14 @@
           },
           "2": {
             "get_star_ts": "1543641956"
+          }
+        },
+        "10": {
+          "1": {
+            "get_star_ts": "1544653996"
+          },
+          "2": {
+            "get_star_ts": "1544654112"
           }
         },
         "11": {
@@ -485,10 +493,10 @@
       },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": "1544586750",
-      "local_score": 313,
+      "last_star_ts": "1544654112",
+      "local_score": 353,
       "name": "danielshanker",
-      "stars": 18
+      "stars": 20
     },
     "196695": {
       "completion_day_level": {
@@ -592,7 +600,7 @@
       "global_score": 73,
       "id": "196695",
       "last_star_ts": "1544599313",
-      "local_score": 533,
+      "local_score": 550,
       "name": "Andrew Walker",
       "stars": 24
     },
@@ -675,7 +683,7 @@
       "global_score": 0,
       "id": "294290",
       "last_star_ts": "1544388043",
-      "local_score": 267,
+      "local_score": 269,
       "name": "ellen-h",
       "stars": 16
     },
@@ -781,7 +789,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1544592787",
-      "local_score": 515,
+      "local_score": 526,
       "name": "bewuethr",
       "stars": 24
     },
@@ -887,7 +895,7 @@
       "global_score": 93,
       "id": "374494",
       "last_star_ts": "1544595535",
-      "local_score": 542,
+      "local_score": 559,
       "name": null,
       "stars": 24
     },
@@ -969,7 +977,7 @@
       "global_score": 0,
       "id": "387136",
       "last_star_ts": "1544424930",
-      "local_score": 319,
+      "local_score": 323,
       "name": "Thomas Fix",
       "stars": 18
     },
@@ -1056,9 +1064,115 @@
       "global_score": 0,
       "id": "388499",
       "last_star_ts": "1544506869",
-      "local_score": 374,
+      "local_score": 376,
       "name": "Marc-François Cochaux-Laberge",
       "stars": 19
+    },
+    "417433": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1543712323"
+          },
+          "2": {
+            "get_star_ts": "1543713044"
+          }
+        },
+        "10": {
+          "1": {
+            "get_star_ts": "1544420316"
+          },
+          "2": {
+            "get_star_ts": "1544420507"
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": "1544505339"
+          },
+          "2": {
+            "get_star_ts": "1544506866"
+          }
+        },
+        "12": {
+          "1": {
+            "get_star_ts": "1544591998"
+          },
+          "2": {
+            "get_star_ts": "1544593124"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1543727286"
+          },
+          "2": {
+            "get_star_ts": "1543727652"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1543814319"
+          },
+          "2": {
+            "get_star_ts": "1543814498"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1543902396"
+          },
+          "2": {
+            "get_star_ts": "1543902818"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1543986569"
+          },
+          "2": {
+            "get_star_ts": "1543988375"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1544074395"
+          },
+          "2": {
+            "get_star_ts": "1544075160"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1544160304"
+          },
+          "2": {
+            "get_star_ts": "1544165709"
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "1544245977"
+          },
+          "2": {
+            "get_star_ts": "1544246948"
+          }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": "1544333747"
+          },
+          "2": {
+            "get_star_ts": "1544335775"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "417433",
+      "last_star_ts": "1544593124",
+      "local_score": 519,
+      "name": "frigley1",
+      "stars": 24
     }
   },
   "owner_id": "30841"
