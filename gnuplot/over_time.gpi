@@ -9,7 +9,7 @@ set grid linecolor rgb '#586e75'
 set datafile separator "\t"
 set key left top autotitle columnhead textcolor '#839496'
 # Move key to top right until half of the month has passed
-if (STATS_max < STATS_min+3600*24*15) {
+if (STATS_max < STATS_min+3600*24*20) {
 	set key right
 }
 stats filename using 1 nooutput
