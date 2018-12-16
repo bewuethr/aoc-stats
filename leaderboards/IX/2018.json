@@ -639,6 +639,9 @@
         "16": {
           "1": {
             "get_star_ts": "1544938806"
+          },
+          "2": {
+            "get_star_ts": "1544940090"
           }
         },
         "2": {
@@ -708,10 +711,10 @@
       },
       "global_score": 73,
       "id": "196695",
-      "last_star_ts": "1544938806",
-      "local_score": 726,
+      "last_star_ts": "1544940090",
+      "local_score": 752,
       "name": "Andrew Walker",
-      "stars": 31
+      "stars": 32
     },
     "197423": {
       "completion_day_level": {},
@@ -865,6 +868,9 @@
         "16": {
           "1": {
             "get_star_ts": "1544938378"
+          },
+          "2": {
+            "get_star_ts": "1544940927"
           }
         },
         "2": {
@@ -934,10 +940,10 @@
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "1544938378",
-      "local_score": 695,
+      "last_star_ts": "1544940927",
+      "local_score": 720,
       "name": "bewuethr",
-      "stars": 31
+      "stars": 32
     },
     "374494": {
       "completion_day_level": {
@@ -1296,6 +1302,11 @@
             "get_star_ts": "1544867836"
           }
         },
+        "16": {
+          "1": {
+            "get_star_ts": "1544940996"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "1543727286"
@@ -1363,10 +1374,10 @@
       },
       "global_score": 0,
       "id": "417433",
-      "last_star_ts": "1544867836",
-      "local_score": 665,
+      "last_star_ts": "1544940996",
+      "local_score": 689,
       "name": "frigley1",
-      "stars": 30
+      "stars": 31
     }
   },
   "owner_id": "30841"
