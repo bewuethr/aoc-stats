@@ -1030,6 +1030,9 @@
         "17": {
           "1": {
             "get_star_ts": "1545028607"
+          },
+          "2": {
+            "get_star_ts": "1545029400"
           }
         },
         "2": {
@@ -1099,10 +1102,10 @@
       },
       "global_score": 93,
       "id": "374494",
-      "last_star_ts": "1545028607",
-      "local_score": 779,
+      "last_star_ts": "1545029400",
+      "local_score": 804,
       "name": null,
-      "stars": 33
+      "stars": 34
     },
     "387136": {
       "completion_day_level": {
@@ -1339,6 +1342,14 @@
             "get_star_ts": "1544942171"
           }
         },
+        "17": {
+          "1": {
+            "get_star_ts": "1545029044"
+          },
+          "2": {
+            "get_star_ts": "1545029266"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "1543727286"
@@ -1406,10 +1417,10 @@
       },
       "global_score": 0,
       "id": "417433",
-      "last_star_ts": "1544942171",
-      "local_score": 713,
+      "last_star_ts": "1545029266",
+      "local_score": 764,
       "name": "frigley1",
-      "stars": 32
+      "stars": 34
     }
   },
   "owner_id": "30841"
