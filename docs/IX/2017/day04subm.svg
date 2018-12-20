@@ -106,13 +106,15 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M40.7,153.6 L40.7,27.1 M102.8,153.6 L102.8,27.1 M127.9,153.6 L127.9,27.1
 		M135.9,153.6 L135.9,27.1 M136.6,153.6 L136.6,27.1 M162.6,153.6 L162.6,27.1 M244.0,153.6 L244.0,27.1
-		M520.8,153.6 L520.8,27.1 M1098.8,153.6 L1098.8,27.1 M1226.9,153.6 L1226.9,27.1  '/></g>
+		M307.7,153.6 L307.7,27.1 M520.8,153.6 L520.8,27.1 M1098.8,153.6 L1098.8,27.1 M1226.9,153.6 L1226.9,27.1
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M190.8,153.6 L190.8,27.1 M200.4,153.6 L200.4,27.1 M227.1,153.6 L227.1,27.1 M263.6,153.6 L263.6,27.1
-		M324.7,153.6 L324.7,27.1 M349.2,153.6 L349.2,27.1 M353.2,153.6 L353.2,27.1 M383.9,153.6 L383.9,27.1
-		M581.2,153.6 L581.2,27.1 M1101.0,153.6 L1101.0,27.1 M1238.6,153.6 L1238.6,27.1  '/></g>
+		M324.7,153.6 L324.7,27.1 M349.2,153.6 L349.2,27.1 M353.2,153.6 L353.2,27.1 M380.3,153.6 L380.3,27.1
+		M383.9,153.6 L383.9,27.1 M581.2,153.6 L581.2,27.1 M1101.0,153.6 L1101.0,27.1 M1238.6,153.6 L1238.6,27.1
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -314,14 +316,14 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M32.5,393.6 L32.5,267.0 M52.8,393.6 L52.8,267.0 M594.3,393.6 L594.3,267.0 M1148.0,393.6 L1148.0,267.0
-		 '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M32.5,393.6 L32.5,267.0 M34.9,393.6 L34.9,267.0 M52.8,393.6 L52.8,267.0 M594.3,393.6 L594.3,267.0
+		M1148.0,393.6 L1148.0,267.0  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M32.0,393.6 L32.0,267.0 M33.1,393.6 L33.1,267.0 M35.7,393.6 L35.7,267.0 M37.0,393.6 L37.0,267.0
-		M37.2,393.6 L37.2,267.0 M39.2,393.6 L39.2,267.0 M62.7,393.6 L62.7,267.0 M600.8,393.6 L600.8,267.0
-		M1219.8,393.6 L1219.8,267.0  '/></g>
+		M37.2,393.6 L37.2,267.0 M38.9,393.6 L38.9,267.0 M39.2,393.6 L39.2,267.0 M62.7,393.6 L62.7,267.0
+		M600.8,393.6 L600.8,267.0 M1219.8,393.6 L1219.8,267.0  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>
