@@ -1364,11 +1364,17 @@
         "24": {
           "1": {
             "get_star_ts": "1545632349"
+          },
+          "2": {
+            "get_star_ts": "1545724015"
           }
         },
         "25": {
           "1": {
             "get_star_ts": "1545715775"
+          },
+          "2": {
+            "get_star_ts": "1545724026"
           }
         },
         "3": {
@@ -1430,10 +1436,10 @@
       },
       "global_score": 93,
       "id": "374494",
-      "last_star_ts": "1545715775",
-      "local_score": 1196,
+      "last_star_ts": "1545724026",
+      "local_score": 1247,
       "name": null,
-      "stars": 48
+      "stars": 50
     },
     "387136": {
       "completion_day_level": {
