@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# board=$1
+# year=$2
+
+board=IX
+year=2018
+
+# Calculate midnight of the first day
+
+
+
+awk '
+	BEGIN { FS = OFS = "\t" }
+	1
+' "docs/$board/$year/point_totals.tsv"
+
+# gnuplot -c gnuplot/over_time.gpi "docs/$board/$year/time_vs_points.tsv" \
+# 	> "docs/$board/$year/time_vs_points.svg"
