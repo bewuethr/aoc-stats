@@ -23,7 +23,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1575263886",
-      "local_score": 28,
+      "local_score": 32,
       "name": "bewuethr",
       "stars": 4
     },
@@ -80,6 +80,24 @@
       "local_score": 0,
       "name": "Kathy Huynh",
       "stars": 0
+    },
+    "709195": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1575305357"
+          },
+          "2": {
+            "get_star_ts": "1575308269"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "709195",
+      "last_star_ts": "1575308269",
+      "local_score": 14,
+      "name": "jermaine-koho",
+      "stars": 2
     }
   },
   "owner_id": "380835"

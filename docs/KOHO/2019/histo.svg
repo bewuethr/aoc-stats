@@ -257,7 +257,13 @@
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '97.8,393.6 114.4,393.6 114.4,288.8 97.8,288.8 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M97.8,393.6 L97.8,288.9 L114.3,288.9 L114.3,393.6 L97.8,393.6 Z  '/></g>
+	<path stroke='rgb( 38, 139, 210)'  d='M97.8,393.6 L97.8,288.9 L114.3,288.9 L114.3,393.6 L97.8,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '311.2,393.6 327.8,393.6 327.8,367.3 311.2,367.3 '/>
+	</g>
+	<path stroke='rgb( 38, 139, 210)'  d='M311.2,393.6 L311.2,367.4 L327.7,367.4 L327.7,393.6 L311.2,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '330.7,393.6 347.3,393.6 347.3,367.3 330.7,367.3 '/>
+	</g>
+	<path stroke='rgb( 38, 139, 210)'  d='M330.7,393.6 L330.7,367.4 L347.2,367.4 L347.2,393.6 L330.7,393.6 Z  '/></g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb( 38, 139, 210)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
