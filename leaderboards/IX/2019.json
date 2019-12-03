@@ -63,14 +63,22 @@
           "2": {
             "get_star_ts": "1575264044"
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1575350602"
+          },
+          "2": {
+            "get_star_ts": "1575350907"
+          }
         }
       },
       "global_score": 6,
       "id": "118609",
-      "last_star_ts": "1575264044",
-      "local_score": 104,
+      "last_star_ts": "1575350907",
+      "local_score": 156,
       "name": "Michael Tardibuono",
-      "stars": 4
+      "stars": 6
     },
     "118852": {
       "completion_day_level": {},
@@ -257,14 +265,22 @@
           "2": {
             "get_star_ts": "1575263465"
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1575350395"
+          },
+          "2": {
+            "get_star_ts": "1575350568"
+          }
         }
       },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": "1575263465",
-      "local_score": 110,
+      "last_star_ts": "1575350568",
+      "local_score": 164,
       "name": "Andrew Walker",
-      "stars": 4
+      "stars": 6
     },
     "197423": {
       "completion_day_level": {},
@@ -327,14 +343,19 @@
           "2": {
             "get_star_ts": "1575263886"
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1575350808"
+          }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "1575263886",
-      "local_score": 98,
+      "last_star_ts": "1575350808",
+      "local_score": 123,
       "name": "bewuethr",
-      "stars": 4
+      "stars": 5
     },
     "374494": {
       "completion_day_level": {},
@@ -384,15 +405,18 @@
         "3": {
           "1": {
             "get_star_ts": "1575350106"
+          },
+          "2": {
+            "get_star_ts": "1575350512"
           }
         }
       },
       "global_score": 0,
       "id": "417433",
-      "last_star_ts": "1575350106",
-      "local_score": 134,
+      "last_star_ts": "1575350512",
+      "local_score": 162,
       "name": "frigley1",
-      "stars": 5
+      "stars": 6
     }
   },
   "owner_id": "30841"
