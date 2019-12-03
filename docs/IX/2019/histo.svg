@@ -250,7 +250,10 @@
 	<path stroke='rgb( 38, 139, 210)'  d='M272.4,393.6 L272.4,347.8 L288.9,347.8 L288.9,393.6 L272.4,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '505.3,393.6 521.9,393.6 521.9,347.7 505.3,347.7 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M505.3,393.6 L505.3,347.8 L521.8,347.8 L521.8,393.6 L505.3,393.6 Z  '/></g>
+	<path stroke='rgb( 38, 139, 210)'  d='M505.3,393.6 L505.3,347.8 L521.8,347.8 L521.8,393.6 L505.3,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '524.7,393.6 541.3,393.6 541.3,370.6 524.7,370.6 '/>
+	</g>
+	<path stroke='rgb( 38, 139, 210)'  d='M524.7,393.6 L524.7,370.7 L541.2,370.7 L541.2,393.6 L524.7,393.6 Z  '/></g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb( 38, 139, 210)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
