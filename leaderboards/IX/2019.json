@@ -84,7 +84,7 @@
       "global_score": 6,
       "id": "118609",
       "last_star_ts": "1575436482",
-      "local_score": 208,
+      "local_score": 216,
       "name": "Michael Tardibuono",
       "stars": 8
     },
@@ -146,7 +146,7 @@
       "global_score": 0,
       "id": "123142",
       "last_star_ts": "1575264149",
-      "local_score": 88,
+      "local_score": 92,
       "name": "pingpongkingkong",
       "stars": 4
     },
@@ -199,7 +199,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "1575345328",
-      "local_score": 86,
+      "local_score": 88,
       "name": "Adam Harvie",
       "stars": 4
     },
@@ -260,7 +260,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": "1575401222",
-      "local_score": 136,
+      "local_score": 140,
       "name": "danielshanker",
       "stars": 6
     },
@@ -302,7 +302,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1575436180",
-      "local_score": 220,
+      "local_score": 228,
       "name": "Andrew Walker",
       "stars": 8
     },
@@ -345,7 +345,7 @@
       "global_score": 0,
       "id": "200293",
       "last_star_ts": "1575352806",
-      "local_score": 150,
+      "local_score": 156,
       "name": "Stefan Tihanyi",
       "stars": 6
     },
@@ -396,7 +396,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1575437612",
-      "local_score": 200,
+      "local_score": 207,
       "name": "bewuethr",
       "stars": 8
     },
@@ -465,8 +465,50 @@
       "global_score": 0,
       "id": "417433",
       "last_star_ts": "1575436293",
-      "local_score": 214,
+      "local_score": 222,
       "name": "frigley1",
+      "stars": 8
+    },
+    "641575": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1575257551"
+          },
+          "2": {
+            "get_star_ts": "1575258216"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1575264167"
+          },
+          "2": {
+            "get_star_ts": "1575264968"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1575401159"
+          },
+          "2": {
+            "get_star_ts": "1575401273"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1575436188"
+          },
+          "2": {
+            "get_star_ts": "1575436923"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "641575",
+      "last_star_ts": "1575436923",
+      "local_score": 185,
+      "name": "marie j.i.",
       "stars": 8
     }
   },
