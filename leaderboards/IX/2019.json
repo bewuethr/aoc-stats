@@ -91,15 +91,18 @@
         "6": {
           "1": {
             "get_star_ts": "1575609028"
+          },
+          "2": {
+            "get_star_ts": "1575609515"
           }
         }
       },
       "global_score": 6,
       "id": "118609",
-      "last_star_ts": "1575609028",
-      "local_score": 297,
+      "last_star_ts": "1575609515",
+      "local_score": 325,
       "name": "Michael Tardibuono",
-      "stars": 11
+      "stars": 12
     },
     "118852": {
       "completion_day_level": {},
@@ -537,14 +540,19 @@
           "2": {
             "get_star_ts": "1575525798"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1575609948"
+          }
         }
       },
       "global_score": 0,
       "id": "417433",
-      "last_star_ts": "1575525798",
-      "local_score": 278,
+      "last_star_ts": "1575609948",
+      "local_score": 305,
       "name": "frigley1",
-      "stars": 10
+      "stars": 11
     },
     "641575": {
       "completion_day_level": {
@@ -587,14 +595,19 @@
           "2": {
             "get_star_ts": "1575603275"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1575610170"
+          }
         }
       },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": "1575603275",
-      "local_score": 235,
+      "last_star_ts": "1575610170",
+      "local_score": 261,
       "name": "marie j.i.",
-      "stars": 10
+      "stars": 11
     }
   },
   "owner_id": "30841"
