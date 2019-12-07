@@ -437,14 +437,22 @@
           "2": {
             "get_star_ts": "1575473230"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1575689232"
+          },
+          "2": {
+            "get_star_ts": "1575690500"
+          }
         }
       },
       "global_score": 0,
       "id": "200293",
-      "last_star_ts": "1575473230",
-      "local_score": 204,
+      "last_star_ts": "1575690500",
+      "local_score": 248,
       "name": "Stefan Tihanyi",
-      "stars": 8
+      "stars": 10
     },
     "294290": {
       "completion_day_level": {},
