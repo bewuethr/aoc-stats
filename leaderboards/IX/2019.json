@@ -552,15 +552,18 @@
         "9": {
           "1": {
             "get_star_ts": "1575870207"
+          },
+          "2": {
+            "get_star_ts": "1575870363"
           }
         }
       },
       "global_score": 0,
       "id": "200293",
-      "last_star_ts": "1575870207",
-      "local_score": 430,
+      "last_star_ts": "1575870363",
+      "local_score": 458,
       "name": "Stefan Tihanyi",
-      "stars": 17
+      "stars": 18
     },
     "294290": {
       "completion_day_level": {},
@@ -605,6 +608,11 @@
             "get_star_ts": "1575437612"
           }
         },
+        "5": {
+          "1": {
+            "get_star_ts": "1575870500"
+          }
+        },
         "6": {
           "1": {
             "get_star_ts": "1575611017"
@@ -624,10 +632,10 @@
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "1575783645",
-      "local_score": 307,
+      "last_star_ts": "1575870500",
+      "local_score": 328,
       "name": "bewuethr",
-      "stars": 12
+      "stars": 13
     },
     "374494": {
       "completion_day_level": {},
