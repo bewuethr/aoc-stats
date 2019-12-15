@@ -279,7 +279,10 @@
 	<path stroke='rgb( 38, 139, 210)'  d='M506.9,393.6 L506.9,366.5 L522.9,366.5 L522.9,393.6 L506.9,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '525.7,393.6 541.9,393.6 541.9,363.0 525.7,363.0 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M525.7,393.6 L525.7,363.1 L541.8,363.1 L541.8,393.6 L525.7,393.6 Z  '/></g>
+	<path stroke='rgb( 38, 139, 210)'  d='M525.7,393.6 L525.7,363.1 L541.8,363.1 L541.8,393.6 L525.7,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '544.6,393.6 560.8,393.6 560.8,390.1 544.6,390.1 '/>
+	</g>
+	<path stroke='rgb( 38, 139, 210)'  d='M544.6,393.6 L544.6,390.2 L560.7,390.2 L560.7,393.6 L544.6,393.6 Z  '/></g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb( 38, 139, 210)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
