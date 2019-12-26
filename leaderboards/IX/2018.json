@@ -1908,13 +1908,54 @@
       "stars": 45
     },
     "641575": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1577131719"
+          },
+          "2": {
+            "get_star_ts": "1577132252"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1577133070"
+          },
+          "2": {
+            "get_star_ts": "1577134075"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1577137055"
+          },
+          "2": {
+            "get_star_ts": "1577139281"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1577156327"
+          },
+          "2": {
+            "get_star_ts": "1577157243"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1577215593"
+          },
+          "2": {
+            "get_star_ts": "1577217763"
+          }
+        }
+      },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1577217763",
+      "local_score": 150,
       "name": "marie j.i.",
-      "stars": 0
+      "stars": 10
     }
   },
   "owner_id": "30841"
