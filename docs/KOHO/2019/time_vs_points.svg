@@ -139,7 +139,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M271.5,873.6 L271.5,27.1  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M271.5,873.6 L271.5,94.6 M271.5,40.6 L271.5,27.1  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -187,7 +187,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M985.0,873.6 L985.0,94.6 M985.0,40.6 L985.0,27.1  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M985.0,873.6 L985.0,27.1  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -215,14 +215,14 @@
 </g>
 	<g id="gnuplot_plot_1" ><title>bewuethr</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(1060.4,60.0)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
+	<g transform="translate(285.3,60.0)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
 		<text><tspan font-family="Inconsolata" >bewuethr</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M1073.0,54.1 L1136.9,54.1 M142.9,817.2 L143.0,760.7 L177.0,704.3 L177.1,647.9 L211.3,591.4 L211.5,535.0
+	<path stroke='rgb(148,   0, 211)'  d='M297.9,54.1 L361.8,54.1 M142.9,817.2 L143.0,760.7 L177.0,704.3 L177.1,647.9 L211.3,591.4 L211.5,535.0
 		L244.8,478.6 L245.4,422.1 L313.6,365.7 L314.1,309.3 L381.3,252.8 L381.5,196.4 L415.6,147.0 L416.1,97.6
-		 '/>	<use xlink:href='#gpPt0' transform='translate(142.9,817.2) scale(3.71)' color='rgb(148,   0, 211)'/>
+		L1162.1,92.5  '/>	<use xlink:href='#gpPt0' transform='translate(142.9,817.2) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt0' transform='translate(143.0,760.7) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt0' transform='translate(177.0,704.3) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt0' transform='translate(177.1,647.9) scale(3.71)' color='rgb(148,   0, 211)'/>
@@ -236,17 +236,17 @@
 	<use xlink:href='#gpPt0' transform='translate(381.5,196.4) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt0' transform='translate(415.6,147.0) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt0' transform='translate(416.1,97.6) scale(3.71)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt0' transform='translate(1104.9,54.1) scale(3.71)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt0' transform='translate(329.8,54.1) scale(3.71)' color='rgb(148,   0, 211)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>jermaine-koho</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(1060.4,87.0)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
+	<g transform="translate(285.3,87.0)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
 		<text><tspan font-family="Inconsolata" >jermaine-koho</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 158, 115)'  d='M1073.0,81.1 L1136.9,81.1 M193.4,824.2 L194.5,774.8 L195.8,725.5 L197.1,676.1 L233.7,626.7 L236.0,577.3
+	<path stroke='rgb(  0, 158, 115)'  d='M297.9,81.1 L361.8,81.1 M193.4,824.2 L194.5,774.8 L195.8,725.5 L197.1,676.1 L233.7,626.7 L236.0,577.3
 		L297.9,527.9 L299.2,478.6 L301.0,422.1 L302.0,365.7  '/>	<use xlink:href='#gpPt1' transform='translate(193.4,824.2) scale(3.71)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt1' transform='translate(194.5,774.8) scale(3.71)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt1' transform='translate(195.8,725.5) scale(3.71)' color='rgb(  0, 158, 115)'/>
@@ -257,7 +257,7 @@
 	<use xlink:href='#gpPt1' transform='translate(299.2,478.6) scale(3.71)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt1' transform='translate(301.0,422.1) scale(3.71)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt1' transform='translate(302.0,365.7) scale(3.71)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt1' transform='translate(1104.9,81.1) scale(3.71)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt1' transform='translate(329.8,81.1) scale(3.71)' color='rgb(  0, 158, 115)'/>
 </g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb(  0, 158, 115)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
