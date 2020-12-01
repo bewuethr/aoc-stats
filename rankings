@@ -32,6 +32,8 @@ gen_histogram()  {
 	jq -r '
 		if .event == "2018" then
 			del(.members[].completion_day_level["6"])
+		elif .event == "2020" then
+			del(.members[].completion_day_level["1"])
 		else
 			.
 		end
@@ -175,7 +177,7 @@ print_header()  {
 		fi
 		local linkbar="<p>$starlink$graphlink"
 
-		if (( year == 2018 && 10#$day == 6 )); then
+		if (( year == 2018 && 10#$day == 6 )) || (( year == 2020 && 10#$day == 1 )); then
 			local note='<p>This day does not count for the total score.</p>'
 		fi
 	elif [[ $title =~ $re2 ]]; then
@@ -345,6 +347,9 @@ gen_html_files()  {
 		if ((year == 2018)); then
 			echo "<p>Day number 6 is ignored for the total shown here as there was a bug in the puzzle.</p>"
 		fi
+		if ((year == 2020)); then
+			echo "<p>Day number 1 is ignored for the total shown here as there was an outage at unlock.</p>"
+		fi
 		tablify "docs/$board/$year/local_score.tsv" 'Points' 'Global' 'Stars'
 	} | tidy "${tidyopts[@]}" > "docs/$board/$year/local_score.html"
 
@@ -352,6 +357,9 @@ gen_html_files()  {
 		print_header "$board $year histogram of submission times"
 		if ((year == 2018)); then
 			echo "<p>Submissions from day 6 are not shown, there was a bug in the puzzle.</p>"
+		fi
+		if ((year == 2020)); then
+			echo "<p>Submissions from day 1 are not shown, there was an outage at unlock.</p>"
 		fi
 		cat <<- EOF
 			<img src="histo.svg" alt="$year histogram of submission times">
@@ -364,6 +372,9 @@ gen_html_files()  {
 		print_header "$board $year running total over time"
 		if ((year == 2018)); then
 			echo "<p>Submissions from day 6 are ignored as there was a bug in the puzzle.</p>"
+		fi
+		if ((year == 2020)); then
+			echo "<p>Submissions from day 1 are ignored as there was an outage at unlock.</p>"
 		fi
 		cat <<- EOF
 			<img src="time_vs_points.svg" alt="$year running total over time">
@@ -424,8 +435,8 @@ gen_index()  {
 				daylink="<a href=\"day${day}subm.html\">Day ${day#0}</a>"
 			fi
 
-			# 2018 day 6 had a bug and doesn't count
-			if ((year == 2018 && 10#$day == 6)); then
+			# These days had bugs and don't count
+			if ((year == 2018 && 10#$day == 6)) || ((year == 2020 && 10#$day == 1)); then
 				marker+='o'
 				local remark3='<p><sup>o</sup>Day does not count for total score</p>'
 			fi
