@@ -7,7 +7,7 @@
 >
 
 <title>Gnuplot</title>
-<desc>Produced by GNUPLOT 5.2 patchlevel 6 </desc>
+<desc>Produced by GNUPLOT 5.2 patchlevel 8 </desc>
 
 <g id="gnuplot_canvas">
 
@@ -102,14 +102,14 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M159.4,153.6 L159.4,27.1 M357.8,153.6 L357.8,27.1 M387.2,153.6 L387.2,27.1
-		M473.2,153.6 L473.2,27.1 M544.1,153.6 L544.1,27.1 M1093.1,153.6 L1093.1,27.1 M1227.5,153.6 L1227.5,27.1
-		 '/></g>
+		M473.2,153.6 L473.2,27.1 M544.1,153.6 L544.1,27.1 M1050.9,153.6 L1050.9,27.1 M1093.1,153.6 L1093.1,27.1
+		M1227.5,153.6 L1227.5,27.1  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M230.8,153.6 L230.8,27.1 M285.6,153.6 L285.6,27.1 M407.3,153.6 L407.3,27.1 M525.7,153.6 L525.7,27.1
-		M566.4,153.6 L566.4,27.1 M600.6,153.6 L600.6,27.1 M1104.5,153.6 L1104.5,27.1 M1230.9,153.6 L1230.9,27.1
-		 '/></g>
+		M566.4,153.6 L566.4,27.1 M600.6,153.6 L600.6,27.1 M1059.4,153.6 L1059.4,27.1 M1104.5,153.6 L1104.5,27.1
+		M1230.9,153.6 L1230.9,27.1  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -312,13 +312,14 @@
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M35.3,393.6 L35.3,267.0 M48.2,393.6 L48.2,267.0 M51.3,393.6 L51.3,267.0 M63.3,393.6 L63.3,267.0
-		M77.3,393.6 L77.3,267.0 M643.6,393.6 L643.6,267.0 M1163.8,393.6 L1163.8,267.0  '/></g>
+		M77.3,393.6 L77.3,267.0 M536.0,393.6 L536.0,267.0 M643.6,393.6 L643.6,267.0 M1163.8,393.6 L1163.8,267.0
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M38.7,393.6 L38.7,267.0 M42.1,393.6 L42.1,267.0 M53.7,393.6 L53.7,267.0 M73.2,393.6 L73.2,267.0
-		M82.7,393.6 L82.7,267.0 M92.2,393.6 L92.2,267.0 M676.7,393.6 L676.7,267.0 M1181.6,393.6 L1181.6,267.0
-		 '/></g>
+		M82.7,393.6 L82.7,267.0 M92.2,393.6 L92.2,267.0 M556.1,393.6 L556.1,267.0 M676.7,393.6 L676.7,267.0
+		M1181.6,393.6 L1181.6,267.0  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>

@@ -7,7 +7,7 @@
 >
 
 <title>Gnuplot</title>
-<desc>Produced by GNUPLOT 5.2 patchlevel 6 </desc>
+<desc>Produced by GNUPLOT 5.2 patchlevel 8 </desc>
 
 <g id="gnuplot_canvas">
 
@@ -103,12 +103,14 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M169.6,153.6 L169.6,27.1 M170.0,153.6 L170.0,27.1 M183.8,153.6 L183.8,27.1
-		M191.5,153.6 L191.5,27.1 M1062.9,153.6 L1062.9,27.1 M1115.0,153.6 L1115.0,27.1  '/></g>
+		M191.5,153.6 L191.5,27.1 M1062.9,153.6 L1062.9,27.1 M1115.0,153.6 L1115.0,27.1 M1192.7,153.6 L1192.7,27.1
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M188.6,153.6 L188.6,27.1 M226.1,153.6 L226.1,27.1 M276.9,153.6 L276.9,27.1 M362.2,153.6 L362.2,27.1
-		M450.5,153.6 L450.5,27.1 M1067.1,153.6 L1067.1,27.1 M1120.2,153.6 L1120.2,27.1  '/></g>
+		M450.5,153.6 L450.5,27.1 M1067.1,153.6 L1067.1,27.1 M1120.2,153.6 L1120.2,27.1 M1218.4,153.6 L1218.4,27.1
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -311,12 +313,13 @@
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M33.9,393.6 L33.9,267.0 M33.9,393.6 L33.9,267.0 M34.4,393.6 L34.4,267.0 M34.7,393.6 L34.7,267.0
-		M545.5,393.6 L545.5,267.0 M691.1,393.6 L691.1,267.0  '/></g>
+		M545.5,393.6 L545.5,267.0 M691.1,393.6 L691.1,267.0 M987.8,393.6 L987.8,267.0  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M34.6,393.6 L34.6,267.0 M36.2,393.6 L36.2,267.0 M38.8,393.6 L38.8,267.0 M45.0,393.6 L45.0,267.0
-		M54.7,393.6 L54.7,267.0 M555.9,393.6 L555.9,267.0 M707.7,393.6 L707.7,267.0  '/></g>
+		M54.7,393.6 L54.7,267.0 M555.9,393.6 L555.9,267.0 M707.7,393.6 L707.7,267.0 M1112.8,393.6 L1112.8,267.0
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>

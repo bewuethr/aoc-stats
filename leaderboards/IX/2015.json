@@ -111,7 +111,7 @@
       "global_score": 0,
       "id": "116481",
       "last_star_ts": "1480708302",
-      "local_score": 728,
+      "local_score": 884,
       "name": "mozesmagyar",
       "stars": 26
     },
@@ -300,7 +300,7 @@
       "global_score": 0,
       "id": "118426",
       "last_star_ts": "1481096016",
-      "local_score": 1038,
+      "local_score": 1266,
       "name": "James Bannerman",
       "stars": 38
     },
@@ -510,7 +510,7 @@
       "global_score": 0,
       "id": "118609",
       "last_star_ts": "1509240920",
-      "local_score": 1336,
+      "local_score": 1636,
       "name": "Michael Tardibuono",
       "stars": 50
     },
@@ -528,7 +528,7 @@
       "global_score": 0,
       "id": "118852",
       "last_star_ts": "1539375783",
-      "local_score": 52,
+      "local_score": 64,
       "name": "Michel ElNacouzi",
       "stars": 2
     },
@@ -573,7 +573,7 @@
       "global_score": 0,
       "id": "123142",
       "last_star_ts": "1533933324",
-      "local_score": 50,
+      "local_score": 62,
       "name": "pingpongkingkong",
       "stars": 2
     },
@@ -604,6 +604,64 @@
       "name": null,
       "stars": 0
     },
+    "174641": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1516040147"
+          },
+          "2": {
+            "get_star_ts": "1516040253"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1516048770"
+          },
+          "2": {
+            "get_star_ts": "1516049328"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1516051031"
+          },
+          "2": {
+            "get_star_ts": "1516051457"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1516053715"
+          },
+          "2": {
+            "get_star_ts": "1516053737"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1516128066"
+          },
+          "2": {
+            "get_star_ts": "1516133134"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1516137135"
+          },
+          "2": {
+            "get_star_ts": "1516137637"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "174641",
+      "last_star_ts": "1516137637",
+      "local_score": 356,
+      "name": "dubyte",
+      "stars": 12
+    },
     "186091": {
       "completion_day_level": {
         "9": {
@@ -618,7 +676,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "1533933644",
-      "local_score": 46,
+      "local_score": 58,
       "name": "Adam Harvie",
       "stars": 2
     },
@@ -636,7 +694,7 @@
       "global_score": 0,
       "id": "186094",
       "last_star_ts": "1533933348",
-      "local_score": 48,
+      "local_score": 60,
       "name": "Ricky Kwan",
       "stars": 2
     },
@@ -701,7 +759,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": "1539607362",
-      "local_score": 216,
+      "local_score": 270,
       "name": "danielshanker",
       "stars": 9
     },
@@ -764,7 +822,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1512850861",
-      "local_score": 325,
+      "local_score": 403,
       "name": "Andrew Walker",
       "stars": 13
     },
@@ -778,13 +836,62 @@
       "stars": 0
     },
     "200293": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606708972"
+          },
+          "2": {
+            "get_star_ts": "1606709211"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606709962"
+          },
+          "2": {
+            "get_star_ts": "1606710405"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1606710899"
+          },
+          "2": {
+            "get_star_ts": "1606711050"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1606711542"
+          },
+          "2": {
+            "get_star_ts": "1606711696"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1606718186"
+          },
+          "2": {
+            "get_star_ts": "1606718806"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1606767062"
+          },
+          "2": {
+            "get_star_ts": "1606768143"
+          }
+        }
+      },
       "global_score": 0,
       "id": "200293",
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": "1606768143",
+      "local_score": 344,
       "name": "Stefan Tihanyi",
-      "stars": 0
+      "stars": 12
     },
     "294290": {
       "completion_day_level": {},
@@ -1001,7 +1108,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1451805835",
-      "local_score": 1450,
+      "local_score": 1750,
       "name": "bewuethr",
       "stars": 50
     },
@@ -1048,6 +1155,51 @@
       "last_star_ts": 0,
       "local_score": 0,
       "name": "marie j.i.",
+      "stars": 0
+    },
+    "659809": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "659809",
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "grossjo",
+      "stars": 0
+    },
+    "667178": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "667178",
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "2785",
+      "stars": 0
+    },
+    "715980": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "715980",
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Robert Attard",
+      "stars": 0
+    },
+    "986209": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "986209",
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": null,
+      "stars": 0
+    },
+    "990214": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "990214",
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "emmawilsonix",
       "stars": 0
     }
   },
