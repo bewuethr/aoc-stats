@@ -26,7 +26,7 @@ update_json() {
 	fi
 }
 
-gen_histogram()  {
+gen_histogram() {
 	local board=$1
 	local year=$2
 	jq -r '
@@ -48,7 +48,7 @@ gen_histogram()  {
 	gnuplot -c gnuplot/histo.gpi "docs/$board/$year/histodata.tsv" > "docs/$board/$year/histo.svg"
 }
 
-gen_submission_stamps()  {
+gen_submission_stamps() {
 	local board=$1
 	local year=$2
 
@@ -65,7 +65,7 @@ gen_submission_stamps()  {
 	' "leaderboards/$board/$year.json" > "docs/$board/$year/submission_times.tsv"
 }
 
-gen_submission_stamps_day()  {
+gen_submission_stamps_day() {
 	local board=$1
 	local year=$2
 	local day=$3
@@ -90,7 +90,7 @@ gen_submission_stamps_day()  {
 	' "docs/$board/$year/submission_times.tsv"
 }
 
-rank_day_star()  {
+rank_day_star() {
 	local board$1
 	local year=$2
 	local day=$3
@@ -154,7 +154,7 @@ rank_day_star()  {
 	'
 }
 
-print_header()  {
+print_header() {
 	local title=$1
 	local re1='Ranking ([[:graph:]]+) (20..) day ([[:digit:]]+), star ([[:digit:]]+)'
 	local re2='Submission times graph, [[:graph:]]+ (20..) day ([[:digit:]]+)'
@@ -177,7 +177,7 @@ print_header()  {
 		fi
 		local linkbar="<p>$starlink$graphlink"
 
-		if (( year == 2018 && 10#$day == 6 )) || (( year == 2020 && 10#$day == 1 )); then
+		if ((year == 2018 && 10#$day == 6)) || ((year == 2020 && 10#$day == 1)); then
 			local note='<p>This day does not count for the total score.</p>'
 		fi
 	elif [[ $title =~ $re2 ]]; then
@@ -213,7 +213,7 @@ print_header()  {
 	EOF
 }
 
-tablify()  {
+tablify() {
 	local fname=$1
 	shift
 	local col_headings=("$@")
@@ -248,7 +248,7 @@ tablify()  {
 	' "${col_headings[@]}" "$fname"
 }
 
-gen_tsv_files()  {
+gen_tsv_files() {
 	local board=$1
 	local year=$2
 	local day
@@ -268,7 +268,7 @@ gen_tsv_files()  {
 	done
 }
 
-gen_subm_graphs()  {
+gen_subm_graphs() {
 	local board=$1
 	local year=$2
 	local day
@@ -280,7 +280,7 @@ gen_subm_graphs()  {
 	done
 }
 
-gen_local_score()  {
+gen_local_score() {
 	local board=$1
 	local year=$2
 	jq -r '
@@ -294,7 +294,7 @@ gen_local_score()  {
 	' "leaderboards/$board/$year.json" > "docs/$board/$year/local_score.tsv"
 }
 
-gen_html_files()  {
+gen_html_files() {
 	local board=$1
 	local year=$2
 
@@ -384,7 +384,7 @@ gen_html_files()  {
 	} | tidy "${tidyopts[@]}" > "docs/$board/$year/over_time.html"
 }
 
-gen_index()  {
+gen_index() {
 	local board=$1
 	local year=$2
 	local histo_link over_time_link
@@ -477,7 +477,7 @@ gen_index()  {
 	} | tidy "${tidyopts[@]}" > "docs/$board/$year/index.html"
 }
 
-gen_main_index()  {
+gen_main_index() {
 	{
 		print_header "Advent of Code Extended Stats"
 
@@ -506,7 +506,7 @@ gen_main_index()  {
 	} | tidy "${tidyopts[@]}" > docs/index.html
 }
 
-push_changes()  {
+push_changes() {
 	local status
 	status=$(git status --porcelain docs)
 	if [[ -n $status ]]; then
@@ -546,7 +546,7 @@ while read -r board boardid yearstr; do
 			fi
 		fi
 		[[ $verbose ]] && echo "Building $board $year" >&2
-		mkdir  -p "docs/$board/$year"
+		mkdir -p "docs/$board/$year"
 		gen_histogram "$board" "$year"
 		./buildlgraph "$board" "$year"
 		gen_submission_stamps "$board" "$year"
