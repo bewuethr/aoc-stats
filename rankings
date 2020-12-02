@@ -286,7 +286,7 @@ gen_local_score() {
 	jq -r '
 		[.members[]
 		| [.name // "User #" + .id, .local_score, .global_score, .stars]
-		| select(.[1] > 0)]
+		| select(.[4] > 0)]
 		| sort_by(-.[1])
 		| to_entries[]
 		| [.key+1, .value[]]
