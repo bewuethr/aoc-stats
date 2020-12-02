@@ -91,7 +91,7 @@ gen_submission_stamps_day() {
 }
 
 rank_day_star() {
-	local board$1
+	local board=$1
 	local year=$2
 	local day=$3
 	local star=$4
