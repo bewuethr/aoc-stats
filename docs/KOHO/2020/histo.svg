@@ -244,7 +244,10 @@
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '350.1,393.6 366.7,393.6 366.7,332.4 350.1,332.4 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M350.1,393.6 L350.1,332.5 L366.6,332.5 L366.6,393.6 L350.1,393.6 Z  '/></g>
+	<path stroke='rgb( 38, 139, 210)'  d='M350.1,393.6 L350.1,332.5 L366.6,332.5 L366.6,393.6 L350.1,393.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '427.7,393.6 444.3,393.6 444.3,332.4 427.7,332.4 '/>
+	</g>
+	<path stroke='rgb( 38, 139, 210)'  d='M427.7,393.6 L427.7,332.5 L444.2,332.5 L444.2,393.6 L427.7,393.6 Z  '/></g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb( 38, 139, 210)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
