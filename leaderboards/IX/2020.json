@@ -496,20 +496,26 @@
         "3": {
           "1": {
             "get_star_ts": "1607122567"
+          },
+          "2": {
+            "get_star_ts": "1607126175"
           }
         },
         "4": {
           "1": {
             "get_star_ts": "1607122586"
+          },
+          "2": {
+            "get_star_ts": "1607130209"
           }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "1607122586",
-      "local_score": 104,
+      "last_star_ts": "1607130209",
+      "local_score": 154,
       "name": "bewuethr",
-      "stars": 6
+      "stars": 8
     },
     "374494": {
       "completion_day_level": {
@@ -871,15 +877,18 @@
         "4": {
           "1": {
             "get_star_ts": "1607119106"
+          },
+          "2": {
+            "get_star_ts": "1607126610"
           }
         }
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": "1607119106",
-      "local_score": 127,
+      "last_star_ts": "1607126610",
+      "local_score": 154,
       "name": "dracoyunho",
-      "stars": 7
+      "stars": 8
     }
   },
   "owner_id": "30841"
