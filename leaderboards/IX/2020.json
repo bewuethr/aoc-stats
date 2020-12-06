@@ -612,14 +612,22 @@
           "2": {
             "get_star_ts": "1607205983"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607287420"
+          },
+          "2": {
+            "get_star_ts": "1607287707"
+          }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": "1607205983",
-      "local_score": 206,
+      "last_star_ts": "1607287707",
+      "local_score": 260,
       "name": "Benjamin Wuethrich",
-      "stars": 10
+      "stars": 12
     },
     "374494": {
       "completion_day_level": {
@@ -1039,14 +1047,19 @@
           "2": {
             "get_star_ts": "1607149921"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607287195"
+          }
         }
       },
       "global_score": 0,
       "id": "995421",
-      "last_star_ts": "1607149921",
-      "local_score": 212,
+      "last_star_ts": "1607287195",
+      "local_score": 239,
       "name": "Quin Millard",
-      "stars": 10
+      "stars": 11
     },
     "996154": {
       "completion_day_level": {
@@ -1089,14 +1102,19 @@
           "2": {
             "get_star_ts": "1607187759"
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607286803"
+          }
         }
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": "1607187759",
-      "local_score": 208,
+      "last_star_ts": "1607286803",
+      "local_score": 236,
       "name": "dracoyunho",
-      "stars": 10
+      "stars": 11
     }
   },
   "owner_id": "30841"
