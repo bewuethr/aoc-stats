@@ -2,6 +2,13 @@
 
 set -e
 
+tidy() {
+	{
+		cat -
+		printf '%s\n' "$gccode"
+	} | command tidy "$@"
+}
+
 update_json() {
 	local board=$1
 	local boardid=$2
@@ -532,6 +539,8 @@ while getopts ":dfpv" opt; do
 done
 
 tidyopts=(-iq --tidy-mark no --wrap 120)
+gccode='<script data-goatcounter="https://aoc-stats.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>'
 
 [[ -n $verbose ]] && date
 [[ -n $fetch ]] && git pull --quiet
