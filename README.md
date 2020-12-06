@@ -11,7 +11,7 @@ the `rankings` executable:
   of a private leaderboard can be found at the end of its URL:
 
   ```
-  https://adventofcode.com/201X/leaderboard/private/view/{{boardid}}
+  https://adventofcode.com/20XX/leaderboard/private/view/{{boardid}}
   ```
 
   and the years are a comma-separated list.
