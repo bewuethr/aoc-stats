@@ -578,15 +578,18 @@
         "9": {
           "1": {
             "get_star_ts": "1607490508"
+          },
+          "2": {
+            "get_star_ts": "1607491307"
           }
         }
       },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": "1607490508",
-      "local_score": 551,
+      "last_star_ts": "1607491307",
+      "local_score": 586,
       "name": "Chuck Walker",
-      "stars": 17
+      "stars": 18
     },
     "197423": {
       "completion_day_level": {},
@@ -666,15 +669,18 @@
         "9": {
           "1": {
             "get_star_ts": "1607490657"
+          },
+          "2": {
+            "get_star_ts": "1607490921"
           }
         }
       },
       "global_score": 0,
       "id": "200293",
-      "last_star_ts": "1607490657",
-      "local_score": 551,
+      "last_star_ts": "1607490921",
+      "local_score": 587,
       "name": "Stefan Tihanyi",
-      "stars": 17
+      "stars": 18
     },
     "294290": {
       "completion_day_level": {},
@@ -813,14 +819,22 @@
           "2": {
             "get_star_ts": "1607405067"
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": "1607490974"
+          },
+          "2": {
+            "get_star_ts": "1607491531"
+          }
         }
       },
       "global_score": 0,
       "id": "374494",
-      "last_star_ts": "1607405067",
-      "local_score": 505,
+      "last_star_ts": "1607491531",
+      "local_score": 573,
       "name": null,
-      "stars": 16
+      "stars": 18
     },
     "387136": {
       "completion_day_level": {},

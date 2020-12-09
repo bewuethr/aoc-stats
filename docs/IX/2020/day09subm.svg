@@ -89,11 +89,12 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M38.7,153.6 L38.7,27.1 M79.0,153.6 L79.0,27.1 M84.8,153.6 L84.8,27.1
-		M142.7,153.6 L142.7,27.1  '/></g>
+		M142.7,153.6 L142.7,27.1 M231.5,153.6 L231.5,27.1  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M173.8,153.6 L173.8,27.1 M191.9,153.6 L191.9,27.1 M208.8,153.6 L208.8,27.1  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M173.8,153.6 L173.8,27.1 M191.9,153.6 L191.9,27.1 M208.8,153.6 L208.8,27.1 M218.9,153.6 L218.9,27.1
+		M297.7,153.6 L297.7,27.1 M333.4,153.6 L333.4,27.1  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -296,11 +297,12 @@
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M32.1,393.6 L32.1,267.0 M32.3,393.6 L32.3,267.0 M33.4,393.6 L33.4,267.0 M33.6,393.6 L33.6,267.0
-		M35.7,393.6 L35.7,267.0  '/></g>
+		M35.7,393.6 L35.7,267.0 M40.1,393.6 L40.1,267.0  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M37.0,393.6 L37.0,267.0 M37.9,393.6 L37.9,267.0 M38.8,393.6 L38.8,267.0  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M37.0,393.6 L37.0,267.0 M37.9,393.6 L37.9,267.0 M38.8,393.6 L38.8,267.0 M39.4,393.6 L39.4,267.0
+		M44.8,393.6 L44.8,267.0 M48.0,393.6 L48.0,267.0  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>
