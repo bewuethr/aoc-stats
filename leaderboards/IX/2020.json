@@ -106,7 +106,7 @@
       "global_score": 0,
       "id": "116481",
       "last_star_ts": "1607502092",
-      "local_score": 524,
+      "local_score": 540,
       "name": "mozesmagyar",
       "stars": 18
     },
@@ -224,7 +224,7 @@
       "global_score": 0,
       "id": "118609",
       "last_star_ts": "1607490881",
-      "local_score": 581,
+      "local_score": 597,
       "name": "Michael Tardibuono",
       "stars": 18
     },
@@ -271,6 +271,15 @@
       "last_star_ts": 0,
       "local_score": 0,
       "name": "pingpongkingkong",
+      "stars": 0
+    },
+    "1250840": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "1250840",
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Cameron Ouellette",
       "stars": 0
     },
     "137785": {
@@ -338,7 +347,7 @@
       "global_score": 0,
       "id": "174641",
       "last_star_ts": "1607117350",
-      "local_score": 166,
+      "local_score": 172,
       "name": "dubyte",
       "stars": 8
     },
@@ -412,7 +421,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "1607468085",
-      "local_score": 423,
+      "local_score": 437,
       "name": "Adam Harvie",
       "stars": 16
     },
@@ -521,7 +530,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": "1607519916",
-      "local_score": 501,
+      "local_score": 517,
       "name": "Daniel Shanker",
       "stars": 18
     },
@@ -603,7 +612,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1607491307",
-      "local_score": 586,
+      "local_score": 602,
       "name": "Chuck Walker",
       "stars": 18
     },
@@ -694,7 +703,7 @@
       "global_score": 0,
       "id": "200293",
       "last_star_ts": "1607490921",
-      "local_score": 587,
+      "local_score": 603,
       "name": "Stefan Tihanyi",
       "stars": 18
     },
@@ -766,7 +775,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1607490035",
-      "local_score": 286,
+      "local_score": 297,
       "name": "Benjamin Wuethrich",
       "stars": 13
     },
@@ -848,7 +857,7 @@
       "global_score": 0,
       "id": "374494",
       "last_star_ts": "1607491531",
-      "local_score": 573,
+      "local_score": 589,
       "name": null,
       "stars": 18
     },
@@ -948,7 +957,7 @@
       "global_score": 0,
       "id": "417433",
       "last_star_ts": "1607490754",
-      "local_score": 587,
+      "local_score": 603,
       "name": "frigley1",
       "stars": 18
     },
@@ -1030,7 +1039,7 @@
       "global_score": 0,
       "id": "641575",
       "last_star_ts": "1607490817",
-      "local_score": 577,
+      "local_score": 593,
       "name": "marie",
       "stars": 18
     },
@@ -1064,7 +1073,7 @@
       "global_score": 0,
       "id": "659809",
       "last_star_ts": "1607030657",
-      "local_score": 113,
+      "local_score": 117,
       "name": "grossjo",
       "stars": 6
     },
@@ -1146,7 +1155,7 @@
       "global_score": 0,
       "id": "667178",
       "last_star_ts": "1607526999",
-      "local_score": 482,
+      "local_score": 498,
       "name": "2785",
       "stars": 18
     },
@@ -1219,15 +1228,18 @@
         "9": {
           "1": {
             "get_star_ts": "1607529535"
+          },
+          "2": {
+            "get_star_ts": "1607538022"
           }
         }
       },
       "global_score": 0,
       "id": "715980",
-      "last_star_ts": "1607529535",
-      "local_score": 443,
+      "last_star_ts": "1607538022",
+      "local_score": 488,
       "name": "Robert Attard",
-      "stars": 17
+      "stars": 18
     },
     "986209": {
       "completion_day_level": {},
@@ -1260,7 +1272,7 @@
       "global_score": 0,
       "id": "990214",
       "last_star_ts": "1606946707",
-      "local_score": 52,
+      "local_score": 54,
       "name": "emmawilsonix",
       "stars": 4
     },
@@ -1326,7 +1338,7 @@
       "global_score": 0,
       "id": "995421",
       "last_star_ts": "1607400898",
-      "local_score": 321,
+      "local_score": 333,
       "name": "Quin Millard",
       "stars": 14
     },
@@ -1408,7 +1420,7 @@
       "global_score": 0,
       "id": "996154",
       "last_star_ts": "1607496529",
-      "local_score": 447,
+      "local_score": 463,
       "name": "dracoyunho",
       "stars": 18
     }
