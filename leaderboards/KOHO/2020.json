@@ -1,6 +1,154 @@
 {
   "event": "2020",
   "members": {
+    "1047167": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606873232"
+          },
+          "2": {
+            "get_star_ts": "1606876338"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606915324"
+          },
+          "2": {
+            "get_star_ts": "1606915671"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1606999072"
+          },
+          "2": {
+            "get_star_ts": "1606999591"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607087493"
+          },
+          "2": {
+            "get_star_ts": "1607090139"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607175015"
+          },
+          "2": {
+            "get_star_ts": "1607175662"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607256747"
+          },
+          "2": {
+            "get_star_ts": "1607257961"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607364380"
+          },
+          "2": {
+            "get_star_ts": "1607365177"
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "1607430742"
+          },
+          "2": {
+            "get_star_ts": "1607434880"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "1047167",
+      "last_star_ts": "1607434880",
+      "local_score": 47,
+      "name": "AkmalU",
+      "stars": 16
+    },
+    "1126931": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606959328"
+          },
+          "2": {
+            "get_star_ts": "1606959408"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606961400"
+          },
+          "2": {
+            "get_star_ts": "1606961782"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1606973480"
+          },
+          "2": {
+            "get_star_ts": "1606973841"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607061679"
+          },
+          "2": {
+            "get_star_ts": "1607134892"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607146597"
+          },
+          "2": {
+            "get_star_ts": "1607153775"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607232599"
+          },
+          "2": {
+            "get_star_ts": "1607233281"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607395771"
+          },
+          "2": {
+            "get_star_ts": "1607396575"
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "1607469979"
+          },
+          "2": {
+            "get_star_ts": "1607472643"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "1126931",
+      "last_star_ts": "1607472643",
+      "local_score": 44,
+      "name": "jramdass",
+      "stars": 16
+    },
     "30841": {
       "completion_day_level": {
         "1": {
@@ -55,73 +203,52 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1607287707",
-      "local_score": 80,
+      "local_score": 21,
       "name": "Benjamin Wuethrich",
       "stars": 12
     },
-    "380835": {
-      "completion_day_level": {},
+    "758869": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606925184"
+          },
+          "2": {
+            "get_star_ts": "1606926171"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1607055958"
+          },
+          "2": {
+            "get_star_ts": "1607058826"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1607144278"
+          },
+          "2": {
+            "get_star_ts": "1607145739"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607061294"
+          },
+          "2": {
+            "get_star_ts": "1607063365"
+          }
+        }
+      },
       "global_score": 0,
-      "id": "380835",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "Pooneh",
-      "stars": 0
-    },
-    "384456": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "384456",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "Eric Richardson",
-      "stars": 0
-    },
-    "384522": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "384522",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "jskrepnek",
-      "stars": 0
-    },
-    "387481": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "387481",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "Swoozeki",
-      "stars": 0
-    },
-    "389859": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "389859",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "akmalur",
-      "stars": 0
-    },
-    "402935": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "402935",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "Kathy Huynh",
-      "stars": 0
-    },
-    "709195": {
-      "completion_day_level": {},
-      "global_score": 0,
-      "id": "709195",
-      "last_star_ts": 0,
-      "local_score": 0,
-      "name": "jermaine-koho",
-      "stars": 0
+      "id": "758869",
+      "last_star_ts": "1607145739",
+      "local_score": 12,
+      "name": "fireynis",
+      "stars": 8
     }
   },
-  "owner_id": "380835"
+  "owner_id": "1047167"
 }
