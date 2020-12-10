@@ -832,6 +832,9 @@
         "10": {
           "1": {
             "get_star_ts": "1607577013"
+          },
+          "2": {
+            "get_star_ts": "1607579142"
           }
         },
         "2": {
@@ -901,10 +904,10 @@
       },
       "global_score": 0,
       "id": "374494",
-      "last_star_ts": "1607577013",
-      "local_score": 626,
+      "last_star_ts": "1607579142",
+      "local_score": 663,
       "name": null,
-      "stars": 19
+      "stars": 20
     },
     "387136": {
       "completion_day_level": {},
