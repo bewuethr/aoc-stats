@@ -306,14 +306,22 @@
           "2": {
             "get_star_ts": "1607634468"
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1607638432"
+          },
+          "2": {
+            "get_star_ts": "1607639101"
+          }
         }
       },
       "global_score": 0,
       "id": "1250840",
-      "last_star_ts": "1607634468",
-      "local_score": 46,
+      "last_star_ts": "1607639101",
+      "local_score": 92,
       "name": "Cameron Ouellette",
-      "stars": 4
+      "stars": 6
     },
     "137785": {
       "completion_day_level": {},
@@ -394,6 +402,11 @@
             "get_star_ts": "1606863709"
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": "1607639168"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "1606921220"
@@ -461,10 +474,10 @@
       },
       "global_score": 0,
       "id": "186091",
-      "last_star_ts": "1607551345",
-      "local_score": 495,
+      "last_star_ts": "1607639168",
+      "local_score": 524,
       "name": "Adam Harvie",
-      "stars": 18
+      "stars": 19
     },
     "186094": {
       "completion_day_level": {},
@@ -1470,6 +1483,9 @@
         "10": {
           "1": {
             "get_star_ts": "1607621163"
+          },
+          "2": {
+            "get_star_ts": "1607638742"
           }
         },
         "2": {
@@ -1539,10 +1555,10 @@
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": "1607621163",
-      "local_score": 493,
+      "last_star_ts": "1607638742",
+      "local_score": 524,
       "name": "dracoyunho",
-      "stars": 19
+      "stars": 20
     }
   },
   "owner_id": "30841"
