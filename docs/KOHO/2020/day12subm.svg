@@ -42,41 +42,7 @@
 <g fill="none" color="#002B36" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(131, 148, 150)'  d='M147.3,153.6 L147.3,146.9 M147.3,27.1 L147.3,33.8 M240.0,153.6 L240.0,146.9 M240.0,27.1 L240.0,33.8
-		M305.8,153.6 L305.8,146.9 M305.8,27.1 L305.8,33.8 M356.8,153.6 L356.8,146.9 M356.8,27.1 L356.8,33.8
-		M398.5,153.6 L398.5,146.9 M398.5,27.1 L398.5,33.8 M433.8,153.6 L433.8,146.9 M433.8,27.1 L433.8,33.8
-		M464.3,153.6 L464.3,146.9 M464.3,27.1 L464.3,33.8 M491.2,153.6 L491.2,146.9 M491.2,27.1 L491.2,33.8
-		 '/></g>
-<g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-</g>
-<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M515.3,153.6 L515.3,27.1  '/></g>
-<g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(131, 148, 150)'  d='M515.3,153.6 L515.3,140.1 M515.3,27.1 L515.3,40.6  '/>	<g transform="translate(515.3,186.5)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="middle">
-		<text><tspan font-family="Inconsolata" > 1</tspan></text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(131, 148, 150)'  d='M673.8,153.6 L673.8,146.9 M673.8,27.1 L673.8,33.8 M766.6,153.6 L766.6,146.9 M766.6,27.1 L766.6,33.8
-		M832.3,153.6 L832.3,146.9 M832.3,27.1 L832.3,33.8 M883.4,153.6 L883.4,146.9 M883.4,27.1 L883.4,33.8
-		M925.1,153.6 L925.1,146.9 M925.1,27.1 L925.1,33.8 M960.3,153.6 L960.3,146.9 M960.3,27.1 L960.3,33.8
-		M990.9,153.6 L990.9,146.9 M990.9,27.1 L990.9,33.8 M1017.8,153.6 L1017.8,146.9 M1017.8,27.1 L1017.8,33.8
-		 '/></g>
-<g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-</g>
-<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M1041.9,153.6 L1041.9,94.6 M1041.9,40.6 L1041.9,27.1  '/></g>
-<g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(131, 148, 150)'  d='M1041.9,153.6 L1041.9,140.1 M1041.9,27.1 L1041.9,40.6  '/>	<g transform="translate(1041.9,186.5)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="middle">
-		<text><tspan font-family="Inconsolata" > 10</tspan></text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(131, 148, 150)'  d='M1200.4,153.6 L1200.4,146.9 M1200.4,27.1 L1200.4,33.8  '/></g>
+	<path stroke='rgb(131, 148, 150)'  d='M406.8,153.6 L406.8,146.9 M406.8,27.1 L406.8,33.8  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(131, 148, 150)'  d='M31.5,27.1 L31.5,153.6 L1242.1,153.6 L1242.1,27.1 L31.5,27.1 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -88,17 +54,11 @@
 </g>
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M35.7,153.6 L35.7,27.1 M97.4,153.6 L97.4,27.1 M111.2,153.6 L111.2,27.1
-		M150.1,153.6 L150.1,27.1 M193.2,153.6 L193.2,27.1 M429.4,153.6 L429.4,27.1 M609.8,153.6 L609.8,27.1
-		M1006.3,153.6 L1006.3,27.1 M1116.2,153.6 L1116.2,27.1 M1119.7,153.6 L1119.7,27.1 M1181.7,153.6 L1181.7,27.1
-		 '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M192.6,153.6 L192.6,27.1 M239.4,153.6 L239.4,27.1 M270.7,153.6 L270.7,27.1 M288.3,153.6 L288.3,27.1
-		M320.2,153.6 L320.2,27.1 M328.7,153.6 L328.7,27.1 M614.0,153.6 L614.0,27.1 M744.9,153.6 L744.9,27.1
-		M1017.7,153.6 L1017.7,27.1 M1124.7,153.6 L1124.7,27.1 M1125.1,153.6 L1125.1,27.1 M1183.6,153.6 L1183.6,27.1
-		 '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M70.7,153.6 L70.7,27.1  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -300,17 +260,11 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M32.5,393.6 L32.5,267.0 M32.7,393.6 L32.7,267.0 M34.6,393.6 L34.6,267.0 M35.1,393.6 L35.1,267.0
-		M36.7,393.6 L36.7,267.0 M38.8,393.6 L38.8,267.0 M61.2,393.6 L61.2,267.0 M103.0,393.6 L103.0,267.0
-		M459.9,393.6 L459.9,267.0 M727.4,393.6 L727.4,267.0 M738.1,393.6 L738.1,267.0 M959.8,393.6 L959.8,267.0
-		 '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M959.8,393.6 L959.8,267.0  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M38.8,393.6 L38.8,267.0 M41.6,393.6 L41.6,267.0 M43.8,393.6 L43.8,267.0 M45.2,393.6 L45.2,267.0
-		M48.0,393.6 L48.0,267.0 M48.8,393.6 L48.8,267.0 M104.4,393.6 L104.4,267.0 M164.6,393.6 L164.6,267.0
-		M482.1,393.6 L482.1,267.0 M753.9,393.6 L753.9,267.0 M755.3,393.6 L755.3,267.0 M967.8,393.6 L967.8,267.0
-		 '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M967.8,393.6 L967.8,267.0  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>
