@@ -602,10 +602,10 @@
 	<use xlink:href='#gpPt7' transform='translate(1104.9,243.1) scale(3.71)' color='rgb(131, 148, 150)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_9" ><title>kellydanma</title>
+	<g id="gnuplot_plot_9" ><title>KMA</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1060.4,276.0)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
-		<text><tspan font-family="Inconsolata" >kellydanma</tspan></text>
+		<text><tspan font-family="Inconsolata" >KMA</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -830,7 +830,7 @@
 	<path stroke='rgb(131, 148, 150)'  d='M1073.0,459.1 L1136.9,459.1 M181.8,853.6 L182.2,833.6 L244.3,813.6 L244.5,793.6 L245.9,772.0 L248.8,750.5
 		L272.3,728.9 L272.5,707.4 L311.0,685.1 L311.7,664.3 L353.9,642.0 L354.4,618.9 L358.9,592.7 L360.8,566.6
 		L391.8,539.6 L392.5,512.7 L440.9,489.6 L447.7,465.7 L481.0,441.9 L488.0,418.0 L492.8,391.9 L494.5,365.7
-		L525.4,341.8 L557.2,320.3 L559.9,294.9  '/>	<use xlink:href='#gpPt0' transform='translate(181.8,853.6) scale(3.71)' color='rgb(131, 148, 150)'/>
+		L525.4,341.8 L557.2,320.3 L559.9,294.9 L573.9,271.0  '/>	<use xlink:href='#gpPt0' transform='translate(181.8,853.6) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt0' transform='translate(182.2,833.6) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt0' transform='translate(244.3,813.6) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt0' transform='translate(244.5,793.6) scale(3.71)' color='rgb(131, 148, 150)'/>
@@ -855,6 +855,7 @@
 	<use xlink:href='#gpPt0' transform='translate(525.4,341.8) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt0' transform='translate(557.2,320.3) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt0' transform='translate(559.9,294.9) scale(3.71)' color='rgb(131, 148, 150)'/>
+	<use xlink:href='#gpPt0' transform='translate(573.9,271.0) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt0' transform='translate(1104.9,459.1) scale(3.71)' color='rgb(131, 148, 150)'/>
 </g>
 	</g>
@@ -930,9 +931,10 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(230, 159,   0)'  d='M1073.0,567.1 L1136.9,567.1 M572.8,856.7 L572.9,839.7 L573.2,822.8  '/>	<use xlink:href='#gpPt4' transform='translate(572.8,856.7) scale(3.71)' color='rgb(230, 159,   0)'/>
+	<path stroke='rgb(230, 159,   0)'  d='M1073.0,567.1 L1136.9,567.1 M572.8,856.7 L572.9,839.7 L573.2,822.8 L573.3,805.9  '/>	<use xlink:href='#gpPt4' transform='translate(572.8,856.7) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt4' transform='translate(572.9,839.7) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt4' transform='translate(573.2,822.8) scale(3.71)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt4' transform='translate(573.3,805.9) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt4' transform='translate(1104.9,567.1) scale(3.71)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
