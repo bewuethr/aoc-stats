@@ -217,14 +217,22 @@
           "2": {
             "get_star_ts": "1607969426"
           }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607974272"
+          },
+          "2": {
+            "get_star_ts": "1607974776"
+          }
         }
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": "1607969426",
-      "local_score": 237,
+      "last_star_ts": "1607974776",
+      "local_score": 289,
       "name": "Peter Chau",
-      "stars": 12
+      "stars": 14
     },
     "118426": {
       "completion_day_level": {},
@@ -1866,6 +1874,11 @@
             "get_star_ts": "1607884081"
           }
         },
+        "14": {
+          "1": {
+            "get_star_ts": "1607975177"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "1606924526"
@@ -1933,10 +1946,10 @@
       },
       "global_score": 0,
       "id": "715980",
-      "last_star_ts": "1607884081",
-      "local_score": 674,
+      "last_star_ts": "1607975177",
+      "local_score": 702,
       "name": "Robert Attard",
-      "stars": 24
+      "stars": 25
     },
     "986209": {
       "completion_day_level": {},
