@@ -146,7 +146,7 @@
       "global_score": 0,
       "id": "116481",
       "last_star_ts": "1607930567",
-      "local_score": 877,
+      "local_score": 898,
       "name": "mozesmagyar",
       "stars": 28
     },
@@ -177,14 +177,27 @@
           "2": {
             "get_star_ts": "1607721817"
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1607960591"
+          },
+          "2": {
+            "get_star_ts": "1607960957"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1607961618"
+          }
         }
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": "1607721817",
-      "local_score": 0,
+      "last_star_ts": "1607961618",
+      "local_score": 66,
       "name": "Peter Chau",
-      "stars": 2
+      "stars": 5
     },
     "118426": {
       "completion_day_level": {},
@@ -313,7 +326,7 @@
       "global_score": 0,
       "id": "118609",
       "last_star_ts": "1607926298",
-      "local_score": 974,
+      "local_score": 1000,
       "name": "Michael Tardibuono",
       "stars": 28
     },
@@ -477,7 +490,7 @@
       "global_score": 0,
       "id": "174641",
       "last_star_ts": "1607669889",
-      "local_score": 276,
+      "local_score": 278,
       "name": "dubyte",
       "stars": 12
     },
@@ -596,7 +609,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": "1607948889",
-      "local_score": 769,
+      "local_score": 783,
       "name": "Adam Harvie",
       "stars": 27
     },
@@ -745,7 +758,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": "1607955918",
-      "local_score": 839,
+      "local_score": 855,
       "name": "Daniel Shanker",
       "stars": 28
     },
@@ -867,7 +880,7 @@
       "global_score": 0,
       "id": "196695",
       "last_star_ts": "1607924349",
-      "local_score": 978,
+      "local_score": 1003,
       "name": "Chuck Walker",
       "stars": 28
     },
@@ -998,7 +1011,7 @@
       "global_score": 0,
       "id": "200293",
       "last_star_ts": "1607924537",
-      "local_score": 981,
+      "local_score": 1007,
       "name": "Stefan Tihanyi",
       "stars": 28
     },
@@ -1129,7 +1142,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": "1607926872",
-      "local_score": 741,
+      "local_score": 744,
       "name": "Benjamin Wuethrich",
       "stars": 28
     },
@@ -1251,7 +1264,7 @@
       "global_score": 0,
       "id": "374494",
       "last_star_ts": "1607926575",
-      "local_score": 955,
+      "local_score": 981,
       "name": null,
       "stars": 28
     },
@@ -1391,8 +1404,130 @@
       "global_score": 0,
       "id": "417433",
       "last_star_ts": "1607925554",
-      "local_score": 973,
+      "local_score": 998,
       "name": "frigley1",
+      "stars": 28
+    },
+    "543413": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606800721"
+          },
+          "2": {
+            "get_star_ts": "1606801787"
+          }
+        },
+        "10": {
+          "1": {
+            "get_star_ts": "1607584412"
+          },
+          "2": {
+            "get_star_ts": "1607588077"
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": "1607667535"
+          },
+          "2": {
+            "get_star_ts": "1607670090"
+          }
+        },
+        "12": {
+          "1": {
+            "get_star_ts": "1607808009"
+          },
+          "2": {
+            "get_star_ts": "1607809800"
+          }
+        },
+        "13": {
+          "1": {
+            "get_star_ts": "1607838143"
+          },
+          "2": {
+            "get_star_ts": "1607841383"
+          }
+        },
+        "14": {
+          "1": {
+            "get_star_ts": "1607957168"
+          },
+          "2": {
+            "get_star_ts": "1607961558"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606916012"
+          },
+          "2": {
+            "get_star_ts": "1606916629"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1607010562"
+          },
+          "2": {
+            "get_star_ts": "1607011275"
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": "1607094232"
+          },
+          "2": {
+            "get_star_ts": "1607097809"
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": "1607145877"
+          },
+          "2": {
+            "get_star_ts": "1607147539"
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": "1607231622"
+          },
+          "2": {
+            "get_star_ts": "1607232273"
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": "1607484065"
+          },
+          "2": {
+            "get_star_ts": "1607486476"
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": "1607563423"
+          },
+          "2": {
+            "get_star_ts": "1607565252"
+          }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": "1607573143"
+          },
+          "2": {
+            "get_star_ts": "1607574149"
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "543413",
+      "last_star_ts": "1607961558",
+      "local_score": 827,
+      "name": "kellydanma",
       "stars": 28
     },
     "641575": {
@@ -1513,7 +1648,7 @@
       "global_score": 0,
       "id": "641575",
       "last_star_ts": "1607924168",
-      "local_score": 972,
+      "local_score": 998,
       "name": "marie",
       "stars": 28
     },
@@ -1666,7 +1801,7 @@
       "global_score": 0,
       "id": "667178",
       "last_star_ts": "1607957258",
-      "local_score": 772,
+      "local_score": 784,
       "name": "2785",
       "stars": 27
     },
@@ -1772,7 +1907,7 @@
       "global_score": 0,
       "id": "715980",
       "last_star_ts": "1607884081",
-      "local_score": 668,
+      "local_score": 674,
       "name": "Robert Attard",
       "stars": 24
     },
@@ -1910,7 +2045,7 @@
       "global_score": 0,
       "id": "995421",
       "last_star_ts": "1607917734",
-      "local_score": 495,
+      "local_score": 497,
       "name": "Quin Millard",
       "stars": 20
     },
@@ -2029,7 +2164,7 @@
       "global_score": 0,
       "id": "996154",
       "last_star_ts": "1607927366",
-      "local_score": 743,
+      "local_score": 752,
       "name": "dracoyunho",
       "stars": 27
     }
