@@ -229,6 +229,9 @@
         "13": {
           "1": {
             "get_star_ts": "1608234152"
+          },
+          "2": {
+            "get_star_ts": "1608238697"
           }
         },
         "2": {
@@ -298,10 +301,10 @@
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": "1608234152",
-      "local_score": 582,
+      "last_star_ts": "1608238697",
+      "local_score": 609,
       "name": "Peter Chau",
-      "stars": 25
+      "stars": 26
     },
     "118426": {
       "completion_day_level": {},
@@ -2510,6 +2513,14 @@
             "get_star_ts": "1608175638"
           }
         },
+        "17": {
+          "1": {
+            "get_star_ts": "1608235755"
+          },
+          "2": {
+            "get_star_ts": "1608236569"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "1606954236"
@@ -2577,10 +2588,10 @@
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": "1608175638",
-      "local_score": 898,
+      "last_star_ts": "1608236569",
+      "local_score": 958,
       "name": "dracoyunho",
-      "stars": 32
+      "stars": 34
     }
   },
   "owner_id": "30841"
