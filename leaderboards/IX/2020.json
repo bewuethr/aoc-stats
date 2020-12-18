@@ -1026,6 +1026,9 @@
         "18": {
           "1": {
             "get_star_ts": "1608268794"
+          },
+          "2": {
+            "get_star_ts": "1608272765"
           }
         },
         "2": {
@@ -1095,10 +1098,10 @@
       },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": "1608268794",
-      "local_score": 1276,
+      "last_star_ts": "1608272765",
+      "local_score": 1312,
       "name": "Chuck Walker",
-      "stars": 35
+      "stars": 36
     },
     "197423": {
       "completion_day_level": {},
@@ -2574,6 +2577,11 @@
             "get_star_ts": "1608236569"
           }
         },
+        "18": {
+          "1": {
+            "get_star_ts": "1608272612"
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": "1606954236"
@@ -2641,10 +2649,10 @@
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": "1608236569",
-      "local_score": 958,
+      "last_star_ts": "1608272612",
+      "local_score": 993,
       "name": "dracoyunho",
-      "stars": 34
+      "stars": 35
     }
   },
   "owner_id": "30841"
