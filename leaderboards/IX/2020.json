@@ -965,6 +965,11 @@
             "get_star_ts": "1606887961"
           }
         },
+        "20": {
+          "1": {
+            "get_star_ts": "1608476339"
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": "1606972702"
@@ -1024,10 +1029,10 @@
       },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": "1608436697",
-      "local_score": 1180,
+      "last_star_ts": "1608476339",
+      "local_score": 1214,
       "name": "Daniel Shanker",
-      "stars": 38
+      "stars": 39
     },
     "196695": {
       "completion_day_level": {
@@ -2798,6 +2803,9 @@
         "19": {
           "1": {
             "get_star_ts": "1608448574"
+          },
+          "2": {
+            "get_star_ts": "1608475411"
           }
         },
         "2": {
@@ -2867,10 +2875,10 @@
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": "1608448574",
-      "local_score": 1054,
+      "last_star_ts": "1608475411",
+      "local_score": 1083,
       "name": "dracoyunho",
-      "stars": 37
+      "stars": 38
     }
   },
   "owner_id": "30841"
