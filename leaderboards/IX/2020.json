@@ -1692,6 +1692,9 @@
         "21": {
           "1": {
             "get_star_ts": "1608529146"
+          },
+          "2": {
+            "get_star_ts": "1608529860"
           }
         },
         "3": {
@@ -1753,10 +1756,10 @@
       },
       "global_score": 0,
       "id": "374494",
-      "last_star_ts": "1608529146",
-      "local_score": 1476,
+      "last_star_ts": "1608529860",
+      "local_score": 1513,
       "name": null,
-      "stars": 41
+      "stars": 42
     },
     "387136": {
       "completion_day_level": {},
