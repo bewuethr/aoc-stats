@@ -2772,13 +2772,38 @@
       "stars": 0
     },
     "641575": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1617416668"
+          },
+          "2": {
+            "get_star_ts": "1617417073"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1617461308"
+          },
+          "2": {
+            "get_star_ts": "1617461597"
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": "1617589380"
+          },
+          "2": {
+            "get_star_ts": "1617633799"
+          }
+        }
+      },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": "0",
-      "local_score": 0,
+      "last_star_ts": "1617633799",
+      "local_score": 135,
       "name": "marie",
-      "stars": 0
+      "stars": 6
     },
     "659809": {
       "completion_day_level": {},
