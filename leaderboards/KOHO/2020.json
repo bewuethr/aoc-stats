@@ -111,7 +111,7 @@
       "global_score": 0,
       "id": "1047167",
       "last_star_ts": 1608734132,
-      "local_score": 79,
+      "local_score": 103,
       "name": "AkmalU",
       "stars": 26
     },
@@ -219,7 +219,7 @@
       "global_score": 0,
       "id": "1126931",
       "last_star_ts": 1628534903,
-      "local_score": 65,
+      "local_score": 87,
       "name": "jramdass",
       "stars": 24
     },
@@ -429,9 +429,59 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": 1609297072,
-      "local_score": 158,
+      "local_score": 206,
       "name": "Benjamin Wuethrich",
       "stars": 50
+    },
+    "670330": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1607919923
+          },
+          "2": {
+            "get_star_ts": 1607920126
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1607921947
+          },
+          "2": {
+            "get_star_ts": 1607922760
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1608014095
+          },
+          "2": {
+            "get_star_ts": 1608014282
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1608014927
+          },
+          "2": {
+            "get_star_ts": 1608015386
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": 1608084173
+          },
+          "2": {
+            "get_star_ts": 1608085141
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "670330",
+      "last_star_ts": 1608085141,
+      "local_score": 10,
+      "name": "David James",
+      "stars": 10
     },
     "758869": {
       "completion_day_level": {
@@ -471,7 +521,7 @@
       "global_score": 0,
       "id": "758869",
       "last_star_ts": 1607145739,
-      "local_score": 12,
+      "local_score": 18,
       "name": "fireynis",
       "stars": 8
     }

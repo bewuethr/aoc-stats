@@ -1,0 +1,69 @@
+{
+  "event": "2021",
+  "members": {
+    "1047167": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "1047167",
+      "last_star_ts": "0",
+      "local_score": 0,
+      "name": "AkmalU",
+      "stars": 0
+    },
+    "1126931": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "1126931",
+      "last_star_ts": "0",
+      "local_score": 0,
+      "name": "jramdass",
+      "stars": 0
+    },
+    "30841": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1638335319
+          },
+          "2": {
+            "get_star_ts": 1638335491
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "30841",
+      "last_star_ts": 1638335491,
+      "local_score": 8,
+      "name": "Benjamin Wuethrich",
+      "stars": 2
+    },
+    "670330": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1638335060
+          },
+          "2": {
+            "get_star_ts": 1638335284
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "670330",
+      "last_star_ts": 1638335284,
+      "local_score": 10,
+      "name": "David James",
+      "stars": 2
+    },
+    "758869": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": "758869",
+      "last_star_ts": "0",
+      "local_score": 0,
+      "name": "fireynis",
+      "stars": 0
+    }
+  },
+  "owner_id": "1047167"
+}
