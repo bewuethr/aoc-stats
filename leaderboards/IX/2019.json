@@ -93,7 +93,7 @@
       "global_score": 0,
       "id": "116481",
       "last_star_ts": 1607982319,
-      "local_score": 386,
+      "local_score": 394,
       "name": "mozesmagyar",
       "stars": 11
     },
@@ -339,7 +339,7 @@
       "global_score": 6,
       "id": "118609",
       "last_star_ts": 1604521095,
-      "local_score": 2178,
+      "local_score": 2228,
       "name": "Michael Tardibuono",
       "stars": 50
     },
@@ -401,7 +401,7 @@
       "global_score": 0,
       "id": "123142",
       "last_star_ts": 1575264149,
-      "local_score": 158,
+      "local_score": 162,
       "name": "pingpongkingkong",
       "stars": 4
     },
@@ -494,7 +494,7 @@
       "global_score": 0,
       "id": "137785",
       "last_star_ts": 1578256006,
-      "local_score": 685,
+      "local_score": 703,
       "name": "vincentr21",
       "stars": 18
     },
@@ -685,7 +685,7 @@
       "global_score": 0,
       "id": "186091",
       "last_star_ts": 1576880844,
-      "local_score": 1039,
+      "local_score": 1065,
       "name": "Adam Harvie",
       "stars": 26
     },
@@ -783,7 +783,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": 1575835551,
-      "local_score": 610,
+      "local_score": 625,
       "name": "Daniel Shanker",
       "stars": 15
     },
@@ -993,7 +993,7 @@
       "global_score": 7,
       "id": "196695",
       "last_star_ts": 1577252880,
-      "local_score": 2263,
+      "local_score": 2313,
       "name": "Chuck Walker",
       "stars": 50
     },
@@ -1124,7 +1124,7 @@
       "global_score": 0,
       "id": "200293",
       "last_star_ts": 1576356517,
-      "local_score": 1208,
+      "local_score": 1236,
       "name": "Stefan Tihanyi",
       "stars": 28
     },
@@ -1285,7 +1285,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": 1600036393,
-      "local_score": 1355,
+      "local_score": 1388,
       "name": "Benjamin Wuethrich",
       "stars": 33
     },
@@ -1528,7 +1528,7 @@
       "global_score": 0,
       "id": "417433",
       "last_star_ts": 1577253032,
-      "local_score": 2251,
+      "local_score": 2301,
       "name": "frigley1",
       "stars": 50
     },
@@ -1753,7 +1753,7 @@
       "global_score": 0,
       "id": "641575",
       "last_star_ts": 1577302365,
-      "local_score": 2131,
+      "local_score": 2181,
       "name": "marie",
       "stars": 50
     },
@@ -1771,7 +1771,7 @@
       "global_score": 0,
       "id": "659809",
       "last_star_ts": 1575220436,
-      "local_score": 80,
+      "local_score": 82,
       "name": "grossjo",
       "stars": 2
     },
@@ -1813,9 +1813,32 @@
       "global_score": 0,
       "id": "715980",
       "last_star_ts": 1575853058,
-      "local_score": 298,
+      "local_score": 306,
       "name": "Robert Attard",
       "stars": 8
+    },
+    "796818": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1575769399
+          },
+          "2": {
+            "get_star_ts": 1575772213
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1575827506
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "796818",
+      "last_star_ts": 1575827506,
+      "local_score": 106,
+      "name": "Mark Armstrong",
+      "stars": 3
     },
     "986209": {
       "completion_day_level": {},

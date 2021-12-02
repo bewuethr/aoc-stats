@@ -23,7 +23,7 @@
       "global_score": 0,
       "id": "10318",
       "last_star_ts": 1638421435,
-      "local_score": 179,
+      "local_score": 183,
       "name": "Pat Smuk",
       "stars": 4
     },
@@ -67,7 +67,7 @@
       "global_score": 0,
       "id": "116481",
       "last_star_ts": 1638421774,
-      "local_score": 154,
+      "local_score": 158,
       "name": "mozesmagyar",
       "stars": 4
     },
@@ -129,7 +129,7 @@
       "global_score": 0,
       "id": "118609",
       "last_star_ts": 1638421638,
-      "local_score": 174,
+      "local_score": 178,
       "name": "Michael Tardibuono",
       "stars": 4
     },
@@ -214,14 +214,22 @@
           "2": {
             "get_star_ts": 1638340027
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1638423165
+          },
+          "2": {
+            "get_star_ts": 1638423453
+          }
         }
       },
       "global_score": 0,
       "id": "1573427",
-      "last_star_ts": 1638340027,
-      "local_score": 82,
+      "last_star_ts": 1638423453,
+      "local_score": 166,
       "name": "Jonathan Melcher",
-      "stars": 2
+      "stars": 4
     },
     "1650861": {
       "completion_day_level": {
@@ -237,7 +245,7 @@
       "global_score": 0,
       "id": "1650861",
       "last_star_ts": 1638384357,
-      "local_score": 76,
+      "local_score": 78,
       "name": "Mike Burns",
       "stars": 2
     },
@@ -264,7 +272,7 @@
       "global_score": 0,
       "id": "1680356",
       "last_star_ts": 1638398957,
-      "local_score": 74,
+      "local_score": 76,
       "name": "cameronouellette",
       "stars": 2
     },
@@ -336,7 +344,7 @@
       "global_score": 0,
       "id": "195615",
       "last_star_ts": 1638363973,
-      "local_score": 80,
+      "local_score": 82,
       "name": "Daniel Shanker",
       "stars": 2
     },
@@ -407,7 +415,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": 1638421448,
-      "local_score": 176,
+      "local_score": 180,
       "name": "Benjamin Wuethrich",
       "stars": 4
     },
@@ -461,7 +469,7 @@
       "global_score": 0,
       "id": "543413",
       "last_star_ts": 1638409327,
-      "local_score": 72,
+      "local_score": 74,
       "name": "KMA",
       "stars": 2
     },
@@ -487,7 +495,7 @@
       "global_score": 0,
       "id": "641575",
       "last_star_ts": 1638421397,
-      "local_score": 183,
+      "local_score": 187,
       "name": "marie",
       "stars": 4
     },
@@ -514,9 +522,35 @@
       "global_score": 0,
       "id": "715980",
       "last_star_ts": 1638375532,
-      "local_score": 78,
+      "local_score": 80,
       "name": "Robert Attard",
       "stars": 2
+    },
+    "796818": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1638417114
+          },
+          "2": {
+            "get_star_ts": 1638417768
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1638422712
+          },
+          "2": {
+            "get_star_ts": 1638422963
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "796818",
+      "last_star_ts": 1638422963,
+      "local_score": 154,
+      "name": "Mark Armstrong",
+      "stars": 4
     },
     "986209": {
       "completion_day_level": {},
@@ -541,7 +575,7 @@
       "global_score": 0,
       "id": "990214",
       "last_star_ts": 1638335796,
-      "local_score": 84,
+      "local_score": 86,
       "name": "emmawilsonix",
       "stars": 2
     },
