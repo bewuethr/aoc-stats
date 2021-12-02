@@ -97,14 +97,22 @@
           "2": {
             "get_star_ts": 1638415154
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1638480137
+          },
+          "2": {
+            "get_star_ts": 1638480242
+          }
         }
       },
       "global_score": 0,
       "id": "1694611",
-      "last_star_ts": 1638415154,
-      "local_score": 4,
+      "last_star_ts": 1638480242,
+      "local_score": 8,
       "name": "FrozenSake",
-      "stars": 2
+      "stars": 4
     },
     "30841": {
       "completion_day_level": {
