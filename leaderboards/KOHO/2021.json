@@ -24,7 +24,7 @@
       "global_score": 0,
       "id": "1126931",
       "last_star_ts": 1638399176,
-      "local_score": 6,
+      "local_score": 9,
       "name": "jramdass",
       "stars": 2
     },
@@ -42,9 +42,42 @@
       "global_score": 0,
       "id": "1630010",
       "last_star_ts": 1638370198,
-      "local_score": 8,
+      "local_score": 12,
       "name": "David",
       "stars": 2
+    },
+    "1651720": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1638381279
+          },
+          "2": {
+            "get_star_ts": 1638405144
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "1651720",
+      "last_star_ts": 1638405144,
+      "local_score": 9,
+      "name": "Devin",
+      "stars": 2
+    },
+    "1694611": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1638413344
+          }
+        }
+      },
+      "global_score": 0,
+      "id": "1694611",
+      "last_star_ts": 1638413344,
+      "local_score": 2,
+      "name": "FrozenSake",
+      "stars": 1
     },
     "30841": {
       "completion_day_level": {
@@ -60,7 +93,7 @@
       "global_score": 0,
       "id": "30841",
       "last_star_ts": 1638335491,
-      "local_score": 10,
+      "local_score": 14,
       "name": "Benjamin Wuethrich",
       "stars": 2
     },
@@ -78,7 +111,7 @@
       "global_score": 0,
       "id": "670330",
       "last_star_ts": 1638335284,
-      "local_score": 12,
+      "local_score": 16,
       "name": "David James",
       "stars": 2
     },
@@ -87,15 +120,18 @@
         "1": {
           "1": {
             "get_star_ts": 1638406894
+          },
+          "2": {
+            "get_star_ts": 1638412087
           }
         }
       },
       "global_score": 0,
       "id": "758869",
-      "last_star_ts": 1638406894,
-      "local_score": 2,
+      "last_star_ts": 1638412087,
+      "local_score": 6,
       "name": "fireynis",
-      "stars": 1
+      "stars": 2
     }
   },
   "owner_id": "1047167"
