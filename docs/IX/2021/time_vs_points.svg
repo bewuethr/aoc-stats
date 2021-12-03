@@ -481,9 +481,10 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M1073.0,486.1 L1136.9,486.1 M227.5,783.3 L227.6,693.0 L227.7,597.1  '/>	<use xlink:href='#gpPt1' transform='translate(227.5,783.3) scale(3.71)' color='rgb(148,   0, 211)'/>
+	<path stroke='rgb(148,   0, 211)'  d='M1073.0,486.1 L1136.9,486.1 M227.5,783.3 L227.6,693.0 L227.7,597.1 L227.8,501.1  '/>	<use xlink:href='#gpPt1' transform='translate(227.5,783.3) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt1' transform='translate(227.6,693.0) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt1' transform='translate(227.7,597.1) scale(3.71)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt1' transform='translate(227.8,501.1) scale(3.71)' color='rgb(148,   0, 211)'/>
 	<use xlink:href='#gpPt1' transform='translate(1104.9,486.1) scale(3.71)' color='rgb(148,   0, 211)'/>
 </g>
 	</g>
