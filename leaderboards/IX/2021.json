@@ -404,15 +404,26 @@
         "1": {
           "1": {
             "get_star_ts": 1638482833
+          },
+          "2": {
+            "get_star_ts": 1638494245
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1638495148
+          },
+          "2": {
+            "get_star_ts": 1638495358
           }
         }
       },
       "global_score": 0,
       "id": "250349",
-      "last_star_ts": 1638482833,
-      "local_score": 34,
+      "last_star_ts": 1638495358,
+      "local_score": 138,
       "name": "macterra",
-      "stars": 1
+      "stars": 4
     },
     "294290": {
       "completion_day_level": {},
