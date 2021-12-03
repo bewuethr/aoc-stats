@@ -27,14 +27,19 @@
           "2": {
             "get_star_ts": 1638421863
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1638509266
+          }
         }
       },
       "global_score": 0,
       "id": "1126931",
-      "last_star_ts": 1638421863,
-      "local_score": 21,
+      "last_star_ts": 1638509266,
+      "local_score": 26,
       "name": "jramdass",
-      "stars": 4
+      "stars": 5
     },
     "1630010": {
       "completion_day_level": {
@@ -166,15 +171,18 @@
         "3": {
           "1": {
             "get_star_ts": 1638508311
+          },
+          "2": {
+            "get_star_ts": 1638509095
           }
         }
       },
       "global_score": 0,
       "id": "670330",
-      "last_star_ts": 1638508311,
-      "local_score": 37,
+      "last_star_ts": 1638509095,
+      "local_score": 45,
       "name": "David James",
-      "stars": 5
+      "stars": 6
     },
     "758869": {
       "completion_day_level": {
@@ -193,14 +201,19 @@
           "2": {
             "get_star_ts": 1638423029
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1638508804
+          }
         }
       },
       "global_score": 0,
       "id": "758869",
-      "last_star_ts": 1638423029,
-      "local_score": 16,
+      "last_star_ts": 1638508804,
+      "local_score": 22,
       "name": "Jeremy MacArthur",
-      "stars": 4
+      "stars": 5
     }
   },
   "owner_id": "1047167"
