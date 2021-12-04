@@ -376,14 +376,22 @@
           "2": {
             "get_star_ts": 1638578200
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1638584546
+          },
+          "2": {
+            "get_star_ts": 1638584765
+          }
         }
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": 1638578200,
-      "local_score": 62,
+      "last_star_ts": 1638584765,
+      "local_score": 128,
       "name": "Ricky Kwan",
-      "stars": 2
+      "stars": 4
     },
     "195610": {
       "completion_day_level": {},
