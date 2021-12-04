@@ -156,14 +156,22 @@
           "2": {
             "get_star_ts": 1638509367
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1638596263
+          },
+          "2": {
+            "get_star_ts": 1638596461
+          }
         }
       },
       "global_score": 0,
       "id": "118609",
-      "last_star_ts": 1638509367,
-      "local_score": 275,
+      "last_star_ts": 1638596461,
+      "local_score": 366,
       "name": "Michael Tardibuono",
-      "stars": 6
+      "stars": 8
     },
     "118852": {
       "completion_day_level": {},
@@ -669,14 +677,19 @@
           "2": {
             "get_star_ts": 1638543635
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1638596103
+          }
         }
       },
       "global_score": 0,
       "id": "635231",
-      "last_star_ts": 1638543635,
-      "local_score": 235,
+      "last_star_ts": 1638596103,
+      "local_score": 281,
       "name": "aydanjiwani",
-      "stars": 6
+      "stars": 7
     },
     "641575": {
       "completion_day_level": {
@@ -838,15 +851,18 @@
         "2": {
           "1": {
             "get_star_ts": 1638595681
+          },
+          "2": {
+            "get_star_ts": 1638596125
           }
         }
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": 1638595681,
-      "local_score": 98,
+      "last_star_ts": 1638596125,
+      "local_score": 130,
       "name": "dracoyunho",
-      "stars": 3
+      "stars": 4
     }
   },
   "owner_id": "30841"
