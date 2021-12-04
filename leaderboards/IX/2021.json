@@ -26,14 +26,22 @@
           "2": {
             "get_star_ts": 1638508394
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1638595270
+          },
+          "2": {
+            "get_star_ts": 1638595509
+          }
         }
       },
       "global_score": 0,
       "id": "10318",
-      "last_star_ts": 1638508394,
-      "local_score": 281,
+      "last_star_ts": 1638595509,
+      "local_score": 375,
       "name": "Pat Smuk",
-      "stars": 6
+      "stars": 8
     },
     "1060563": {
       "completion_day_level": {},
@@ -695,14 +703,22 @@
           "2": {
             "get_star_ts": 1638508531
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1638595006
+          },
+          "2": {
+            "get_star_ts": 1638595305
+          }
         }
       },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": 1638508531,
-      "local_score": 286,
+      "last_star_ts": 1638595305,
+      "local_score": 382,
       "name": "marie",
-      "stars": 6
+      "stars": 8
     },
     "659809": {
       "completion_day_level": {},
@@ -818,14 +834,19 @@
           "2": {
             "get_star_ts": 1638510630
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1638595681
+          }
         }
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": 1638510630,
-      "local_score": 66,
+      "last_star_ts": 1638595681,
+      "local_score": 98,
       "name": "dracoyunho",
-      "stars": 2
+      "stars": 3
     }
   },
   "owner_id": "30841"
