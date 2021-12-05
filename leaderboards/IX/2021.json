@@ -502,13 +502,19 @@
       "stars": 8
     },
     "196695": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1638675529
+          }
+        }
+      },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": "0",
-      "local_score": 0,
+      "last_star_ts": 1638675529,
+      "local_score": 30,
       "name": "Chuck Walker",
-      "stars": 0
+      "stars": 1
     },
     "197423": {
       "completion_day_level": {},
