@@ -182,15 +182,34 @@
         "4": {
           "1": {
             "get_star_ts": 1638820679
+          },
+          "2": {
+            "get_star_ts": 1638820920
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": 1638821717
+          },
+          "2": {
+            "get_star_ts": 1638822123
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1638822983
+          },
+          "2": {
+            "get_star_ts": 1638823014
           }
         }
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": 1638820679,
-      "local_score": 220,
+      "last_star_ts": 1638823014,
+      "local_score": 401,
       "name": "Peter Chau",
-      "stars": 7
+      "stars": 12
     },
     "118426": {
       "completion_day_level": {},
@@ -422,14 +441,22 @@
           "2": {
             "get_star_ts": 1638755874
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1638821179
+          },
+          "2": {
+            "get_star_ts": 1638821277
+          }
         }
       },
       "global_score": 0,
       "id": "1650861",
-      "last_star_ts": 1638755874,
-      "local_score": 394,
+      "last_star_ts": 1638821277,
+      "local_score": 468,
       "name": "Mike Burns",
-      "stars": 10
+      "stars": 12
     },
     "1661893": {
       "completion_day_level": {},
