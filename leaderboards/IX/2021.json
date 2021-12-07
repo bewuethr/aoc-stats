@@ -419,15 +419,18 @@
         "7": {
           "1": {
             "get_star_ts": 1638857337
+          },
+          "2": {
+            "get_star_ts": 1638858854
           }
         }
       },
       "global_score": 0,
       "id": "1573427",
-      "last_star_ts": 1638857337,
-      "local_score": 465,
+      "last_star_ts": 1638858854,
+      "local_score": 509,
       "name": "Jonathan Melcher",
-      "stars": 11
+      "stars": 12
     },
     "1650861": {
       "completion_day_level": {
@@ -1143,14 +1146,22 @@
           "2": {
             "get_star_ts": 1638771616
           }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1638858739
+          },
+          "2": {
+            "get_star_ts": 1638859063
+          }
         }
       },
       "global_score": 0,
       "id": "796818",
-      "last_star_ts": 1638771616,
-      "local_score": 491,
+      "last_star_ts": 1638859063,
+      "local_score": 576,
       "name": "Mark Armstrong",
-      "stars": 12
+      "stars": 14
     },
     "986209": {
       "completion_day_level": {},
