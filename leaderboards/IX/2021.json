@@ -772,15 +772,18 @@
         "9": {
           "1": {
             "get_star_ts": 1639033378
+          },
+          "2": {
+            "get_star_ts": 1639097660
           }
         }
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": 1639033378,
-      "local_score": 683,
+      "last_star_ts": 1639097660,
+      "local_score": 725,
       "name": "Ricky Kwan",
-      "stars": 17
+      "stars": 18
     },
     "195610": {
       "completion_day_level": {},
@@ -1496,15 +1499,18 @@
         "8": {
           "1": {
             "get_star_ts": 1639021075
+          },
+          "2": {
+            "get_star_ts": 1639094726
           }
         }
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": 1639021075,
-      "local_score": 553,
+      "last_star_ts": 1639094726,
+      "local_score": 594,
       "name": "dracoyunho",
-      "stars": 15
+      "stars": 16
     }
   },
   "owner_id": "30841"
