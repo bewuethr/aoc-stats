@@ -480,6 +480,14 @@
             "get_star_ts": 1638340027
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1639189509
+          },
+          "2": {
+            "get_star_ts": 1639190322
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638423165
@@ -533,10 +541,10 @@
       },
       "global_score": 0,
       "id": "1573427",
-      "last_star_ts": 1639183002,
-      "local_score": 597,
+      "last_star_ts": 1639190322,
+      "local_score": 679,
       "name": "Jonathan Melcher",
-      "stars": 14
+      "stars": 16
     },
     "1650861": {
       "completion_day_level": {
@@ -1544,6 +1552,9 @@
         "10": {
           "1": {
             "get_star_ts": 1639186888
+          },
+          "2": {
+            "get_star_ts": 1639189674
           }
         },
         "2": {
@@ -1613,10 +1624,10 @@
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": 1639186888,
-      "local_score": 718,
+      "last_star_ts": 1639189674,
+      "local_score": 760,
       "name": "dracoyunho",
-      "stars": 19
+      "stars": 20
     }
   },
   "owner_id": "30841"
