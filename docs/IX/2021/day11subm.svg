@@ -87,11 +87,12 @@
 </g>
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1  '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M79.7,153.6 L79.7,27.1 M126.2,153.6 L126.2,27.1 M232.3,153.6 L232.3,27.1
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M54.6,153.6 L54.6,27.1  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M54.6,153.6 L54.6,27.1 M123.2,153.6 L123.2,27.1 M151.7,153.6 L151.7,27.1  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -293,11 +294,12 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M37.0,393.6 L37.0,267.0  '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M37.0,393.6 L37.0,267.0 M39.2,393.6 L39.2,267.0 M41.7,393.6 L41.7,267.0 M49.6,393.6 L49.6,267.0
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M38.0,393.6 L38.0,267.0  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M38.0,393.6 L38.0,267.0 M41.5,393.6 L41.5,267.0 M43.3,393.6 L43.3,267.0  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>
