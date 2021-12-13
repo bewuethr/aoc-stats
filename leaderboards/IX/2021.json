@@ -35,6 +35,14 @@
             "get_star_ts": 1639286039
           }
         },
+        "13": {
+          "1": {
+            "get_star_ts": 1639372720
+          },
+          "2": {
+            "get_star_ts": 1639372751
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638421332
@@ -102,10 +110,10 @@
       },
       "global_score": 0,
       "id": "10318",
-      "last_star_ts": 1639286039,
-      "local_score": 1157,
+      "last_star_ts": 1639372751,
+      "local_score": 1254,
       "name": "Pat Smuk",
-      "stars": 24
+      "stars": 26
     },
     "1060563": {
       "completion_day_level": {},
@@ -875,6 +883,11 @@
             "get_star_ts": 1639205720
           }
         },
+        "12": {
+          "1": {
+            "get_star_ts": 1639373057
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638584546
@@ -942,10 +955,10 @@
       },
       "global_score": 0,
       "id": "186094",
-      "last_star_ts": 1639205720,
-      "local_score": 907,
+      "last_star_ts": 1639373057,
+      "local_score": 949,
       "name": "Ricky Kwan",
-      "stars": 22
+      "stars": 23
     },
     "195610": {
       "completion_day_level": {},
@@ -1453,6 +1466,14 @@
             "get_star_ts": 1639286410
           }
         },
+        "13": {
+          "1": {
+            "get_star_ts": 1639372706
+          },
+          "2": {
+            "get_star_ts": 1639372761
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638421327
@@ -1520,10 +1541,10 @@
       },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": 1639286410,
-      "local_score": 1157,
+      "last_star_ts": 1639372761,
+      "local_score": 1254,
       "name": "marie",
-      "stars": 24
+      "stars": 26
     },
     "659809": {
       "completion_day_level": {},
@@ -1704,6 +1725,9 @@
         "12": {
           "1": {
             "get_star_ts": 1639370884
+          },
+          "2": {
+            "get_star_ts": 1639372765
           }
         },
         "2": {
@@ -1773,10 +1797,10 @@
       },
       "global_score": 0,
       "id": "996154",
-      "last_star_ts": 1639370884,
-      "local_score": 887,
+      "last_star_ts": 1639372765,
+      "local_score": 930,
       "name": "dracoyunho",
-      "stars": 23
+      "stars": 24
     }
   },
   "owner_id": "30841"
