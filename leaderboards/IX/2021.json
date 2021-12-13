@@ -700,6 +700,14 @@
             "get_star_ts": 1639343904
           }
         },
+        "11": {
+          "1": {
+            "get_star_ts": 1639363486
+          },
+          "2": {
+            "get_star_ts": 1639364012
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638462702
@@ -767,10 +775,10 @@
       },
       "global_score": 0,
       "id": "1680356",
-      "last_star_ts": 1639343904,
-      "local_score": 778,
+      "last_star_ts": 1639364012,
+      "local_score": 858,
       "name": "cameronouellette",
-      "stars": 20
+      "stars": 22
     },
     "170332": {
       "completion_day_level": {},
@@ -819,15 +827,18 @@
         "4": {
           "1": {
             "get_star_ts": 1639360551
+          },
+          "2": {
+            "get_star_ts": 1639362277
           }
         }
       },
       "global_score": 0,
       "id": "1795318",
-      "last_star_ts": 1639360551,
-      "local_score": 230,
+      "last_star_ts": 1639362277,
+      "local_score": 266,
       "name": "Derek Boucher",
-      "stars": 7
+      "stars": 8
     },
     "186091": {
       "completion_day_level": {},
