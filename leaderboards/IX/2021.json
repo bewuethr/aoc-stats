@@ -275,6 +275,22 @@
             "get_star_ts": 1638805458
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1639408297
+          },
+          "2": {
+            "get_star_ts": 1639408705
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": 1639410378
+          },
+          "2": {
+            "get_star_ts": 1639410515
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638806224
@@ -342,10 +358,10 @@
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": 1639175249,
-      "local_score": 637,
+      "last_star_ts": 1639410515,
+      "local_score": 793,
       "name": "Peter Chau",
-      "stars": 18
+      "stars": 22
     },
     "118426": {
       "completion_day_level": {},
