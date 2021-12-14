@@ -326,6 +326,9 @@
         "14": {
           "1": {
             "get_star_ts": 1639495625
+          },
+          "2": {
+            "get_star_ts": 1639497616
           }
         },
         "2": {
@@ -395,10 +398,10 @@
       },
       "global_score": 0,
       "id": "118403",
-      "last_star_ts": 1639495625,
-      "local_score": 1002,
+      "last_star_ts": 1639497616,
+      "local_score": 1046,
       "name": "Peter Chau",
-      "stars": 27
+      "stars": 28
     },
     "118426": {
       "completion_day_level": {},
