@@ -1106,6 +1106,9 @@
         "14": {
           "1": {
             "get_star_ts": 1639487500
+          },
+          "2": {
+            "get_star_ts": 1639492820
           }
         },
         "2": {
@@ -1175,10 +1178,10 @@
       },
       "global_score": 0,
       "id": "195615",
-      "last_star_ts": 1639487500,
-      "local_score": 1160,
+      "last_star_ts": 1639492820,
+      "local_score": 1205,
       "name": "Daniel Shanker",
-      "stars": 27
+      "stars": 28
     },
     "196695": {
       "completion_day_level": {
@@ -1271,6 +1274,11 @@
             "get_star_ts": 1639418887
           }
         },
+        "14": {
+          "1": {
+            "get_star_ts": 1639491053
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638495148
@@ -1338,10 +1346,10 @@
       },
       "global_score": 0,
       "id": "250349",
-      "last_star_ts": 1639418887,
-      "local_score": 1075,
+      "last_star_ts": 1639491053,
+      "local_score": 1119,
       "name": "macterra",
-      "stars": 26
+      "stars": 27
     },
     "294290": {
       "completion_day_level": {},
@@ -1692,14 +1700,19 @@
           "2": {
             "get_star_ts": 1639150714
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1639491971
+          }
         }
       },
       "global_score": 0,
       "id": "715980",
-      "last_star_ts": 1639150714,
-      "local_score": 229,
+      "last_star_ts": 1639491971,
+      "local_score": 264,
       "name": "Robert Attard",
-      "stars": 6
+      "stars": 7
     },
     "796818": {
       "completion_day_level": {
