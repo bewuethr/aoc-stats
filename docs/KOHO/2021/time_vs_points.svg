@@ -336,7 +336,7 @@
 	<path stroke='rgb( 86, 180, 233)'  d='M1073.0,108.1 L1136.9,108.1 M156.4,848.2 L156.7,822.8 L188.9,810.1 L188.9,797.4 L231.9,784.7 L240.1,767.8
 		L257.8,746.6 L257.8,725.5 L345.5,708.5 L345.6,687.4 L345.7,670.4 L345.7,653.5 L365.0,632.3 L368.7,611.2
 		L407.9,590.0 L408.8,564.6 L443.9,543.5 L500.9,522.3 L501.2,501.1 L501.6,480.0 L647.7,450.3 L648.0,416.5
-		 '/>	<use xlink:href='#gpPt2' transform='translate(156.4,848.2) scale(3.71)' color='rgb( 86, 180, 233)'/>
+		L649.4,386.9 L649.5,357.2  '/>	<use xlink:href='#gpPt2' transform='translate(156.4,848.2) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(156.7,822.8) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(188.9,810.1) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(188.9,797.4) scale(3.71)' color='rgb( 86, 180, 233)'/>
@@ -358,6 +358,8 @@
 	<use xlink:href='#gpPt2' transform='translate(501.6,480.0) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(647.7,450.3) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(648.0,416.5) scale(3.71)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(649.4,386.9) scale(3.71)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(649.5,357.2) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(1104.9,108.1) scale(3.71)' color='rgb( 86, 180, 233)'/>
 </g>
 	</g>
