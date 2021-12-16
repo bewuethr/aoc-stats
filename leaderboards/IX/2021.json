@@ -855,6 +855,9 @@
         "12": {
           "1": {
             "get_star_ts": 1639679870
+          },
+          "2": {
+            "get_star_ts": 1639686068
           }
         },
         "2": {
@@ -924,10 +927,10 @@
       },
       "global_score": 0,
       "id": "1680356",
-      "last_star_ts": 1639679870,
-      "local_score": 921,
+      "last_star_ts": 1639686068,
+      "local_score": 962,
       "name": "cameronouellette",
-      "stars": 23
+      "stars": 24
     },
     "170332": {
       "completion_day_level": {},
