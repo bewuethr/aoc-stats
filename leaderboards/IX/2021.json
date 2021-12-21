@@ -983,6 +983,9 @@
         "16": {
           "1": {
             "get_star_ts": 1640104896
+          },
+          "2": {
+            "get_star_ts": 1640106655
           }
         },
         "2": {
@@ -1052,10 +1055,10 @@
       },
       "global_score": 0,
       "id": "1680356",
-      "last_star_ts": 1640104896,
-      "local_score": 1262,
+      "last_star_ts": 1640106655,
+      "local_score": 1306,
       "name": "cameronouellette",
-      "stars": 31
+      "stars": 32
     },
     "170332": {
       "completion_day_level": {},
@@ -1442,15 +1445,18 @@
         "3": {
           "1": {
             "get_star_ts": 1638727941
+          },
+          "2": {
+            "get_star_ts": 1640107559
           }
         }
       },
       "global_score": 0,
       "id": "196695",
-      "last_star_ts": 1638727941,
-      "local_score": 159,
+      "last_star_ts": 1640107559,
+      "local_score": 192,
       "name": "Chuck Walker",
-      "stars": 5
+      "stars": 6
     },
     "197423": {
       "completion_day_level": {},
