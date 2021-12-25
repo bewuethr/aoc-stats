@@ -88,12 +88,13 @@
 </g>
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M48.1,153.6 L48.1,27.1 M177.1,153.6 L177.1,27.1 M1076.9,153.6 L1076.9,27.1
-		 '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M31.5,153.6 L31.5,27.1 M48.1,153.6 L48.1,27.1 M177.1,153.6 L177.1,27.1 M999.0,153.6 L999.0,27.1
+		M1076.9,153.6 L1076.9,27.1  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M363.8,153.6 L363.8,27.1 M478.8,153.6 L478.8,27.1 M563.5,153.6 L563.5,27.1  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M363.8,153.6 L363.8,27.1 M478.8,153.6 L478.8,27.1 M563.5,153.6 L563.5,27.1 M1146.9,153.6 L1146.9,27.1
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,94.6 1229.5,94.6 1229.5,40.6 1001.8,40.6 '/>
@@ -295,12 +296,13 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M32.8,393.6 L32.8,267.0 M33.3,393.6 L33.3,267.0 M38.5,393.6 L38.5,267.0 M620.7,393.6 L620.7,267.0
-		 '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M32.8,393.6 L32.8,267.0 M33.3,393.6 L33.3,267.0 M38.5,393.6 L38.5,267.0 M450.3,393.6 L450.3,267.0
+		M620.7,393.6 L620.7,267.0  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M53.5,393.6 L53.5,267.0 M70.9,393.6 L70.9,267.0 M90.6,393.6 L90.6,267.0  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M53.5,393.6 L53.5,267.0 M70.9,393.6 L70.9,267.0 M90.6,393.6 L90.6,267.0 M831.2,393.6 L831.2,267.0
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.8,334.5 1229.5,334.5 1229.5,280.5 1001.8,280.5 '/>
