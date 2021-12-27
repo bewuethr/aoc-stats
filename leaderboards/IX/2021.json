@@ -1885,6 +1885,14 @@
             "get_star_ts": 1640195188
           }
         },
+        "23": {
+          "1": {
+            "get_star_ts": 1640560834
+          },
+          "2": {
+            "get_star_ts": 1640560866
+          }
+        },
         "24": {
           "1": {
             "get_star_ts": 1640374302
@@ -1896,6 +1904,9 @@
         "25": {
           "1": {
             "get_star_ts": 1640449530
+          },
+          "2": {
+            "get_star_ts": 1640560886
           }
         },
         "3": {
@@ -1957,10 +1968,10 @@
       },
       "global_score": 0,
       "id": "250349",
-      "last_star_ts": 1640457007,
-      "local_score": 2106,
+      "last_star_ts": 1640560886,
+      "local_score": 2247,
       "name": "macterra",
-      "stars": 47
+      "stars": 50
     },
     "294290": {
       "completion_day_level": {},
