@@ -2205,6 +2205,9 @@
         "22": {
           "1": {
             "get_star_ts": 1609038688
+          },
+          "2": {
+            "get_star_ts": 1640815728
           }
         },
         "23": {
@@ -2287,10 +2290,10 @@
       },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": 1640813750,
-      "local_score": 1867,
+      "last_star_ts": 1640815728,
+      "local_score": 1913,
       "name": "marie",
-      "stars": 46
+      "stars": 47
     },
     "659809": {
       "completion_day_level": {},
