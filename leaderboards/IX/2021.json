@@ -1397,15 +1397,34 @@
         "5": {
           "1": {
             "get_star_ts": 1640364010
+          },
+          "2": {
+            "get_star_ts": 1641140787
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1641142890
+          },
+          "2": {
+            "get_star_ts": 1641167040
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1641168665
+          },
+          "2": {
+            "get_star_ts": 1641168910
           }
         }
       },
       "global_score": 0,
       "id": "1795318",
-      "last_star_ts": 1640364010,
-      "local_score": 312,
+      "last_star_ts": 1641168910,
+      "local_score": 492,
       "name": "Derek Boucher",
-      "stars": 9
+      "stars": 14
     },
     "186091": {
       "completion_day_level": {},

@@ -2146,6 +2146,14 @@
             "get_star_ts": 1605458639
           }
         },
+        "15": {
+          "1": {
+            "get_star_ts": 1640967620
+          },
+          "2": {
+            "get_star_ts": 1640968409
+          }
+        },
         "16": {
           "1": {
             "get_star_ts": 1608426557
@@ -2229,6 +2237,9 @@
         "25": {
           "1": {
             "get_star_ts": 1609093186
+          },
+          "2": {
+            "get_star_ts": 1640968429
           }
         },
         "3": {
@@ -2290,10 +2301,10 @@
       },
       "global_score": 0,
       "id": "641575",
-      "last_star_ts": 1640815728,
-      "local_score": 1913,
+      "last_star_ts": 1640968429,
+      "local_score": 2052,
       "name": "marie",
-      "stars": 47
+      "stars": 50
     },
     "659809": {
       "completion_day_level": {},
