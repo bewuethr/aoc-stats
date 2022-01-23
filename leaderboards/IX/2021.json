@@ -2011,6 +2011,14 @@
             "get_star_ts": 1638335491
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1642896021
+          },
+          "2": {
+            "get_star_ts": 1642896878
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1638421306
@@ -2070,15 +2078,18 @@
         "9": {
           "1": {
             "get_star_ts": 1642825722
+          },
+          "2": {
+            "get_star_ts": 1642893006
           }
         }
       },
       "global_score": 0,
       "id": "30841",
-      "last_star_ts": 1642825722,
-      "local_score": 688,
+      "last_star_ts": 1642896878,
+      "local_score": 806,
       "name": "Benjamin Wuethrich",
-      "stars": 17
+      "stars": 20
     },
     "374494": {
       "completion_day_level": {},
