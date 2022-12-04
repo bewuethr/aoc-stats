@@ -64,6 +64,7 @@ gen_submission_stamps() {
 	jq -r '
 		[
 			.members[].completion_day_level |
+			(.. | select(type == "object")) |= del(.star_index) |
 			paths(scalars) as $p |
 			getpath($p) as $v |
 			($p | map(strings) + [$v]) |
