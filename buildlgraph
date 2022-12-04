@@ -25,6 +25,7 @@ jq -r '
 		| select(.stars > 0)
 		| (.name // .id) as $n
 		| {($n): .completion_day_level}
+		| walk(if type == "object" then del(.star_index) else . end)
 		| paths(scalars) as $p
 		| getpath($p) as $v
 		| ($p + [$v])
