@@ -127,7 +127,7 @@ rank_day_star() {
 		end |
 		sort_by(.tstamp)[] |
 		select(.tstamp != null) |
-		[.name // ("User #" + .id), .tstamp, .tstamp1 // ""] |
+		[.name // ("User #\(.id)"), .tstamp, .tstamp1 // ""] |
 		@tsv
 	' "leaderboards/$board/$year.json" \
 		| while IFS=$'\t' read -r name tstamp1 tstamp2; do
