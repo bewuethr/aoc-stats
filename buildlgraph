@@ -23,7 +23,7 @@ jq -r '
 	| [
 		.members[]
 		| select(.stars > 0)
-		| (.name // .id) as $n
+		| (.name // .id | tostring) as $n
 		| {($n): .completion_day_level}
 		| (.. | select(type == "object")) |= del(.star_index)
 		| paths(scalars) as $p
