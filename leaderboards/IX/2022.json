@@ -342,13 +342,24 @@
       "stars": 0
     },
     "1795318": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1670196686,
+            "star_index": 1111335
+          },
+          "2": {
+            "get_star_ts": 1670196857,
+            "star_index": 1111648
+          }
+        }
+      },
       "global_score": 0,
       "id": 1795318,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1670196857,
+      "local_score": 80,
       "name": "Derek Boucher",
-      "stars": 0
+      "stars": 2
     },
     "186091": {
       "completion_day_level": {},
@@ -519,7 +530,7 @@
       "id": 250349,
       "last_star_ts": 1670175386,
       "local_score": 358,
-      "name": "macterra",
+      "name": "David McFadzean",
       "stars": 8
     },
     "294290": {
