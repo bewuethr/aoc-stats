@@ -203,15 +203,19 @@
           "1": {
             "get_star_ts": 1670218793,
             "star_index": 1146460
+          },
+          "2": {
+            "get_star_ts": 1670220141,
+            "star_index": 1155266
           }
         }
       },
       "global_score": 0,
       "id": 670330,
-      "last_star_ts": 1670218793,
-      "local_score": 57,
+      "last_star_ts": 1670220141,
+      "local_score": 63,
       "name": "David James",
-      "stars": 9
+      "stars": 10
     },
     "758869": {
       "completion_day_level": {},
