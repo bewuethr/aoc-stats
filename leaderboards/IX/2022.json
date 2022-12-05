@@ -117,14 +117,24 @@
             "get_star_ts": 1669922665,
             "star_index": 195801
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1670264796,
+            "star_index": 1342798
+          },
+          "2": {
+            "get_star_ts": 1670265429,
+            "star_index": 1345125
+          }
         }
       },
       "global_score": 0,
       "id": 118403,
-      "last_star_ts": 1669922665,
-      "local_score": 90,
+      "last_star_ts": 1670265429,
+      "local_score": 172,
       "name": "Peter Chau",
-      "stars": 2
+      "stars": 4
     },
     "118426": {
       "completion_day_level": {},
@@ -565,15 +575,19 @@
           "1": {
             "get_star_ts": 1670262469,
             "star_index": 1334331
+          },
+          "2": {
+            "get_star_ts": 1670263319,
+            "star_index": 1337401
           }
         }
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1670262469,
-      "local_score": 402,
+      "last_star_ts": 1670263319,
+      "local_score": 446,
       "name": "David McFadzean",
-      "stars": 9
+      "stars": 10
     },
     "294290": {
       "completion_day_level": {},
