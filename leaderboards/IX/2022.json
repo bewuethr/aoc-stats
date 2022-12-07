@@ -221,15 +221,19 @@
           "1": {
             "get_star_ts": 1670391168,
             "star_index": 1741316
+          },
+          "2": {
+            "get_star_ts": 1670392038,
+            "star_index": 1745693
           }
         }
       },
       "global_score": 0,
       "id": 118609,
-      "last_star_ts": 1670391168,
-      "local_score": 631,
+      "last_star_ts": 1670392038,
+      "local_score": 680,
       "name": "Michael Tardibuono",
-      "stars": 13
+      "stars": 14
     },
     "118852": {
       "completion_day_level": {},
@@ -953,14 +957,20 @@
             "get_star_ts": 1670304445,
             "star_index": 1463537
           }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1670392311,
+            "star_index": 1747004
+          }
         }
       },
       "global_score": 0,
       "id": 796818,
-      "last_star_ts": 1670304445,
-      "local_score": 559,
+      "last_star_ts": 1670392311,
+      "local_score": 607,
       "name": "Mark Armstrong",
-      "stars": 12
+      "stars": 13
     },
     "986209": {
       "completion_day_level": {},
