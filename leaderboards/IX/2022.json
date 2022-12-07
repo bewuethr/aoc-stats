@@ -94,15 +94,19 @@
           "1": {
             "get_star_ts": 1670431969,
             "star_index": 1863855
+          },
+          "2": {
+            "get_star_ts": 1670434051,
+            "star_index": 1869846
           }
         }
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1670431969,
-      "local_score": 604,
+      "last_star_ts": 1670434051,
+      "local_score": 650,
       "name": "mozesmagyar",
-      "stars": 13
+      "stars": 14
     },
     "117917": {
       "completion_day_level": {},
@@ -143,14 +147,34 @@
             "get_star_ts": 1670265429,
             "star_index": 1345125
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1670433826,
+            "star_index": 1869202
+          },
+          "2": {
+            "get_star_ts": 1670434180,
+            "star_index": 1870205
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1670435138,
+            "star_index": 1872798
+          },
+          "2": {
+            "get_star_ts": 1670435306,
+            "star_index": 1873217
+          }
         }
       },
       "global_score": 0,
       "id": 118403,
-      "last_star_ts": 1670265429,
-      "local_score": 172,
+      "last_star_ts": 1670435306,
+      "local_score": 338,
       "name": "Peter Chau",
-      "stars": 4
+      "stars": 8
     },
     "118426": {
       "completion_day_level": {},
