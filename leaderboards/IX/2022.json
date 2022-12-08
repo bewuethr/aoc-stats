@@ -104,15 +104,19 @@
           "1": {
             "get_star_ts": 1670508003,
             "star_index": 2061307
+          },
+          "2": {
+            "get_star_ts": 1670509625,
+            "star_index": 2065899
           }
         }
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1670508003,
-      "local_score": 696,
+      "last_star_ts": 1670509625,
+      "local_score": 742,
       "name": "mozesmagyar",
-      "stars": 15
+      "stars": 16
     },
     "117917": {
       "completion_day_level": {},
@@ -720,14 +724,20 @@
             "get_star_ts": 1670450626,
             "star_index": 1917502
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1670509222,
+            "star_index": 2064698
+          }
         }
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1670450626,
-      "local_score": 624,
+      "last_star_ts": 1670509222,
+      "local_score": 669,
       "name": "David McFadzean",
-      "stars": 14
+      "stars": 15
     },
     "294290": {
       "completion_day_level": {},
