@@ -271,15 +271,19 @@
           "1": {
             "get_star_ts": 1670475987,
             "star_index": 1955478
+          },
+          "2": {
+            "get_star_ts": 1670477067,
+            "star_index": 1961671
           }
         }
       },
       "global_score": 0,
       "id": 118609,
-      "last_star_ts": 1670475987,
-      "local_score": 730,
+      "last_star_ts": 1670477067,
+      "local_score": 780,
       "name": "Michael Tardibuono",
-      "stars": 15
+      "stars": 16
     },
     "118852": {
       "completion_day_level": {},
@@ -944,14 +948,24 @@
             "get_star_ts": 1670391192,
             "star_index": 1741436
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1670476775,
+            "star_index": 1959662
+          },
+          "2": {
+            "get_star_ts": 1670477241,
+            "star_index": 1962871
+          }
         }
       },
       "global_score": 0,
       "id": 641575,
-      "last_star_ts": 1670391192,
-      "local_score": 696,
+      "last_star_ts": 1670477241,
+      "local_score": 794,
       "name": "Marie Payne",
-      "stars": 14
+      "stars": 16
     },
     "659809": {
       "completion_day_level": {},
@@ -1033,14 +1047,20 @@
             "get_star_ts": 1670393562,
             "star_index": 1752482
           }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1670477338,
+            "star_index": 1963530
+          }
         }
       },
       "global_score": 0,
       "id": 796818,
-      "last_star_ts": 1670393562,
-      "local_score": 655,
+      "last_star_ts": 1670477338,
+      "local_score": 703,
       "name": "Mark Armstrong",
-      "stars": 14
+      "stars": 15
     },
     "986209": {
       "completion_day_level": {},
