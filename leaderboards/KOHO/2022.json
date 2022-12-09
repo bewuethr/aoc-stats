@@ -72,6 +72,16 @@
             "star_index": 1446339
           }
         },
+        "7": {
+          "1": {
+            "get_star_ts": 1670545128,
+            "star_index": 2149133
+          },
+          "2": {
+            "get_star_ts": 1670545423,
+            "star_index": 2149536
+          }
+        },
         "8": {
           "1": {
             "get_star_ts": 1670479375,
@@ -85,10 +95,10 @@
       },
       "global_score": 0,
       "id": 1126931,
-      "last_star_ts": 1670480017,
-      "local_score": 101,
+      "last_star_ts": 1670545423,
+      "local_score": 115,
       "name": "jramdass",
-      "stars": 14
+      "stars": 16
     },
     "1630010": {
       "completion_day_level": {
