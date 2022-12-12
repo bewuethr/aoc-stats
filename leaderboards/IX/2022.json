@@ -1243,6 +1243,10 @@
           "1": {
             "get_star_ts": 1670824410,
             "star_index": 2700526
+          },
+          "2": {
+            "get_star_ts": 1670824843,
+            "star_index": 2701690
           }
         },
         "2": {
@@ -1328,10 +1332,10 @@
       },
       "global_score": 0,
       "id": 796818,
-      "last_star_ts": 1670824410,
-      "local_score": 1081,
+      "last_star_ts": 1670824843,
+      "local_score": 1128,
       "name": "Mark Armstrong",
-      "stars": 23
+      "stars": 24
     },
     "986209": {
       "completion_day_level": {},
