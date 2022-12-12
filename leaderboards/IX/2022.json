@@ -60,6 +60,16 @@
             "star_index": 2546106
           }
         },
+        "12": {
+          "1": {
+            "get_star_ts": 1670824179,
+            "star_index": 2699864
+          },
+          "2": {
+            "get_star_ts": 1670824556,
+            "star_index": 2700930
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1669958876,
@@ -143,10 +153,10 @@
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1670742014,
-      "local_score": 1027,
+      "last_star_ts": 1670824556,
+      "local_score": 1123,
       "name": "mozesmagyar",
-      "stars": 22
+      "stars": 24
     },
     "117917": {
       "completion_day_level": {},
@@ -1229,6 +1239,12 @@
             "star_index": 2548810
           }
         },
+        "12": {
+          "1": {
+            "get_star_ts": 1670824410,
+            "star_index": 2700526
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1669959153,
@@ -1312,10 +1328,10 @@
       },
       "global_score": 0,
       "id": 796818,
-      "last_star_ts": 1670743487,
-      "local_score": 1034,
+      "last_star_ts": 1670824410,
+      "local_score": 1081,
       "name": "Mark Armstrong",
-      "stars": 22
+      "stars": 23
     },
     "986209": {
       "completion_day_level": {},
