@@ -805,6 +805,12 @@
             "star_index": 2674121
           }
         },
+        "12": {
+          "1": {
+            "get_star_ts": 1670866959,
+            "star_index": 2780930
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1669991088,
@@ -888,10 +894,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1670801785,
-      "local_score": 984,
+      "last_star_ts": 1670866959,
+      "local_score": 1029,
       "name": "David McFadzean",
-      "stars": 22
+      "stars": 23
     },
     "294290": {
       "completion_day_level": {},
