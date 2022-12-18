@@ -846,6 +846,12 @@
             "star_index": 3321690
           }
         },
+        "18": {
+          "1": {
+            "get_star_ts": 1671340620,
+            "star_index": 3326232
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1669988230,
@@ -929,10 +935,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1671334989,
-      "local_score": 1578,
+      "last_star_ts": 1671340620,
+      "local_score": 1626,
       "name": "Daniel Shanker",
-      "stars": 34
+      "stars": 35
     },
     "1965603": {
       "completion_day_level": {},
@@ -1417,6 +1423,10 @@
           "1": {
             "get_star_ts": 1671339940,
             "star_index": 3324042
+          },
+          "2": {
+            "get_star_ts": 1671341053,
+            "star_index": 3327305
           }
         },
         "2": {
@@ -1502,10 +1512,10 @@
       },
       "global_score": 34,
       "id": 641575,
-      "last_star_ts": 1671339940,
-      "local_score": 1739,
+      "last_star_ts": 1671341053,
+      "local_score": 1789,
       "name": "Marie Payne",
-      "stars": 35
+      "stars": 36
     },
     "659809": {
       "completion_day_level": {},
