@@ -498,6 +498,12 @@
             "star_index": 3524023
           }
         },
+        "21": {
+          "1": {
+            "get_star_ts": 1671600322,
+            "star_index": 3530337
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1670075570,
@@ -571,10 +577,10 @@
       },
       "global_score": 0,
       "id": 118609,
-      "last_star_ts": 1671590246,
-      "local_score": 1848,
+      "last_star_ts": 1671600322,
+      "local_score": 1897,
       "name": "Michael Tardibuono",
-      "stars": 38
+      "stars": 39
     },
     "118852": {
       "completion_day_level": {},
@@ -1567,6 +1573,10 @@
           "1": {
             "get_star_ts": 1671599521,
             "star_index": 3528258
+          },
+          "2": {
+            "get_star_ts": 1671600120,
+            "star_index": 3529824
           }
         },
         "3": {
@@ -1642,10 +1652,10 @@
       },
       "global_score": 34,
       "id": 641575,
-      "last_star_ts": 1671599521,
-      "local_score": 2039,
+      "last_star_ts": 1671600120,
+      "local_score": 2089,
       "name": "Marie Payne",
-      "stars": 41
+      "stars": 42
     },
     "659809": {
       "completion_day_level": {},
