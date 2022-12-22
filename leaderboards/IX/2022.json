@@ -69,6 +69,12 @@
             "star_index": 3534904
           }
         },
+        "22": {
+          "1": {
+            "get_star_ts": 1671687300,
+            "star_index": 3598238
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1671314617,
@@ -112,10 +118,10 @@
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1671667120,
-      "local_score": 915,
+      "last_star_ts": 1671687300,
+      "local_score": 964,
       "name": "Pat Smuk",
-      "stars": 21
+      "stars": 22
     },
     "1060563": {
       "completion_day_level": {},
@@ -1615,6 +1621,12 @@
             "star_index": 3529824
           }
         },
+        "22": {
+          "1": {
+            "get_star_ts": 1671687257,
+            "star_index": 3598195
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1670043894,
@@ -1688,10 +1700,10 @@
       },
       "global_score": 34,
       "id": 641575,
-      "last_star_ts": 1671600120,
-      "local_score": 2089,
+      "last_star_ts": 1671687257,
+      "local_score": 2139,
       "name": "Marie Payne",
-      "stars": 42
+      "stars": 43
     },
     "659809": {
       "completion_day_level": {},
