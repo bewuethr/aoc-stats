@@ -152,14 +152,24 @@
             "get_star_ts": 1671845684,
             "star_index": 3706250
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1671854747,
+            "star_index": 3708746
+          },
+          "2": {
+            "get_star_ts": 1671855482,
+            "star_index": 3708921
+          }
         }
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1671845684,
-      "local_score": 1327,
+      "last_star_ts": 1671855482,
+      "local_score": 1415,
       "name": "Pat Smuk",
-      "stars": 30
+      "stars": 32
     },
     "1060563": {
       "completion_day_level": {},
@@ -550,6 +560,12 @@
             "star_index": 3330070
           }
         },
+        "19": {
+          "1": {
+            "get_star_ts": 1671857742,
+            "star_index": 3709495
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1669957598,
@@ -673,10 +689,10 @@
       },
       "global_score": 0,
       "id": 118609,
-      "last_star_ts": 1671776994,
-      "local_score": 2142,
+      "last_star_ts": 1671857742,
+      "local_score": 2190,
       "name": "Michael Tardibuono",
-      "stars": 44
+      "stars": 45
     },
     "118852": {
       "completion_day_level": {},
