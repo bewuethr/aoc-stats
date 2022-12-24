@@ -1318,6 +1318,12 @@
             "star_index": 3686804
           }
         },
+        "24": {
+          "1": {
+            "get_star_ts": 1671899300,
+            "star_index": 3734641
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1670102567,
@@ -1391,10 +1397,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1671831564,
-      "local_score": 1866,
+      "last_star_ts": 1671899300,
+      "local_score": 1913,
       "name": "David McFadzean",
-      "stars": 41
+      "stars": 42
     },
     "294290": {
       "completion_day_level": {},
@@ -1767,6 +1773,10 @@
           "1": {
             "get_star_ts": 1671897355,
             "star_index": 3733565
+          },
+          "2": {
+            "get_star_ts": 1671897757,
+            "star_index": 3733811
           }
         },
         "3": {
@@ -1842,10 +1852,10 @@
       },
       "global_score": 34,
       "id": 641575,
-      "last_star_ts": 1671897355,
-      "local_score": 2334,
+      "last_star_ts": 1671897757,
+      "local_score": 2382,
       "name": "Marie Payne",
-      "stars": 47
+      "stars": 48
     },
     "659809": {
       "completion_day_level": {},
