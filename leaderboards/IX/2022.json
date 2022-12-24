@@ -1763,6 +1763,12 @@
             "star_index": 3683143
           }
         },
+        "24": {
+          "1": {
+            "get_star_ts": 1671897355,
+            "star_index": 3733565
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1670043894,
@@ -1836,10 +1842,10 @@
       },
       "global_score": 34,
       "id": 641575,
-      "last_star_ts": 1671810609,
-      "local_score": 2286,
+      "last_star_ts": 1671897355,
+      "local_score": 2334,
       "name": "Marie Payne",
-      "stars": 46
+      "stars": 47
     },
     "659809": {
       "completion_day_level": {},
