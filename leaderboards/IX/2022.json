@@ -1532,14 +1532,24 @@
             "get_star_ts": 1671408536,
             "star_index": 3393024
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1672014869,
+            "star_index": 3796369
+          },
+          "2": {
+            "get_star_ts": 1672015855,
+            "star_index": 3796654
+          }
         }
       },
       "global_score": 0,
       "id": 30841,
-      "last_star_ts": 1671408536,
-      "local_score": 733,
+      "last_star_ts": 1672015855,
+      "local_score": 819,
       "name": "Benjamin Wuethrich",
-      "stars": 16
+      "stars": 18
     },
     "374494": {
       "completion_day_level": {},
