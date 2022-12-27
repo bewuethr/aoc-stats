@@ -53,6 +53,16 @@
             "star_index": 3824664
           }
         },
+        "14": {
+          "1": {
+            "get_star_ts": 1672114678,
+            "star_index": 3828129
+          },
+          "2": {
+            "get_star_ts": 1672115075,
+            "star_index": 3828194
+          }
+        },
         "17": {
           "1": {
             "get_star_ts": 1671667120,
@@ -222,10 +232,10 @@
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1672099493,
-      "local_score": 1914,
+      "last_star_ts": 1672115075,
+      "local_score": 2002,
       "name": "Pat Smuk",
-      "stars": 43
+      "stars": 45
     },
     "1060563": {
       "completion_day_level": {},
@@ -1501,6 +1511,16 @@
             "star_index": 470773
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1672114934,
+            "star_index": 3828159
+          },
+          "2": {
+            "get_star_ts": 1672115600,
+            "star_index": 3828303
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1669997961,
@@ -1584,10 +1604,10 @@
       },
       "global_score": 0,
       "id": 30841,
-      "last_star_ts": 1672015855,
-      "local_score": 819,
+      "last_star_ts": 1672115600,
+      "local_score": 905,
       "name": "Benjamin Wuethrich",
-      "stars": 18
+      "stars": 20
     },
     "374494": {
       "completion_day_level": {},
