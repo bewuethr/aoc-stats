@@ -102,7 +102,7 @@
       "global_score": 0,
       "id": 1126931,
       "last_star_ts": 1670628114,
-      "local_score": 122,
+      "local_score": 139,
       "name": "jramdass",
       "stars": 17
     },
@@ -212,7 +212,7 @@
       "global_score": 0,
       "id": 1630010,
       "last_star_ts": 1671306170,
-      "local_score": 124,
+      "local_score": 144,
       "name": "David",
       "stars": 20
     },
@@ -233,6 +233,102 @@
       "local_score": 0,
       "name": "FrozenSake",
       "stars": 0
+    },
+    "2438079": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1670641370,
+            "star_index": 2338883
+          },
+          "2": {
+            "get_star_ts": 1670641600,
+            "star_index": 2339047
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1670646502,
+            "star_index": 2342595
+          },
+          "2": {
+            "get_star_ts": 1670647192,
+            "star_index": 2343083
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1670649022,
+            "star_index": 2345473
+          },
+          "2": {
+            "get_star_ts": 1670650889,
+            "star_index": 2357441
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1670653460,
+            "star_index": 2366555
+          },
+          "2": {
+            "get_star_ts": 1670655784,
+            "star_index": 2371813
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": 1670730485,
+            "star_index": 2518290
+          },
+          "2": {
+            "get_star_ts": 1670731101,
+            "star_index": 2518700
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1670732808,
+            "star_index": 2519868
+          },
+          "2": {
+            "get_star_ts": 1670733054,
+            "star_index": 2520019
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1670737844,
+            "star_index": 2529539
+          },
+          "2": {
+            "get_star_ts": 1670740929,
+            "star_index": 2538353
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1670783062,
+            "star_index": 2629180
+          },
+          "2": {
+            "get_star_ts": 1670801900,
+            "star_index": 2668741
+          }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1670818528,
+            "star_index": 2683940
+          }
+        }
+      },
+      "global_score": 0,
+      "id": 2438079,
+      "last_star_ts": 1670818528,
+      "local_score": 97,
+      "name": "Nikita Baranov",
+      "stars": 17
     },
     "30841": {
       "completion_day_level": {
@@ -370,7 +466,7 @@
       "global_score": 0,
       "id": 30841,
       "last_star_ts": 1672639885,
-      "local_score": 191,
+      "local_score": 212,
       "name": "Benjamin Wuethrich",
       "stars": 26
     },
@@ -430,7 +526,7 @@
       "global_score": 0,
       "id": 670330,
       "last_star_ts": 1670220141,
-      "local_score": 63,
+      "local_score": 73,
       "name": "David James",
       "stars": 10
     },
