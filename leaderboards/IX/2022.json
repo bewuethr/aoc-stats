@@ -491,6 +491,66 @@
             "star_index": 195801
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1674866743,
+            "star_index": 4112411
+          },
+          "2": {
+            "get_star_ts": 1674867459,
+            "star_index": 4112478
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": 1674868690,
+            "star_index": 4112546
+          },
+          "2": {
+            "get_star_ts": 1674870753,
+            "star_index": 4112588
+          }
+        },
+        "12": {
+          "1": {
+            "get_star_ts": 1674955472,
+            "star_index": 4115789
+          },
+          "2": {
+            "get_star_ts": 1674955978,
+            "star_index": 4115804
+          }
+        },
+        "13": {
+          "1": {
+            "get_star_ts": 1675040356,
+            "star_index": 4119711
+          },
+          "2": {
+            "get_star_ts": 1675040875,
+            "star_index": 4119723
+          }
+        },
+        "14": {
+          "1": {
+            "get_star_ts": 1675124210,
+            "star_index": 4123032
+          },
+          "2": {
+            "get_star_ts": 1675124521,
+            "star_index": 4123048
+          }
+        },
+        "15": {
+          "1": {
+            "get_star_ts": 1675126805,
+            "star_index": 4123122
+          },
+          "2": {
+            "get_star_ts": 1675128536,
+            "star_index": 4123178
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1670264796,
@@ -530,14 +590,54 @@
             "get_star_ts": 1670437555,
             "star_index": 1879243
           }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1674696945,
+            "star_index": 4105266
+          },
+          "2": {
+            "get_star_ts": 1674696971,
+            "star_index": 4105267
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1674699113,
+            "star_index": 4105338
+          },
+          "2": {
+            "get_star_ts": 1674699688,
+            "star_index": 4105354
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1674781128,
+            "star_index": 4108750
+          },
+          "2": {
+            "get_star_ts": 1674782053,
+            "star_index": 4108777
+          }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1674783486,
+            "star_index": 4108813
+          },
+          "2": {
+            "get_star_ts": 1674786557,
+            "star_index": 4108908
+          }
         }
       },
       "global_score": 0,
       "id": 118403,
-      "last_star_ts": 1670437555,
-      "local_score": 424,
+      "last_star_ts": 1675128536,
+      "local_score": 1269,
       "name": "Peter Chau",
-      "stars": 10
+      "stars": 30
     },
     "118426": {
       "completion_day_level": {},
@@ -1032,13 +1132,24 @@
       "stars": 0
     },
     "195611": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1697229516,
+            "star_index": 4559696
+          },
+          "2": {
+            "get_star_ts": 1697231769,
+            "star_index": 4559773
+          }
+        }
+      },
       "global_score": 0,
       "id": 195611,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1697231769,
+      "local_score": 74,
       "name": "Dumtard",
-      "stars": 0
+      "stars": 2
     },
     "195615": {
       "completion_day_level": {

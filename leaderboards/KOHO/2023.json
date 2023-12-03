@@ -1,0 +1,139 @@
+{
+  "event": "2023",
+  "members": {
+    "1047167": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 1047167,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "AkmalU",
+      "stars": 0
+    },
+    "1126931": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 1126931,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "jramdass",
+      "stars": 0
+    },
+    "1630010": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 1630010,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "David",
+      "stars": 0
+    },
+    "1651720": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 1651720,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Devin",
+      "stars": 0
+    },
+    "1694611": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 1694611,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "FrozenSake",
+      "stars": 0
+    },
+    "2438079": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 2438079,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Nikita Baranov",
+      "stars": 0
+    },
+    "30841": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1701411440,
+            "star_index": 0
+          },
+          "2": {
+            "get_star_ts": 1701447685,
+            "star_index": 130583
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1701496565,
+            "star_index": 267523
+          },
+          "2": {
+            "get_star_ts": 1701497220,
+            "star_index": 270450
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1701584710,
+            "star_index": 530330
+          },
+          "2": {
+            "get_star_ts": 1701586230,
+            "star_index": 535096
+          }
+        }
+      },
+      "global_score": 0,
+      "id": 30841,
+      "last_star_ts": 1701586230,
+      "local_score": 54,
+      "name": "Benjamin Wuethrich",
+      "stars": 6
+    },
+    "670330": {
+      "completion_day_level": {},
+      "global_score": 0,
+      "id": 670330,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "David James",
+      "stars": 0
+    },
+    "758869": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1701446450,
+            "star_index": 125574
+          },
+          "2": {
+            "get_star_ts": 1701460642,
+            "star_index": 177378
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1701571783,
+            "star_index": 503242
+          },
+          "2": {
+            "get_star_ts": 1701573098,
+            "star_index": 504652
+          }
+        }
+      },
+      "global_score": 0,
+      "id": 758869,
+      "last_star_ts": 1701573098,
+      "local_score": 32,
+      "name": "Jeremy MacArthur",
+      "stars": 4
+    }
+  },
+  "owner_id": 1047167
+}
