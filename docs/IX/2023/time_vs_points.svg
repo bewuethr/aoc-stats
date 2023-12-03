@@ -359,7 +359,8 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 158, 115)'  d='M1073.09,297.01 L1136.99,297.01 M227.09,757.90  '/>	<use xlink:href='#gpPt9' transform='translate(227.09,757.90) scale(3.71)' color='rgb(  0, 158, 115)'/>
+	<path stroke='rgb(  0, 158, 115)'  d='M1073.09,297.01 L1136.99,297.01 M227.09,757.90 L234.22,642.20  '/>	<use xlink:href='#gpPt9' transform='translate(227.09,757.90) scale(3.71)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt9' transform='translate(234.22,642.20) scale(3.71)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt9' transform='translate(1105.04,297.01) scale(3.71)' color='rgb(  0, 158, 115)'/>
 </g>
 	</g>
