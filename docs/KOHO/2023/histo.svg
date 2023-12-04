@@ -255,9 +255,9 @@
 	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '97.76,393.60 114.27,393.60 114.27,367.40 97.76,367.40 '/>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '97.76,393.60 114.27,393.60 114.27,341.22 97.76,341.22 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M97.76,393.60 L97.76,367.41 L114.26,367.41 L114.26,393.60 L97.76,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+	<path stroke='rgb( 38, 139, 210)'  d='M97.76,393.60 L97.76,341.23 L114.26,341.23 L114.26,393.60 L97.76,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '117.17,393.60 133.68,393.60 133.68,288.85 117.17,288.85 '/>
 	</g>
 	<path stroke='rgb( 38, 139, 210)'  d='M117.17,393.60 L117.17,288.86 L133.67,288.86 L133.67,393.60 L117.17,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
@@ -272,7 +272,10 @@
 	<path stroke='rgb( 38, 139, 210)'  d='M505.41,393.60 L505.41,315.04 L521.91,315.04 L521.91,393.60 L505.41,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '524.82,393.60 541.33,393.60 541.33,315.03 524.82,315.03 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M524.82,393.60 L524.82,315.04 L541.32,315.04 L541.32,393.60 L524.82,393.60 Z  '/></g>
+	<path stroke='rgb( 38, 139, 210)'  d='M524.82,393.60 L524.82,315.04 L541.32,315.04 L541.32,393.60 L524.82,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '544.23,393.60 560.74,393.60 560.74,367.40 544.23,367.40 '/>
+	</g>
+	<path stroke='rgb( 38, 139, 210)'  d='M544.23,393.60 L544.23,367.41 L560.73,367.41 L560.73,393.60 L544.23,393.60 Z  '/></g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb( 38, 139, 210)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
