@@ -115,15 +115,19 @@
           "1": {
             "get_star_ts": 1701666941,
             "star_index": 755595
+          },
+          "2": {
+            "get_star_ts": 1701668305,
+            "star_index": 767178
           }
         }
       },
       "global_score": 0,
       "id": 30841,
-      "last_star_ts": 1701666941,
-      "local_score": 63,
+      "last_star_ts": 1701668305,
+      "local_score": 72,
       "name": "Benjamin Wuethrich",
-      "stars": 7
+      "stars": 8
     },
     "670330": {
       "completion_day_level": {},
@@ -160,15 +164,19 @@
           "1": {
             "get_star_ts": 1701656988,
             "star_index": 737665
+          },
+          "2": {
+            "get_star_ts": 1701668340,
+            "star_index": 767378
           }
         }
       },
       "global_score": 0,
       "id": 758869,
-      "last_star_ts": 1701656988,
-      "local_score": 40,
+      "last_star_ts": 1701668340,
+      "local_score": 48,
       "name": "Jeremy MacArthur",
-      "stars": 5
+      "stars": 6
     }
   },
   "owner_id": 1047167
