@@ -20,13 +20,24 @@
       "stars": 0
     },
     "1630010": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1701657636,
+            "star_index": 738370
+          },
+          "2": {
+            "get_star_ts": 1701659470,
+            "star_index": 740608
+          }
+        }
+      },
       "global_score": 0,
       "id": 1630010,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1701659470,
+      "local_score": 14,
       "name": "David",
-      "stars": 0
+      "stars": 2
     },
     "1651720": {
       "completion_day_level": {},
@@ -125,14 +136,20 @@
             "get_star_ts": 1701573098,
             "star_index": 504652
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1701656988,
+            "star_index": 737665
+          }
         }
       },
       "global_score": 0,
       "id": 758869,
-      "last_star_ts": 1701573098,
-      "local_score": 32,
+      "last_star_ts": 1701656988,
+      "local_score": 40,
       "name": "Jeremy MacArthur",
-      "stars": 4
+      "stars": 5
     }
   },
   "owner_id": 1047167
