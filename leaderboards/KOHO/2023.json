@@ -30,14 +30,24 @@
             "get_star_ts": 1701659470,
             "star_index": 740608
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1701735114,
+            "star_index": 1008394
+          },
+          "2": {
+            "get_star_ts": 1701735266,
+            "star_index": 1008618
+          }
         }
       },
       "global_score": 0,
       "id": 1630010,
-      "last_star_ts": 1701659470,
-      "local_score": 14,
+      "last_star_ts": 1701735266,
+      "local_score": 27,
       "name": "David",
-      "stars": 2
+      "stars": 4
     },
     "1651720": {
       "completion_day_level": {},
@@ -71,14 +81,20 @@
             "get_star_ts": 1701676527,
             "star_index": 800869
           }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1701733422,
+            "star_index": 1005460
+          }
         }
       },
       "global_score": 0,
       "id": 1694611,
-      "last_star_ts": 1701676527,
-      "local_score": 27,
+      "last_star_ts": 1701733422,
+      "local_score": 35,
       "name": "FrozenSake",
-      "stars": 4
+      "stars": 5
     },
     "2438079": {
       "completion_day_level": {},

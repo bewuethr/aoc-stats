@@ -282,8 +282,10 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M1073.09,108.01 L1136.99,108.01 M228.66,799.52 L229.39,725.45  '/>	<use xlink:href='#gpPt2' transform='translate(228.66,799.52) scale(3.71)' color='rgb( 86, 180, 233)'/>
+	<path stroke='rgb( 86, 180, 233)'  d='M1073.09,108.01 L1136.99,108.01 M228.66,799.52 L229.39,725.45 L259.49,661.95 L259.55,587.88  '/>	<use xlink:href='#gpPt2' transform='translate(228.66,799.52) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(229.39,725.45) scale(3.71)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(259.49,661.95) scale(3.71)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(259.55,587.88) scale(3.71)' color='rgb( 86, 180, 233)'/>
 	<use xlink:href='#gpPt2' transform='translate(1105.04,108.01) scale(3.71)' color='rgb( 86, 180, 233)'/>
 </g>
 	</g>
@@ -294,10 +296,11 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(230, 159,   0)'  d='M1073.09,135.01 L1136.99,135.01 M230.29,810.11 L231.29,736.03 L235.15,661.95 L236.18,587.88  '/>	<use xlink:href='#gpPt3' transform='translate(230.29,810.11) scale(3.71)' color='rgb(230, 159,   0)'/>
+	<path stroke='rgb(230, 159,   0)'  d='M1073.09,135.01 L1136.99,135.01 M230.29,810.11 L231.29,736.03 L235.15,661.95 L236.18,587.88 L258.82,503.22  '/>	<use xlink:href='#gpPt3' transform='translate(230.29,810.11) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(231.29,736.03) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(235.15,661.95) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(236.18,587.88) scale(3.71)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(258.82,503.22) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(1105.04,135.01) scale(3.71)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
