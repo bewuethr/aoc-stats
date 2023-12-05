@@ -40,14 +40,30 @@
             "get_star_ts": 1701735266,
             "star_index": 1008618
           }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1701745464,
+            "star_index": 1021595
+          },
+          "2": {
+            "get_star_ts": 1701745590,
+            "star_index": 1021763
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1701746086,
+            "star_index": 1022337
+          }
         }
       },
       "global_score": 0,
       "id": 1630010,
-      "last_star_ts": 1701735266,
-      "local_score": 27,
+      "last_star_ts": 1701746086,
+      "local_score": 46,
       "name": "David",
-      "stars": 4
+      "stars": 7
     },
     "1651720": {
       "completion_day_level": {},

@@ -356,15 +356,19 @@
           "1": {
             "get_star_ts": 1701645886,
             "star_index": 744142
+          },
+          "2": {
+            "get_star_ts": 1701744251,
+            "star_index": 1042949
           }
         }
       },
       "global_score": 0,
       "id": 1795318,
-      "last_star_ts": 1701645886,
-      "local_score": 123,
+      "last_star_ts": 1701744251,
+      "local_score": 164,
       "name": "Derek Boucher",
-      "stars": 3
+      "stars": 4
     },
     "186091": {
       "completion_day_level": {},
