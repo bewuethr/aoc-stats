@@ -119,7 +119,7 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M372.80,153.60 L372.80,27.01 M411.79,153.60 L411.79,27.01 M483.48,153.60 L483.48,27.01 M537.97,153.60 L537.97,27.01
-		 '/></g>
+		M1103.89,153.60 L1103.89,27.01  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -326,7 +326,8 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M32.27,393.60 L32.27,267.00 M35.69,393.60 L35.69,267.00 M39.58,393.60 L39.58,267.00  '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M32.27,393.60 L32.27,267.00 M35.69,393.60 L35.69,267.00 M39.58,393.60 L39.58,267.00 M526.13,393.60 L526.13,267.00
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
