@@ -709,15 +709,19 @@
           "1": {
             "get_star_ts": 1702044808,
             "star_index": 1744382
+          },
+          "2": {
+            "get_star_ts": 1702047171,
+            "star_index": 1750288
           }
         }
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702044808,
-      "local_score": 672,
+      "last_star_ts": 1702047171,
+      "local_score": 718,
       "name": "Daniel Shanker",
-      "stars": 15
+      "stars": 16
     },
     "1965603": {
       "completion_day_level": {},
