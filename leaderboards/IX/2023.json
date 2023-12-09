@@ -63,15 +63,19 @@
           "1": {
             "get_star_ts": 1702155407,
             "star_index": 1966183
+          },
+          "2": {
+            "get_star_ts": 1702158021,
+            "star_index": 1971093
           }
         }
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1702155407,
-      "local_score": 540,
+      "last_star_ts": 1702158021,
+      "local_score": 583,
       "name": "Pat Smuk",
-      "stars": 12
+      "stars": 13
     },
     "1060563": {
       "completion_day_level": {},
@@ -764,14 +768,24 @@
             "get_star_ts": 1702047171,
             "star_index": 1750288
           }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1702157023,
+            "star_index": 1969266
+          },
+          "2": {
+            "get_star_ts": 1702157430,
+            "star_index": 1970008
+          }
         }
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702047171,
-      "local_score": 718,
+      "last_star_ts": 1702157430,
+      "local_score": 806,
       "name": "Daniel Shanker",
-      "stars": 16
+      "stars": 18
     },
     "1965603": {
       "completion_day_level": {},
