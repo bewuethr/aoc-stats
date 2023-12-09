@@ -75,15 +75,19 @@
           "1": {
             "get_star_ts": 1702089727,
             "star_index": 1799881
+          },
+          "2": {
+            "get_star_ts": 1702140728,
+            "star_index": 1914599
           }
         }
       },
       "global_score": 0,
       "id": 1630010,
-      "last_star_ts": 1702089727,
-      "local_score": 77,
+      "last_star_ts": 1702140728,
+      "local_score": 85,
       "name": "David",
-      "stars": 11
+      "stars": 12
     },
     "1651720": {
       "completion_day_level": {},
