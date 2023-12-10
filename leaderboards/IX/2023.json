@@ -304,6 +304,12 @@
             "star_index": 1730
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1702212995,
+            "star_index": 2047281
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701493769,
@@ -387,10 +393,10 @@
       },
       "global_score": 47,
       "id": 118609,
-      "last_star_ts": 1702101468,
-      "local_score": 879,
+      "last_star_ts": 1702212995,
+      "local_score": 927,
       "name": "Michael Tardibuono",
-      "stars": 18
+      "stars": 19
     },
     "118852": {
       "completion_day_level": {},
