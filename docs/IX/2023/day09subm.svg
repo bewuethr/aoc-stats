@@ -102,12 +102,14 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M236.11,153.60 L236.11,27.01 M252.72,153.60 L252.72,27.01 M482.49,153.60 L482.49,27.01 M500.53,153.60 L500.53,27.01
-		M1027.38,153.60 L1027.38,27.01 M1079.68,153.60 L1079.68,27.01 M1158.01,153.60 L1158.01,27.01  '/></g>
+		M1027.38,153.60 L1027.38,27.01 M1079.68,153.60 L1079.68,27.01 M1158.01,153.60 L1158.01,27.01 M1216.92,153.60 L1216.92,27.01
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M270.68,153.60 L270.68,27.01 M307.89,153.60 L307.89,27.01 M508.68,153.60 L508.68,27.01 M531.90,153.60 L531.90,27.01
-		M1029.27,153.60 L1029.27,27.01 M1081.07,153.60 L1081.07,27.01 M1159.53,153.60 L1159.53,27.01  '/></g>
+		M1029.27,153.60 L1029.27,27.01 M1081.07,153.60 L1081.07,27.01 M1159.53,153.60 L1159.53,27.01 M1217.45,153.60 L1217.45,27.01
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,94.51 1229.59,94.51 1229.59,40.51 1001.89,40.51 '/>
@@ -310,12 +312,14 @@
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M39.23,393.60 L39.23,267.00 M40.22,393.60 L40.22,267.00 M65.45,393.60 L65.45,267.00 M68.77,393.60 L68.77,267.00
-		M486.20,393.60 L486.20,267.00 M609.01,393.60 L609.01,267.00 M856.96,393.60 L856.96,267.00  '/></g>
+		M486.20,393.60 L486.20,267.00 M609.01,393.60 L609.01,267.00 M856.96,393.60 L856.96,267.00 M1110.75,393.60 L1110.75,267.00
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M41.39,393.60 L41.39,267.00 M44.14,393.60 L44.14,267.00 M70.36,393.60 L70.36,267.00 M75.23,393.60 L75.23,267.00
-		M490.14,393.60 L490.14,267.00 M612.70,393.60 L612.70,267.00 M862.69,393.60 L862.69,267.00  '/></g>
+		M490.14,393.60 L490.14,267.00 M612.70,393.60 L612.70,267.00 M862.69,393.60 L862.69,267.00 M1113.40,393.60 L1113.40,267.00
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,334.50 1229.59,334.50 1229.59,280.50 1001.89,280.50 '/>
