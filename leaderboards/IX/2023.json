@@ -308,6 +308,10 @@
           "1": {
             "get_star_ts": 1702212995,
             "star_index": 2047281
+          },
+          "2": {
+            "get_star_ts": 1702216023,
+            "star_index": 2053056
           }
         },
         "2": {
@@ -393,10 +397,10 @@
       },
       "global_score": 47,
       "id": 118609,
-      "last_star_ts": 1702212995,
-      "local_score": 927,
+      "last_star_ts": 1702216023,
+      "local_score": 977,
       "name": "Michael Tardibuono",
-      "stars": 19
+      "stars": 20
     },
     "118852": {
       "completion_day_level": {},
@@ -735,6 +739,12 @@
             "star_index": 123833
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1702217603,
+            "star_index": 2056068
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701522725,
@@ -818,10 +828,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702157430,
-      "local_score": 806,
+      "last_star_ts": 1702217603,
+      "local_score": 853,
       "name": "Daniel Shanker",
-      "stars": 18
+      "stars": 19
     },
     "1965603": {
       "completion_day_level": {},
