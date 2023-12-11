@@ -23,6 +23,16 @@
             "star_index": 2124431
           }
         },
+        "11": {
+          "1": {
+            "get_star_ts": 1702334714,
+            "star_index": 2264075
+          },
+          "2": {
+            "get_star_ts": 1702335337,
+            "star_index": 2264983
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701494248,
@@ -106,10 +116,10 @@
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1702255686,
-      "local_score": 886,
+      "last_star_ts": 1702335337,
+      "local_score": 976,
       "name": "Pat Smuk",
-      "stars": 20
+      "stars": 22
     },
     "1060563": {
       "completion_day_level": {},
