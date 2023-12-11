@@ -188,7 +188,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M1054.40,873.60 L1054.40,337.51 M1054.40,40.51 L1054.40,27.01  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M1054.40,873.60 L1054.40,364.51 M1054.40,40.51 L1054.40,27.01  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -324,7 +324,8 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(230, 159,   0)'  d='M1073.09,135.01 L1136.99,135.01 M166.24,840.44 L166.60,806.58 L189.59,773.42 L189.80,740.26 L239.50,707.81 L239.61,675.36
 		L256.65,642.20 L257.09,609.04 L290.54,575.88 L322.38,542.02 L323.20,508.86 L323.32,475.70 L359.69,443.25 L369.05,410.09
-		L391.12,376.93 L392.09,343.78 L424.63,309.91 L424.77,276.05 L458.77,240.77 L478.80,208.32 L491.93,174.46  '/>	<use xlink:href='#gpPt3' transform='translate(166.24,840.44) scale(3.71)' color='rgb(230, 159,   0)'/>
+		L391.12,376.93 L392.09,343.78 L424.63,309.91 L424.77,276.05 L458.77,240.77 L478.80,208.32 L491.93,174.46 L492.57,140.59
+		 '/>	<use xlink:href='#gpPt3' transform='translate(166.24,840.44) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(166.60,806.58) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(189.59,773.42) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(189.80,740.26) scale(3.71)' color='rgb(230, 159,   0)'/>
@@ -345,6 +346,7 @@
 	<use xlink:href='#gpPt3' transform='translate(458.77,240.77) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(478.80,208.32) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(491.93,174.46) scale(3.71)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(492.57,140.59) scale(3.71)' color='rgb(230, 159,   0)'/>
 	<use xlink:href='#gpPt3' transform='translate(1105.04,135.01) scale(3.71)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
@@ -521,7 +523,18 @@
 	<use xlink:href='#gpPt10' transform='translate(1105.04,324.01) scale(3.71)' color='rgb( 86, 180, 233)'/>
 </g>
 	</g>
-<g fill="none" color="#002B36" stroke="rgb( 86, 180, 233)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g id="gnuplot_plot_12" ><title>Sannie Loi</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1060.49,356.86)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
+		<text><tspan font-family="Inconsolata" >Sannie Loi</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(230, 159,   0)'  d='M1073.09,351.01 L1136.99,351.01 M492.96,846.09  '/>	<use xlink:href='#gpPt11' transform='translate(492.96,846.09) scale(3.71)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt11' transform='translate(1105.04,351.01) scale(3.71)' color='rgb(230, 159,   0)'/>
+</g>
+	</g>
+<g fill="none" color="#002B36" stroke="rgb(230, 159,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>

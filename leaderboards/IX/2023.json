@@ -155,6 +155,10 @@
           "1": {
             "get_star_ts": 1702273987,
             "star_index": 2147476
+          },
+          "2": {
+            "get_star_ts": 1702275640,
+            "star_index": 2152131
           }
         },
         "2": {
@@ -240,10 +244,10 @@
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1702273987,
-      "local_score": 991,
+      "last_star_ts": 1702275640,
+      "local_score": 1039,
       "name": "mozesmagyar",
-      "stars": 21
+      "stars": 22
     },
     "117917": {
       "completion_day_level": {},
@@ -451,13 +455,20 @@
       "stars": 0
     },
     "120850": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1702276623,
+            "star_index": 2154286
+          }
+        }
+      },
       "global_score": 0,
       "id": 120850,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1702276623,
+      "local_score": 39,
       "name": "Sannie Loi",
-      "stars": 0
+      "stars": 1
     },
     "122937": {
       "completion_day_level": {},
