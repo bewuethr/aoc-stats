@@ -794,6 +794,10 @@
           "1": {
             "get_star_ts": 1702307133,
             "star_index": 2212983
+          },
+          "2": {
+            "get_star_ts": 1702308214,
+            "star_index": 2214991
           }
         },
         "2": {
@@ -879,10 +883,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702307133,
-      "local_score": 949,
+      "last_star_ts": 1702308214,
+      "local_score": 996,
       "name": "Daniel Shanker",
-      "stars": 21
+      "stars": 22
     },
     "1965603": {
       "completion_day_level": {},
@@ -940,6 +944,12 @@
           "2": {
             "get_star_ts": 1702229599,
             "star_index": 2079937
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": 1702308784,
+            "star_index": 2216109
           }
         },
         "2": {
@@ -1025,10 +1035,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1702229599,
-      "local_score": 898,
+      "last_star_ts": 1702308784,
+      "local_score": 944,
       "name": "David McFadzean",
-      "stars": 20
+      "stars": 21
     },
     "294290": {
       "completion_day_level": {},
