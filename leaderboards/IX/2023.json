@@ -43,6 +43,16 @@
             "star_index": 2379575
           }
         },
+        "13": {
+          "1": {
+            "get_star_ts": 1702495084,
+            "star_index": 2457973
+          },
+          "2": {
+            "get_star_ts": 1702495942,
+            "star_index": 2459015
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701494248,
@@ -126,10 +136,10 @@
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1702433287,
-      "local_score": 1066,
+      "last_star_ts": 1702495942,
+      "local_score": 1155,
       "name": "Pat Smuk",
-      "stars": 24
+      "stars": 26
     },
     "1060563": {
       "completion_day_level": {},
@@ -1042,6 +1052,10 @@
           "1": {
             "get_star_ts": 1702490214,
             "star_index": 2452163
+          },
+          "2": {
+            "get_star_ts": 1702495481,
+            "star_index": 2458457
           }
         },
         "2": {
@@ -1127,10 +1141,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1702490214,
-      "local_score": 1082,
+      "last_star_ts": 1702495481,
+      "local_score": 1128,
       "name": "David McFadzean",
-      "stars": 24
+      "stars": 25
     },
     "294290": {
       "completion_day_level": {},
