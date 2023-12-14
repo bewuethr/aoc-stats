@@ -119,11 +119,11 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M389.24,153.60 L389.24,27.01 M447.76,153.60 L447.76,27.01 M730.97,153.60 L730.97,27.01 M1101.99,153.60 L1101.99,27.01
-		 '/></g>
+		M1134.70,153.60 L1134.70,27.01  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M636.44,153.60 L636.44,27.01 M710.30,153.60 L710.30,27.01  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M636.44,153.60 L636.44,27.01 M710.30,153.60 L710.30,27.01 M1132.80,153.60 L1132.80,27.01  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,94.51 1229.59,94.51 1229.59,40.51 1001.89,40.51 '/>
@@ -325,11 +325,12 @@
 </g>
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 42, 161, 152)'  d='M33.79,393.60 L33.79,267.00 M71.88,393.60 L71.88,267.00 M520.07,393.60 L520.07,267.00  '/></g>
+	<path stroke='rgb( 42, 161, 152)'  d='M33.79,393.60 L33.79,267.00 M71.88,393.60 L71.88,267.00 M520.07,393.60 L520.07,267.00 M635.62,393.60 L635.62,267.00
+		 '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M51.19,393.60 L51.19,267.00 M66.23,393.60 L66.23,267.00  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M51.19,393.60 L51.19,267.00 M66.23,393.60 L66.23,267.00 M628.21,393.60 L628.21,267.00  '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,334.50 1229.59,334.50 1229.59,280.50 1001.89,280.50 '/>

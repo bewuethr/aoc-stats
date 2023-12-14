@@ -215,6 +215,10 @@
           "1": {
             "get_star_ts": 1702533230,
             "star_index": 2497612
+          },
+          "2": {
+            "get_star_ts": 1702572766,
+            "star_index": 2550617
           }
         },
         "2": {
@@ -300,10 +304,10 @@
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1702533230,
-      "local_score": 1277,
+      "last_star_ts": 1702572766,
+      "local_score": 1325,
       "name": "mozesmagyar",
-      "stars": 27
+      "stars": 28
     },
     "117917": {
       "completion_day_level": {},
@@ -926,6 +930,12 @@
             "star_index": 2547083
           }
         },
+        "14": {
+          "1": {
+            "get_star_ts": 1702573293,
+            "star_index": 2551298
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701522725,
@@ -1009,10 +1019,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702569778,
-      "local_score": 1177,
+      "last_star_ts": 1702573293,
+      "local_score": 1223,
       "name": "Daniel Shanker",
-      "stars": 26
+      "stars": 27
     },
     "1965603": {
       "completion_day_level": {},
