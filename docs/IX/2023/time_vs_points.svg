@@ -111,7 +111,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M121.50,344.48 L833.69,344.48 M1149.59,344.48 L1162.19,344.48  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M121.50,344.48 L682.49,344.48 M1149.59,344.48 L1162.19,344.48  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -124,7 +124,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M121.50,238.66 L833.69,238.66 M1149.59,238.66 L1162.19,238.66  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M121.50,238.66 L682.49,238.66 M1149.59,238.66 L1162.19,238.66  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -137,7 +137,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M121.50,132.83 L833.69,132.83 M1149.59,132.83 L1162.19,132.83  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M121.50,132.83 L682.49,132.83 M1149.59,132.83 L1162.19,132.83  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -198,7 +198,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M819.41,873.60 L819.41,27.01  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M819.41,873.60 L819.41,391.51 M819.41,40.51 L819.41,27.01  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -214,7 +214,7 @@
 <g fill="none" color="black" stroke="rgb(131, 148, 150)" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M1054.40,873.60 L1054.40,364.51 M1054.40,40.51 L1054.40,27.01  '/></g>
+	<path stroke='rgb( 88, 110, 117)' stroke-dasharray='2,4' class="gridline"  d='M1054.40,873.60 L1054.40,391.51 M1054.40,40.51 L1054.40,27.01  '/></g>
 <g fill="none" color="gray" stroke="rgb( 88, 110, 117)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -420,7 +420,8 @@
 	<path stroke='rgb(240, 228,  66)'  d='M1073.09,162.01 L1136.99,162.01 M166.51,849.26 L168.05,824.39 L200.03,800.58 L200.14,776.77 L275.00,753.49 L275.79,730.21
 		L302.97,706.40 L309.92,680.47 L341.50,656.66 L341.60,632.85 L369.32,609.04 L370.71,584.70 L377.21,563.54 L378.73,541.31
 		L402.88,518.03 L403.80,493.69 L446.49,470.41 L446.64,447.13 L470.02,422.26 L474.54,396.33 L504.81,371.47 L505.23,346.60
-		L541.43,322.79 L545.87,297.92 L577.27,274.11 L606.86,250.83 L608.23,226.49 L637.81,202.68  '/>	<use xlink:href='#gpPt4' transform='translate(166.51,849.26) scale(3.71)' color='rgb(240, 228,  66)'/>
+		L541.43,322.79 L545.87,297.92 L577.27,274.11 L606.86,250.83 L608.23,226.49 L637.81,202.68 L638.23,178.34 L639.13,154.00
+		 '/>	<use xlink:href='#gpPt4' transform='translate(166.51,849.26) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(168.05,824.39) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(200.03,800.58) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(200.14,776.77) scale(3.71)' color='rgb(240, 228,  66)'/>
@@ -448,6 +449,8 @@
 	<use xlink:href='#gpPt4' transform='translate(606.86,250.83) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(608.23,226.49) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(637.81,202.68) scale(3.71)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(638.23,178.34) scale(3.71)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(639.13,154.00) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt4' transform='translate(1105.04,162.01) scale(3.71)' color='rgb(240, 228,  66)'/>
 </g>
 	</g>
@@ -517,7 +520,7 @@
 	<path stroke='rgb(131, 148, 150)'  d='M1073.09,243.01 L1136.99,243.01 M183.55,850.85 L200.05,828.10 L219.53,804.81 L219.75,781.53 L251.74,758.25 L252.17,734.97
 		L268.32,711.16 L270.22,687.35 L304.40,664.07 L336.64,639.73 L337.72,615.39 L353.07,591.05 L373.09,567.77 L379.97,543.96
 		L402.88,520.15 L419.12,496.87 L436.25,472.53 L436.36,448.19 L471.38,423.85 L474.68,398.45 L505.45,374.11 L507.11,349.77
-		L538.34,325.43 L575.95,301.09 L577.99,276.75 L605.04,251.89 L612.08,227.02 L625.37,201.62  '/>	<use xlink:href='#gpPt7' transform='translate(183.55,850.85) scale(3.71)' color='rgb(131, 148, 150)'/>
+		L538.34,325.43 L575.95,301.09 L577.99,276.75 L605.04,251.89 L612.08,227.02 L625.37,201.62 L638.28,176.75  '/>	<use xlink:href='#gpPt7' transform='translate(183.55,850.85) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(200.05,828.10) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(219.53,804.81) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(219.75,781.53) scale(3.71)' color='rgb(131, 148, 150)'/>
@@ -545,6 +548,7 @@
 	<use xlink:href='#gpPt7' transform='translate(605.04,251.89) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(612.08,227.02) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(625.37,201.62) scale(3.71)' color='rgb(131, 148, 150)'/>
+	<use xlink:href='#gpPt7' transform='translate(638.28,176.75) scale(3.71)' color='rgb(131, 148, 150)'/>
 	<use xlink:href='#gpPt7' transform='translate(1105.04,243.01) scale(3.71)' color='rgb(131, 148, 150)'/>
 </g>
 	</g>
@@ -625,7 +629,18 @@
 	<use xlink:href='#gpPt11' transform='translate(1105.04,351.01) scale(3.71)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
-<g fill="none" color="#002B36" stroke="rgb(230, 159,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g id="gnuplot_plot_13" ><title>Marc-François Cochaux-Laberge</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(1060.49,383.86)" stroke="none" fill="rgb(131,148,150)" font-family="Inconsolata" font-size="18.00"  text-anchor="end">
+		<text><tspan font-family="Inconsolata" >Marc-François Cochaux-Laberge</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(240, 228,  66)'  d='M1073.09,378.01 L1136.99,378.01 M638.61,853.49  '/>	<use xlink:href='#gpPt12' transform='translate(638.61,853.49) scale(3.71)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt12' transform='translate(1105.04,378.01) scale(3.71)' color='rgb(240, 228,  66)'/>
+</g>
+	</g>
+<g fill="none" color="#002B36" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>

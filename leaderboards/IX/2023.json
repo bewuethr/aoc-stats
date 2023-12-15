@@ -970,6 +970,16 @@
             "star_index": 2645657
           }
         },
+        "15": {
+          "1": {
+            "get_star_ts": 1702650503,
+            "star_index": 2647125
+          },
+          "2": {
+            "get_star_ts": 1702652816,
+            "star_index": 2650605
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701522725,
@@ -1053,10 +1063,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702649426,
-      "local_score": 1268,
+      "last_star_ts": 1702652816,
+      "local_score": 1360,
       "name": "Daniel Shanker",
-      "stars": 28
+      "stars": 30
     },
     "1965603": {
       "completion_day_level": {},
@@ -1156,6 +1166,10 @@
           "1": {
             "get_star_ts": 1702617420,
             "star_index": 2592777
+          },
+          "2": {
+            "get_star_ts": 1702650636,
+            "star_index": 2647337
           }
         },
         "2": {
@@ -1241,10 +1255,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1702617420,
-      "local_score": 1270,
+      "last_star_ts": 1702650636,
+      "local_score": 1317,
       "name": "David McFadzean",
-      "stars": 28
+      "stars": 29
     },
     "294290": {
       "completion_day_level": {},
@@ -1416,13 +1430,20 @@
       "stars": 0
     },
     "388499": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1702651489,
+            "star_index": 2648536
+          }
+        }
+      },
       "global_score": 0,
       "id": 388499,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1702651489,
+      "local_score": 38,
       "name": "Marc-François Cochaux-Laberge",
-      "stars": 0
+      "stars": 1
     },
     "417433": {
       "completion_day_level": {},
