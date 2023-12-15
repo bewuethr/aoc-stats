@@ -235,6 +235,10 @@
           "1": {
             "get_star_ts": 1702618774,
             "star_index": 2597767
+          },
+          "2": {
+            "get_star_ts": 1702621954,
+            "star_index": 2604252
           }
         },
         "2": {
@@ -320,10 +324,10 @@
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1702618774,
-      "local_score": 1372,
+      "last_star_ts": 1702621954,
+      "local_score": 1420,
       "name": "mozesmagyar",
-      "stars": 29
+      "stars": 30
     },
     "117917": {
       "completion_day_level": {},
