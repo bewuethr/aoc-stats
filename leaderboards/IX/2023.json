@@ -1435,15 +1435,19 @@
           "1": {
             "get_star_ts": 1702651489,
             "star_index": 2648536
+          },
+          "2": {
+            "get_star_ts": 1702654124,
+            "star_index": 2652384
           }
         }
       },
       "global_score": 0,
       "id": 388499,
-      "last_star_ts": 1702651489,
-      "local_score": 38,
+      "last_star_ts": 1702654124,
+      "local_score": 77,
       "name": "Marc-François Cochaux-Laberge",
-      "stars": 1
+      "stars": 2
     },
     "417433": {
       "completion_day_level": {},

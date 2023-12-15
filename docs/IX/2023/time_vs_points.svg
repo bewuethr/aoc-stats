@@ -636,7 +636,8 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(240, 228,  66)'  d='M1073.09,378.01 L1136.99,378.01 M638.61,853.49  '/>	<use xlink:href='#gpPt12' transform='translate(638.61,853.49) scale(3.71)' color='rgb(240, 228,  66)'/>
+	<path stroke='rgb(240, 228,  66)'  d='M1073.09,378.01 L1136.99,378.01 M638.61,853.49 L639.63,832.86  '/>	<use xlink:href='#gpPt12' transform='translate(638.61,853.49) scale(3.71)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt12' transform='translate(639.63,832.86) scale(3.71)' color='rgb(240, 228,  66)'/>
 	<use xlink:href='#gpPt12' transform='translate(1105.04,378.01) scale(3.71)' color='rgb(240, 228,  66)'/>
 </g>
 	</g>
