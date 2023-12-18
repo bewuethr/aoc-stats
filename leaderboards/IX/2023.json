@@ -295,6 +295,10 @@
           "1": {
             "get_star_ts": 1702904880,
             "star_index": 2890098
+          },
+          "2": {
+            "get_star_ts": 1702910888,
+            "star_index": 2896503
           }
         },
         "2": {
@@ -380,10 +384,10 @@
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1702904880,
-      "local_score": 1659,
+      "last_star_ts": 1702910888,
+      "local_score": 1708,
       "name": "mozesmagyar",
-      "stars": 35
+      "stars": 36
     },
     "117917": {
       "completion_day_level": {},
@@ -568,6 +572,10 @@
           "1": {
             "get_star_ts": 1702877048,
             "star_index": 2859431
+          },
+          "2": {
+            "get_star_ts": 1702911232,
+            "star_index": 2896887
           }
         },
         "2": {
@@ -653,10 +661,10 @@
       },
       "global_score": 47,
       "id": 118609,
-      "last_star_ts": 1702877048,
-      "local_score": 1714,
+      "last_star_ts": 1702911232,
+      "local_score": 1762,
       "name": "Michael Tardibuono",
-      "stars": 35
+      "stars": 36
     },
     "118852": {
       "completion_day_level": {},
@@ -1278,6 +1286,12 @@
             "star_index": 2743420
           }
         },
+        "18": {
+          "1": {
+            "get_star_ts": 1702910238,
+            "star_index": 2895833
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701572913,
@@ -1361,10 +1375,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1702741753,
-      "local_score": 1454,
+      "last_star_ts": 1702910238,
+      "local_score": 1501,
       "name": "David McFadzean",
-      "stars": 32
+      "stars": 33
     },
     "294290": {
       "completion_day_level": {},
