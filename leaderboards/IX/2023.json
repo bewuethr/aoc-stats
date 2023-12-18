@@ -1084,6 +1084,10 @@
           "1": {
             "get_star_ts": 1702913382,
             "star_index": 2899298
+          },
+          "2": {
+            "get_star_ts": 1702917724,
+            "star_index": 2904143
           }
         },
         "2": {
@@ -1169,10 +1173,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1702913382,
-      "local_score": 1500,
+      "last_star_ts": 1702917724,
+      "local_score": 1547,
       "name": "Daniel Shanker",
-      "stars": 33
+      "stars": 34
     },
     "1965603": {
       "completion_day_level": {},
@@ -1463,6 +1467,16 @@
             "star_index": 2773661
           }
         },
+        "16": {
+          "1": {
+            "get_star_ts": 1702916679,
+            "star_index": 2902987
+          },
+          "2": {
+            "get_star_ts": 1702917660,
+            "star_index": 2904077
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1701496565,
@@ -1546,10 +1560,10 @@
       },
       "global_score": 0,
       "id": 30841,
-      "last_star_ts": 1702769001,
-      "local_score": 1353,
+      "last_star_ts": 1702917660,
+      "local_score": 1441,
       "name": "Benjamin Wuethrich",
-      "stars": 29
+      "stars": 31
     },
     "374494": {
       "completion_day_level": {},
