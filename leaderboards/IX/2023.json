@@ -123,6 +123,34 @@
             "star_index": 277425
           }
         },
+        "20": {
+          "1": {
+            "get_star_ts": 1703103998,
+            "star_index": 3060495
+          },
+          "2": {
+            "get_star_ts": 1703119417,
+            "star_index": 3071757
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1703365326,
+            "star_index": 3230795
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1703729993,
+            "star_index": 3370901
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1703481883,
+            "star_index": 3286112
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1701580795,
@@ -196,10 +224,10 @@
       },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 1703030213,
-      "local_score": 1705,
+      "last_star_ts": 1703729993,
+      "local_score": 1940,
       "name": "Pat Smuk",
-      "stars": 38
+      "stars": 43
     },
     "1060563": {
       "completion_day_level": {},
@@ -345,6 +373,26 @@
           "1": {
             "get_star_ts": 1703092388,
             "star_index": 3051083
+          },
+          "2": {
+            "get_star_ts": 1703107924,
+            "star_index": 3064002
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1703135913,
+            "star_index": 3079604
+          },
+          "2": {
+            "get_star_ts": 1703202526,
+            "star_index": 3132473
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1703286884,
+            "star_index": 3185895
           }
         },
         "3": {
@@ -420,10 +468,10 @@
       },
       "global_score": 0,
       "id": 116481,
-      "last_star_ts": 1703092388,
-      "local_score": 1854,
+      "last_star_ts": 1703286884,
+      "local_score": 2045,
       "name": "mozesmagyar",
-      "stars": 39
+      "stars": 43
     },
     "117917": {
       "completion_day_level": {},
@@ -644,6 +692,56 @@
             "star_index": 3051144
           }
         },
+        "21": {
+          "1": {
+            "get_star_ts": 1703135633,
+            "star_index": 3078938
+          },
+          "2": {
+            "get_star_ts": 1703138650,
+            "star_index": 3082905
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1703227510,
+            "star_index": 3144238
+          },
+          "2": {
+            "get_star_ts": 1703228420,
+            "star_index": 3144924
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1703309870,
+            "star_index": 3194777
+          },
+          "2": {
+            "get_star_ts": 1703314618,
+            "star_index": 3198943
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1703396513,
+            "star_index": 3243888
+          },
+          "2": {
+            "get_star_ts": 1703659223,
+            "star_index": 3349943
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1703556862,
+            "star_index": 3322493
+          },
+          "2": {
+            "get_star_ts": 1703659234,
+            "star_index": 3349947
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1701580341,
@@ -715,12 +813,12 @@
           }
         }
       },
-      "global_score": 47,
+      "global_score": 79,
       "id": 118609,
-      "last_star_ts": 1703092452,
-      "local_score": 1952,
+      "last_star_ts": 1703659234,
+      "local_score": 2446,
       "name": "Michael Tardibuono",
-      "stars": 40
+      "stars": 50
     },
     "118852": {
       "completion_day_level": {},
@@ -1372,6 +1470,10 @@
           "1": {
             "get_star_ts": 1702910238,
             "star_index": 2895833
+          },
+          "2": {
+            "get_star_ts": 1703127965,
+            "star_index": 3075098
           }
         },
         "19": {
@@ -1398,6 +1500,60 @@
           "1": {
             "get_star_ts": 1703098264,
             "star_index": 3055718
+          },
+          "2": {
+            "get_star_ts": 1703709335,
+            "star_index": 3364941
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1703174642,
+            "star_index": 3111861
+          },
+          "2": {
+            "get_star_ts": 1703629506,
+            "star_index": 3343766
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1703257057,
+            "star_index": 3164852
+          },
+          "2": {
+            "get_star_ts": 1703342008,
+            "star_index": 3215485
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1703350343,
+            "star_index": 3221303
+          },
+          "2": {
+            "get_star_ts": 1703698374,
+            "star_index": 3361008
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1703441608,
+            "star_index": 3271150
+          },
+          "2": {
+            "get_star_ts": 1703710731,
+            "star_index": 3365467
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1703625561,
+            "star_index": 3342121
+          },
+          "2": {
+            "get_star_ts": 1703710748,
+            "star_index": 3365471
           }
         },
         "3": {
@@ -1473,10 +1629,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1703098264,
-      "local_score": 1736,
+      "last_star_ts": 1703710748,
+      "local_score": 2304,
       "name": "David McFadzean",
-      "stars": 38
+      "stars": 50
     },
     "294290": {
       "completion_day_level": {},
@@ -1682,14 +1838,24 @@
             "get_star_ts": 1702654124,
             "star_index": 2652384
           }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1703308227,
+            "star_index": 3192956
+          },
+          "2": {
+            "get_star_ts": 1703310531,
+            "star_index": 3195479
+          }
         }
       },
       "global_score": 0,
       "id": 388499,
-      "last_star_ts": 1702654124,
-      "local_score": 77,
+      "last_star_ts": 1703310531,
+      "local_score": 155,
       "name": "Marc-François Cochaux-Laberge",
-      "stars": 2
+      "stars": 4
     },
     "417433": {
       "completion_day_level": {},
@@ -1850,6 +2016,56 @@
             "star_index": 3054422
           }
         },
+        "21": {
+          "1": {
+            "get_star_ts": 1703135524,
+            "star_index": 3078657
+          },
+          "2": {
+            "get_star_ts": 1703170600,
+            "star_index": 3108546
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1703253568,
+            "star_index": 3162201
+          },
+          "2": {
+            "get_star_ts": 1703254336,
+            "star_index": 3162795
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1703308855,
+            "star_index": 3193644
+          },
+          "2": {
+            "get_star_ts": 1703340435,
+            "star_index": 3214487
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1703397165,
+            "star_index": 3244416
+          },
+          "2": {
+            "get_star_ts": 1703426186,
+            "star_index": 3262475
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1703481880,
+            "star_index": 3286107
+          },
+          "2": {
+            "get_star_ts": 1703481890,
+            "star_index": 3286125
+          }
+        },
         "3": {
           "1": {
             "get_star_ts": 1701580363,
@@ -1923,10 +2139,10 @@
       },
       "global_score": 0,
       "id": 641575,
-      "last_star_ts": 1703096581,
-      "local_score": 1981,
+      "last_star_ts": 1703481890,
+      "local_score": 2476,
       "name": "Marie Payne",
-      "stars": 40
+      "stars": 50
     },
     "659809": {
       "completion_day_level": {},

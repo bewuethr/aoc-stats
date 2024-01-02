@@ -85,11 +85,12 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M868.35,153.60 L868.35,27.01 M972.04,153.60 L972.04,27.01 M985.02,153.60 L985.02,27.01 M1032.78,153.60 L1032.78,27.01
-		 '/></g>
+		M1074.25,153.60 L1074.25,27.01  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M985.57,153.60 L985.57,27.01 M1019.70,153.60 L1019.70,27.01  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M985.57,153.60 L985.57,27.01 M1019.70,153.60 L1019.70,27.01 M1100.24,153.60 L1100.24,27.01 M1167.50,153.60 L1167.50,27.01
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,94.51 1229.59,94.51 1229.59,40.51 1001.89,40.51 '/>
@@ -292,11 +293,12 @@
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M482.12,393.60 L482.12,267.00 M624.66,393.60 L624.66,267.00 M645.40,393.60 L645.40,267.00 M728.08,393.60 L728.08,267.00
-		 '/></g>
+		M808.77,393.60 L808.77,267.00  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(211,  54, 130)'  d='M646.30,393.60 L646.30,267.00 M704.40,393.60 L704.40,267.00  '/></g>
+	<path stroke='rgb(211,  54, 130)'  d='M646.30,393.60 L646.30,267.00 M704.40,393.60 L704.40,267.00 M864.01,393.60 L864.01,267.00 M1025.73,393.60 L1025.73,267.00
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,334.50 1229.59,334.50 1229.59,280.50 1001.89,280.50 '/>
