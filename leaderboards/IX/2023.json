@@ -225,7 +225,7 @@
       "global_score": 0,
       "id": 10318,
       "last_star_ts": 1703729993,
-      "local_score": 1940,
+      "local_score": 1945,
       "name": "Pat Smuk",
       "stars": 43
     },
@@ -469,7 +469,7 @@
       "global_score": 0,
       "id": 116481,
       "last_star_ts": 1703286884,
-      "local_score": 2045,
+      "local_score": 2058,
       "name": "mozesmagyar",
       "stars": 43
     },
@@ -816,7 +816,7 @@
       "global_score": 79,
       "id": 118609,
       "last_star_ts": 1703659234,
-      "local_score": 2446,
+      "local_score": 2481,
       "name": "Michael Tardibuono",
       "stars": 50
     },
@@ -1103,7 +1103,7 @@
       "global_score": 0,
       "id": 186094,
       "last_star_ts": 1702139664,
-      "local_score": 807,
+      "local_score": 809,
       "name": "Ricky Kwan",
       "stars": 18
     },
@@ -1630,7 +1630,7 @@
       "global_score": 0,
       "id": 250349,
       "last_star_ts": 1703710748,
-      "local_score": 2304,
+      "local_score": 2308,
       "name": "David McFadzean",
       "stars": 50
     },
@@ -1815,9 +1815,269 @@
       "global_score": 0,
       "id": 30841,
       "last_star_ts": 1704171013,
-      "local_score": 1531,
+      "local_score": 1545,
       "name": "Benjamin Wuethrich",
       "stars": 33
+    },
+    "3332422": {
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1701413553,
+            "star_index": 28895
+          },
+          "2": {
+            "get_star_ts": 1701415696,
+            "star_index": 35049
+          }
+        },
+        "10": {
+          "1": {
+            "get_star_ts": 1702193415,
+            "star_index": 2013885
+          },
+          "2": {
+            "get_star_ts": 1702200950,
+            "star_index": 2025006
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": 1702273842,
+            "star_index": 2146979
+          },
+          "2": {
+            "get_star_ts": 1702275410,
+            "star_index": 2151578
+          }
+        },
+        "12": {
+          "1": {
+            "get_star_ts": 1702362380,
+            "star_index": 2291760
+          },
+          "2": {
+            "get_star_ts": 1702364738,
+            "star_index": 2294970
+          }
+        },
+        "13": {
+          "1": {
+            "get_star_ts": 1702449818,
+            "star_index": 2398725
+          },
+          "2": {
+            "get_star_ts": 1702450860,
+            "star_index": 2400323
+          }
+        },
+        "14": {
+          "1": {
+            "get_star_ts": 1702530996,
+            "star_index": 2490928
+          },
+          "2": {
+            "get_star_ts": 1702533637,
+            "star_index": 2498456
+          }
+        },
+        "15": {
+          "1": {
+            "get_star_ts": 1702616837,
+            "star_index": 2589230
+          },
+          "2": {
+            "get_star_ts": 1702619007,
+            "star_index": 2598431
+          }
+        },
+        "16": {
+          "1": {
+            "get_star_ts": 1702705832,
+            "star_index": 2698414
+          },
+          "2": {
+            "get_star_ts": 1702706359,
+            "star_index": 2699629
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1702824536,
+            "star_index": 2815374
+          },
+          "2": {
+            "get_star_ts": 1702826849,
+            "star_index": 2817999
+          }
+        },
+        "18": {
+          "1": {
+            "get_star_ts": 1702887494,
+            "star_index": 2872642
+          },
+          "2": {
+            "get_star_ts": 1702892333,
+            "star_index": 2877709
+          }
+        },
+        "19": {
+          "1": {
+            "get_star_ts": 1702964997,
+            "star_index": 2943393
+          },
+          "2": {
+            "get_star_ts": 1702967844,
+            "star_index": 2947400
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1701496360,
+            "star_index": 289335
+          },
+          "2": {
+            "get_star_ts": 1701496717,
+            "star_index": 291086
+          }
+        },
+        "20": {
+          "1": {
+            "get_star_ts": 1703084266,
+            "star_index": 3043811
+          },
+          "2": {
+            "get_star_ts": 1703095585,
+            "star_index": 3053656
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1703136968,
+            "star_index": 3081279
+          },
+          "2": {
+            "get_star_ts": 1703141728,
+            "star_index": 3085607
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1703224452,
+            "star_index": 3141181
+          },
+          "2": {
+            "get_star_ts": 1703225809,
+            "star_index": 3142626
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1703311744,
+            "star_index": 3196756
+          },
+          "2": {
+            "get_star_ts": 1703312105,
+            "star_index": 3197114
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1703690193,
+            "star_index": 3357954
+          },
+          "2": {
+            "get_star_ts": 1703831472,
+            "star_index": 3394092
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1704290520,
+            "star_index": 3467267
+          },
+          "2": {
+            "get_star_ts": 1704290552,
+            "star_index": 3467275
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1701583172,
+            "star_index": 547646
+          },
+          "2": {
+            "get_star_ts": 1701585546,
+            "star_index": 555878
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1701667778,
+            "star_index": 786121
+          },
+          "2": {
+            "get_star_ts": 1701669077,
+            "star_index": 794331
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": 1701754673,
+            "star_index": 1058479
+          },
+          "2": {
+            "get_star_ts": 1701755579,
+            "star_index": 1062205
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1701839969,
+            "star_index": 1264318
+          },
+          "2": {
+            "get_star_ts": 1701840678,
+            "star_index": 1270734
+          }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1701931418,
+            "star_index": 1494030
+          },
+          "2": {
+            "get_star_ts": 1701931550,
+            "star_index": 1494364
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1702015405,
+            "star_index": 1671635
+          },
+          "2": {
+            "get_star_ts": 1702017557,
+            "star_index": 1677848
+          }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1702099396,
+            "star_index": 1836385
+          },
+          "2": {
+            "get_star_ts": 1702100090,
+            "star_index": 1840686
+          }
+        }
+      },
+      "global_score": 0,
+      "id": 3332422,
+      "last_star_ts": 1704290552,
+      "local_score": 2434,
+      "name": "Ganesh B N",
+      "stars": 50
     },
     "374494": {
       "completion_day_level": {},
@@ -2150,7 +2410,7 @@
       "global_score": 0,
       "id": 641575,
       "last_star_ts": 1703481890,
-      "local_score": 2476,
+      "local_score": 2519,
       "name": "Marie Payne",
       "stars": 50
     },

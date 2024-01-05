@@ -102,13 +102,14 @@
 	<g id="gnuplot_plot_1a" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M33.33,153.60 L33.33,27.01 M132.62,153.60 L132.62,27.01 M267.54,153.60 L267.54,27.01 M473.55,153.60 L473.55,27.01
-		M525.24,153.60 L525.24,27.01 M1005.00,153.60 L1005.00,27.01 M1224.40,153.60 L1224.40,27.01 M1241.69,153.60 L1241.69,27.01
-		 '/></g>
+		M511.35,153.60 L511.35,27.01 M525.24,153.60 L525.24,27.01 M1005.00,153.60 L1005.00,27.01 M1224.40,153.60 L1224.40,27.01
+		M1241.69,153.60 L1241.69,27.01  '/></g>
 	</g>
 	<g id="gnuplot_plot_2a" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M147.63,153.60 L147.63,27.01 M181.84,153.60 L181.84,27.01 M335.58,153.60 L335.58,27.01 M513.37,153.60 L513.37,27.01
-		M564.52,153.60 L564.52,27.01 M1007.18,153.60 L1007.18,27.01 M1225.92,153.60 L1225.92,27.01  '/></g>
+		M535.00,153.60 L535.00,27.01 M564.52,153.60 L564.52,27.01 M1007.18,153.60 L1007.18,27.01 M1225.92,153.60 L1225.92,27.01
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,94.51 1229.59,94.51 1229.59,40.51 1001.89,40.51 '/>
@@ -311,13 +312,14 @@
 	<g id="gnuplot_plot_1b" ><title>First star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb( 42, 161, 152)'  d='M31.54,393.60 L31.54,267.00 M34.44,393.60 L34.44,267.00 M41.18,393.60 L41.18,267.00 M63.91,393.60 L63.91,267.00
-		M73.78,393.60 L73.78,267.00 M441.89,393.60 L441.89,267.00 M1148.10,393.60 L1148.10,267.00 M1239.42,393.60 L1239.42,267.00
-		 '/></g>
+		M70.90,393.60 L70.90,267.00 M73.78,393.60 L73.78,267.00 M441.89,393.60 L441.89,267.00 M1148.10,393.60 L1148.10,267.00
+		M1239.42,393.60 L1239.42,267.00  '/></g>
 	</g>
 	<g id="gnuplot_plot_2b" ><title>Second star</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='rgb(211,  54, 130)'  d='M35.00,393.60 L35.00,267.00 M36.44,393.60 L36.44,267.00 M46.50,393.60 L46.50,267.00 M71.31,393.60 L71.31,267.00
-		M83.00,393.60 L83.00,267.00 M446.02,393.60 L446.02,267.00 M1155.88,393.60 L1155.88,267.00  '/></g>
+		M75.92,393.60 L75.92,267.00 M83.00,393.60 L83.00,267.00 M446.02,393.60 L446.02,267.00 M1155.88,393.60 L1155.88,267.00
+		 '/></g>
 	</g>
 	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = '#002B36' points = '1001.89,334.50 1229.59,334.50 1229.59,280.50 1001.89,280.50 '/>
