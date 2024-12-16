@@ -7,7 +7,7 @@
 >
 
 <title>Gnuplot</title>
-<desc>Produced by GNUPLOT 5.4 patchlevel 4 </desc>
+<desc>Produced by GNUPLOT 5.4 patchlevel 2 </desc>
 
 <g id="gnuplot_canvas">
 
@@ -242,78 +242,78 @@
 	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '110.32,393.60 126.38,393.60 126.38,39.02 110.32,39.02 '/>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '110.32,393.60 126.38,393.60 126.38,385.18 110.32,385.18 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M110.32,393.60 L110.32,39.03 L126.37,39.03 L126.37,393.60 L110.32,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '129.20,393.60 145.27,393.60 145.27,320.27 129.20,320.27 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M110.32,393.60 L110.32,385.19 L126.37,385.19 L126.37,393.60 L110.32,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '129.20,393.60 145.27,393.60 145.27,388.78 129.20,388.78 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M129.20,393.60 L129.20,320.28 L145.26,320.28 L145.26,393.60 L129.20,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '148.09,393.60 164.15,393.60 164.15,377.96 148.09,377.96 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M129.20,393.60 L129.20,388.79 L145.26,388.79 L145.26,393.60 L129.20,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '148.09,393.60 164.15,393.60 164.15,392.39 148.09,392.39 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M148.09,393.60 L148.09,377.97 L164.14,377.97 L164.14,393.60 L148.09,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '166.98,393.60 183.04,393.60 183.04,385.18 166.98,385.18 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M148.09,393.60 L148.09,392.40 L164.14,392.40 L164.14,393.60 L148.09,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '166.98,393.60 183.04,393.60 183.04,387.58 166.98,387.58 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M166.98,393.60 L166.98,385.19 L183.03,385.19 L183.03,393.60 L166.98,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '185.86,393.60 201.93,393.60 201.93,388.78 185.86,388.78 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M166.98,393.60 L166.98,387.59 L183.03,387.59 L183.03,393.60 L166.98,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '185.86,393.60 201.93,393.60 201.93,375.56 185.86,375.56 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M185.86,393.60 L185.86,388.79 L201.92,388.79 L201.92,393.60 L185.86,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '204.75,393.60 220.82,393.60 220.82,392.39 204.75,392.39 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M185.86,393.60 L185.86,375.57 L201.92,375.57 L201.92,393.60 L185.86,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '204.75,393.60 220.82,393.60 220.82,359.94 204.75,359.94 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M204.75,393.60 L204.75,392.40 L220.81,392.40 L220.81,393.60 L204.75,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '223.64,393.60 239.70,393.60 239.70,387.58 223.64,387.58 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M204.75,393.60 L204.75,359.95 L220.81,359.95 L220.81,393.60 L204.75,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '223.64,393.60 239.70,393.60 239.70,369.55 223.64,369.55 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M223.64,393.60 L223.64,387.59 L239.69,387.59 L239.69,393.60 L223.64,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '242.53,393.60 258.59,393.60 258.59,375.56 242.53,375.56 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M223.64,393.60 L223.64,369.56 L239.69,369.56 L239.69,393.60 L223.64,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '242.53,393.60 258.59,393.60 258.59,364.74 242.53,364.74 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M242.53,393.60 L242.53,375.57 L258.58,375.57 L258.58,393.60 L242.53,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '261.41,393.60 277.48,393.60 277.48,359.94 261.41,359.94 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M242.53,393.60 L242.53,364.75 L258.58,364.75 L258.58,393.60 L242.53,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '261.41,393.60 277.48,393.60 277.48,379.17 261.41,379.17 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M261.41,393.60 L261.41,359.95 L277.47,359.95 L277.47,393.60 L261.41,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+	<path stroke='rgb( 38, 139, 210)'  d='M261.41,393.60 L261.41,379.18 L277.47,379.18 L277.47,393.60 L261.41,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 38, 139, 210)' points = '280.30,393.60 296.36,393.60 296.36,369.55 280.30,369.55 '/>
 	</g>
 	<path stroke='rgb( 38, 139, 210)'  d='M280.30,393.60 L280.30,369.56 L296.35,369.56 L296.35,393.60 L280.30,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '299.19,393.60 315.25,393.60 315.25,364.74 299.19,364.74 '/>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '299.19,393.60 315.25,393.60 315.25,375.56 299.19,375.56 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M299.19,393.60 L299.19,364.75 L315.24,364.75 L315.24,393.60 L299.19,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '318.07,393.60 334.14,393.60 334.14,379.17 318.07,379.17 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M299.19,393.60 L299.19,375.57 L315.24,375.57 L315.24,393.60 L299.19,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '318.07,393.60 334.14,393.60 334.14,368.35 318.07,368.35 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M318.07,393.60 L318.07,379.18 L334.13,379.18 L334.13,393.60 L318.07,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '336.96,393.60 353.03,393.60 353.03,369.55 336.96,369.55 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M318.07,393.60 L318.07,368.36 L334.13,368.36 L334.13,393.60 L318.07,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '336.96,393.60 353.03,393.60 353.03,367.15 336.96,367.15 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M336.96,393.60 L336.96,369.56 L353.02,369.56 L353.02,393.60 L336.96,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '355.85,393.60 371.91,393.60 371.91,375.56 355.85,375.56 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M336.96,393.60 L336.96,367.16 L353.02,367.16 L353.02,393.60 L336.96,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '355.85,393.60 371.91,393.60 371.91,363.54 355.85,363.54 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M355.85,393.60 L355.85,375.57 L371.90,375.57 L371.90,393.60 L355.85,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '374.74,393.60 390.80,393.60 390.80,368.35 374.74,368.35 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M355.85,393.60 L355.85,363.55 L371.90,363.55 L371.90,393.60 L355.85,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '374.74,393.60 390.80,393.60 390.80,357.53 374.74,357.53 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M374.74,393.60 L374.74,368.36 L390.79,368.36 L390.79,393.60 L374.74,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '393.62,393.60 409.69,393.60 409.69,367.15 393.62,367.15 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M374.74,393.60 L374.74,357.54 L390.79,357.54 L390.79,393.60 L374.74,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '393.62,393.60 409.69,393.60 409.69,375.56 393.62,375.56 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M393.62,393.60 L393.62,367.16 L409.68,367.16 L409.68,393.60 L393.62,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '412.51,393.60 428.57,393.60 428.57,363.54 412.51,363.54 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M393.62,393.60 L393.62,375.57 L409.68,375.57 L409.68,393.60 L393.62,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '412.51,393.60 428.57,393.60 428.57,377.96 412.51,377.96 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M412.51,393.60 L412.51,363.55 L428.56,363.55 L428.56,393.60 L412.51,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '431.40,393.60 447.46,393.60 447.46,357.53 431.40,357.53 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M412.51,393.60 L412.51,377.97 L428.56,377.97 L428.56,393.60 L412.51,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '431.40,393.60 447.46,393.60 447.46,374.36 431.40,374.36 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M431.40,393.60 L431.40,357.54 L447.45,357.54 L447.45,393.60 L431.40,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '450.28,393.60 466.35,393.60 466.35,375.56 450.28,375.56 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M431.40,393.60 L431.40,374.37 L447.45,374.37 L447.45,393.60 L431.40,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '450.28,393.60 466.35,393.60 466.35,374.36 450.28,374.36 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M450.28,393.60 L450.28,375.57 L466.34,375.57 L466.34,393.60 L450.28,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '469.17,393.60 485.24,393.60 485.24,377.96 469.17,377.96 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M450.28,393.60 L450.28,374.37 L466.34,374.37 L466.34,393.60 L450.28,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '469.17,393.60 485.24,393.60 485.24,369.55 469.17,369.55 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M469.17,393.60 L469.17,377.97 L485.23,377.97 L485.23,393.60 L469.17,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '488.06,393.60 504.12,393.60 504.12,374.36 488.06,374.36 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M469.17,393.60 L469.17,369.56 L485.23,369.56 L485.23,393.60 L469.17,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '488.06,393.60 504.12,393.60 504.12,376.76 488.06,376.76 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M488.06,393.60 L488.06,374.37 L504.11,374.37 L504.11,393.60 L488.06,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '506.95,393.60 523.01,393.60 523.01,374.36 506.95,374.36 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M488.06,393.60 L488.06,376.77 L504.11,376.77 L504.11,393.60 L488.06,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '506.95,393.60 523.01,393.60 523.01,39.02 506.95,39.02 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M506.95,393.60 L506.95,374.37 L523.00,374.37 L523.00,393.60 L506.95,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '525.83,393.60 541.90,393.60 541.90,369.55 525.83,369.55 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M506.95,393.60 L506.95,39.03 L523.00,39.03 L523.00,393.60 L506.95,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '525.83,393.60 541.90,393.60 541.90,320.27 525.83,320.27 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M525.83,393.60 L525.83,369.56 L541.89,369.56 L541.89,393.60 L525.83,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 38, 139, 210)' points = '544.72,393.60 560.78,393.60 560.78,376.76 544.72,376.76 '/>
+	<path stroke='rgb( 38, 139, 210)'  d='M525.83,393.60 L525.83,320.28 L541.89,320.28 L541.89,393.60 L525.83,393.60 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb( 38, 139, 210)' points = '544.72,393.60 560.78,393.60 560.78,377.96 544.72,377.96 '/>
 	</g>
-	<path stroke='rgb( 38, 139, 210)'  d='M544.72,393.60 L544.72,376.77 L560.77,376.77 L560.77,393.60 L544.72,393.60 Z  '/></g>
+	<path stroke='rgb( 38, 139, 210)'  d='M544.72,393.60 L544.72,377.97 L560.77,377.97 L560.77,393.60 L544.72,393.60 Z  '/></g>
 	</g>
 <g fill="none" color="#002B36" stroke="rgb( 38, 139, 210)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>

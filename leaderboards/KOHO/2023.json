@@ -1,4 +1,5 @@
 {
+  "day1_ts": 1701406800,
   "event": "2023",
   "members": {
     "1047167": {
@@ -362,13 +363,34 @@
       "stars": 33
     },
     "670330": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1713569340,
+            "star_index": 3753782
+          },
+          "2": {
+            "get_star_ts": 1713571623,
+            "star_index": 3753797
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1713575476,
+            "star_index": 3753824
+          },
+          "2": {
+            "get_star_ts": 1713575649,
+            "star_index": 3753826
+          }
+        }
+      },
       "global_score": 0,
       "id": 670330,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1713575649,
+      "local_score": 22,
       "name": "David James",
-      "stars": 0
+      "stars": 4
     },
     "758869": {
       "completion_day_level": {

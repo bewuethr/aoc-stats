@@ -1,4 +1,5 @@
 {
+  "day1_ts": 1448946000,
   "event": "2015",
   "members": {
     "10318": {
@@ -952,6 +953,96 @@
             "star_index": 1461001
           }
         },
+        "10": {
+          "1": {
+            "get_star_ts": 1707769943,
+            "star_index": 19195451
+          },
+          "2": {
+            "get_star_ts": 1707770007,
+            "star_index": 19195456
+          }
+        },
+        "11": {
+          "1": {
+            "get_star_ts": 1707785423,
+            "star_index": 19196014
+          },
+          "2": {
+            "get_star_ts": 1707785472,
+            "star_index": 19196015
+          }
+        },
+        "12": {
+          "1": {
+            "get_star_ts": 1707788987,
+            "star_index": 19196106
+          },
+          "2": {
+            "get_star_ts": 1707795918,
+            "star_index": 19196239
+          }
+        },
+        "13": {
+          "1": {
+            "get_star_ts": 1707879328,
+            "star_index": 19198717
+          },
+          "2": {
+            "get_star_ts": 1707880265,
+            "star_index": 19198727
+          }
+        },
+        "14": {
+          "1": {
+            "get_star_ts": 1707949597,
+            "star_index": 19200658
+          },
+          "2": {
+            "get_star_ts": 1707951143,
+            "star_index": 19200701
+          }
+        },
+        "15": {
+          "1": {
+            "get_star_ts": 1707968518,
+            "star_index": 19201039
+          },
+          "2": {
+            "get_star_ts": 1707969019,
+            "star_index": 19201044
+          }
+        },
+        "16": {
+          "1": {
+            "get_star_ts": 1707974315,
+            "star_index": 19201111
+          },
+          "2": {
+            "get_star_ts": 1707976803,
+            "star_index": 19201144
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1708015913,
+            "star_index": 19202216
+          },
+          "2": {
+            "get_star_ts": 1708016263,
+            "star_index": 19202225
+          }
+        },
+        "18": {
+          "1": {
+            "get_star_ts": 1708312355,
+            "star_index": 19210217
+          },
+          "2": {
+            "get_star_ts": 1708320006,
+            "star_index": 19210357
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1516048770,
@@ -1001,14 +1092,44 @@
             "get_star_ts": 1516137637,
             "star_index": 1462322
           }
+        },
+        "7": {
+          "1": {
+            "get_star_ts": 1707712903,
+            "star_index": 19193741
+          },
+          "2": {
+            "get_star_ts": 1707713915,
+            "star_index": 19193764
+          }
+        },
+        "8": {
+          "1": {
+            "get_star_ts": 1707717054,
+            "star_index": 19193800
+          },
+          "2": {
+            "get_star_ts": 1707718335,
+            "star_index": 19193826
+          }
+        },
+        "9": {
+          "1": {
+            "get_star_ts": 1707764943,
+            "star_index": 19195236
+          },
+          "2": {
+            "get_star_ts": 1707765130,
+            "star_index": 19195246
+          }
         }
       },
       "global_score": 0,
       "id": 174641,
-      "last_star_ts": 1516137637,
-      "local_score": 536,
+      "last_star_ts": 1708320006,
+      "local_score": 1622,
       "name": "dubyte",
-      "stars": 12
+      "stars": 36
     },
     "1795318": {
       "completion_day_level": {},
