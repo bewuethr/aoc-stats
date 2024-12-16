@@ -543,6 +543,8 @@ tidyopts=(-iq --tidy-mark no --wrap 120)
 gccode='<script data-goatcounter="https://aoc-stats.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>'
 
+export TZ='America/Toronto'
+
 [[ -n $verbose ]] && date
 [[ -n $fetch ]] && git pull --quiet
 
