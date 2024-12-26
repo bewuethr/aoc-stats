@@ -3,13 +3,74 @@
   "event": "2024",
   "members": {
     "10318": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1734321224,
+            "star_index": 2693318
+          },
+          "2": {
+            "get_star_ts": 1734322107,
+            "star_index": 2693750
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1734391554,
+            "star_index": 2776074
+          },
+          "2": {
+            "get_star_ts": 1734396049,
+            "star_index": 2779068
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1734400316,
+            "star_index": 2781333
+          },
+          "2": {
+            "get_star_ts": 1734402044,
+            "star_index": 2782126
+          }
+        },
+        "4": {
+          "1": {
+            "get_star_ts": 1734581109,
+            "star_index": 2961904
+          },
+          "2": {
+            "get_star_ts": 1734582251,
+            "star_index": 2962312
+          }
+        },
+        "5": {
+          "1": {
+            "get_star_ts": 1734662719,
+            "star_index": 3046150
+          },
+          "2": {
+            "get_star_ts": 1734663843,
+            "star_index": 3046554
+          }
+        },
+        "6": {
+          "1": {
+            "get_star_ts": 1734666934,
+            "star_index": 3047651
+          },
+          "2": {
+            "get_star_ts": 1735013875,
+            "star_index": 3324636
+          }
+        }
+      },
       "global_score": 0,
       "id": 10318,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1735013875,
+      "local_score": 519,
       "name": "Pat Smuk",
-      "stars": 0
+      "stars": 12
     },
     "1060563": {
       "completion_day_level": {},
@@ -273,6 +334,46 @@
             "star_index": 2605317
           }
         },
+        "16": {
+          "1": {
+            "get_star_ts": 1734326502,
+            "star_index": 2697547
+          },
+          "2": {
+            "get_star_ts": 1734330247,
+            "star_index": 2704256
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1734415005,
+            "star_index": 2792245
+          },
+          "2": {
+            "get_star_ts": 1734419879,
+            "star_index": 2798602
+          }
+        },
+        "18": {
+          "1": {
+            "get_star_ts": 1734499210,
+            "star_index": 2877183
+          },
+          "2": {
+            "get_star_ts": 1734499409,
+            "star_index": 2878062
+          }
+        },
+        "19": {
+          "1": {
+            "get_star_ts": 1734584975,
+            "star_index": 2965092
+          },
+          "2": {
+            "get_star_ts": 1734585251,
+            "star_index": 2966427
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1733116171,
@@ -281,6 +382,58 @@
           "2": {
             "get_star_ts": 1733116411,
             "star_index": 217427
+          }
+        },
+        "20": {
+          "1": {
+            "get_star_ts": 1734671610,
+            "star_index": 3049522
+          },
+          "2": {
+            "get_star_ts": 1734673783,
+            "star_index": 3053418
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1734761693,
+            "star_index": 3125128
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1734844371,
+            "star_index": 3179406
+          },
+          "2": {
+            "get_star_ts": 1734847559,
+            "star_index": 3185241
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1734930666,
+            "star_index": 3251957
+          },
+          "2": {
+            "get_star_ts": 1734934231,
+            "star_index": 3259009
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1735017863,
+            "star_index": 3327778
+          },
+          "2": {
+            "get_star_ts": 1735029748,
+            "star_index": 3338707
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1735105090,
+            "star_index": 3391214
           }
         },
         "3": {
@@ -356,10 +509,10 @@
       },
       "global_score": 0,
       "id": 118609,
-      "last_star_ts": 1734246064,
-      "local_score": 1511,
+      "last_star_ts": 1735105090,
+      "local_score": 2422,
       "name": "Michael Tardibuono",
-      "stars": 30
+      "stars": 48
     },
     "118852": {
       "completion_day_level": {},
@@ -723,6 +876,46 @@
             "star_index": 2641761
           }
         },
+        "16": {
+          "1": {
+            "get_star_ts": 1734371994,
+            "star_index": 2753379
+          },
+          "2": {
+            "get_star_ts": 1734386416,
+            "star_index": 2770911
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1734447495,
+            "star_index": 2830058
+          },
+          "2": {
+            "get_star_ts": 1734471861,
+            "star_index": 2857614
+          }
+        },
+        "18": {
+          "1": {
+            "get_star_ts": 1734530272,
+            "star_index": 2919329
+          },
+          "2": {
+            "get_star_ts": 1734531601,
+            "star_index": 2920871
+          }
+        },
+        "19": {
+          "1": {
+            "get_star_ts": 1734616167,
+            "star_index": 3007032
+          },
+          "2": {
+            "get_star_ts": 1734621551,
+            "star_index": 3013049
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1733251821,
@@ -731,6 +924,66 @@
           "2": {
             "get_star_ts": 1733252531,
             "star_index": 727771
+          }
+        },
+        "20": {
+          "1": {
+            "get_star_ts": 1734704732,
+            "star_index": 3086234
+          },
+          "2": {
+            "get_star_ts": 1734713366,
+            "star_index": 3095216
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1734823331,
+            "star_index": 3169421
+          },
+          "2": {
+            "get_star_ts": 1734842200,
+            "star_index": 3176719
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1734873789,
+            "star_index": 3210638
+          },
+          "2": {
+            "get_star_ts": 1734877493,
+            "star_index": 3214060
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1734966433,
+            "star_index": 3291888
+          },
+          "2": {
+            "get_star_ts": 1734970021,
+            "star_index": 3295411
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1735048457,
+            "star_index": 3354703
+          },
+          "2": {
+            "get_star_ts": 1735056993,
+            "star_index": 3362405
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1735104030,
+            "star_index": 3388326
+          },
+          "2": {
+            "get_star_ts": 1735104077,
+            "star_index": 3388519
           }
         },
         "3": {
@@ -806,10 +1059,10 @@
       },
       "global_score": 0,
       "id": 195615,
-      "last_star_ts": 1734273348,
-      "local_score": 1414,
+      "last_star_ts": 1735104077,
+      "local_score": 2397,
       "name": "Daniel Shanker",
-      "stars": 30
+      "stars": 50
     },
     "1965603": {
       "completion_day_level": {},
@@ -919,6 +1172,46 @@
             "star_index": 2660304
           }
         },
+        "16": {
+          "1": {
+            "get_star_ts": 1734362576,
+            "star_index": 2741628
+          },
+          "2": {
+            "get_star_ts": 1734365491,
+            "star_index": 2745511
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1734457570,
+            "star_index": 2841655
+          },
+          "2": {
+            "get_star_ts": 1734555438,
+            "star_index": 2946321
+          }
+        },
+        "18": {
+          "1": {
+            "get_star_ts": 1734531200,
+            "star_index": 2920380
+          },
+          "2": {
+            "get_star_ts": 1734531890,
+            "star_index": 2921199
+          }
+        },
+        "19": {
+          "1": {
+            "get_star_ts": 1734618172,
+            "star_index": 3009209
+          },
+          "2": {
+            "get_star_ts": 1734618652,
+            "star_index": 3009799
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1733153347,
@@ -927,6 +1220,54 @@
           "2": {
             "get_star_ts": 1733153865,
             "star_index": 377616
+          }
+        },
+        "20": {
+          "1": {
+            "get_star_ts": 1734753321,
+            "star_index": 3121991
+          },
+          "2": {
+            "get_star_ts": 1735154145,
+            "star_index": 3430362
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1734987954,
+            "star_index": 3311378
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1734882115,
+            "star_index": 3218336
+          },
+          "2": {
+            "get_star_ts": 1734908174,
+            "star_index": 3241225
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1734963543,
+            "star_index": 3288953
+          },
+          "2": {
+            "get_star_ts": 1734963864,
+            "star_index": 3289266
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1735058146,
+            "star_index": 3363257
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1735135810,
+            "star_index": 3418006
           }
         },
         "3": {
@@ -1002,10 +1343,10 @@
       },
       "global_score": 0,
       "id": 250349,
-      "last_star_ts": 1734286670,
-      "local_score": 1400,
+      "last_star_ts": 1735154145,
+      "local_score": 2223,
       "name": "David McFadzean",
-      "stars": 30
+      "stars": 47
     },
     "294290": {
       "completion_day_level": {},
@@ -1076,6 +1417,16 @@
           "2": {
             "get_star_ts": 1734154759,
             "star_index": 2486754
+          }
+        },
+        "15": {
+          "1": {
+            "get_star_ts": 1734314559,
+            "star_index": 2689961
+          },
+          "2": {
+            "get_star_ts": 1735189039,
+            "star_index": 3445445
           }
         },
         "2": {
@@ -1161,10 +1512,10 @@
       },
       "global_score": 0,
       "id": 30841,
-      "last_star_ts": 1734213027,
-      "local_score": 1317,
+      "last_star_ts": 1735189039,
+      "local_score": 1411,
       "name": "Benjamin Wuethrich",
-      "stars": 28
+      "stars": 30
     },
     "3332422": {
       "completion_day_level": {},
@@ -1301,6 +1652,46 @@
             "star_index": 2598080
           }
         },
+        "16": {
+          "1": {
+            "get_star_ts": 1734326432,
+            "star_index": 2697339
+          },
+          "2": {
+            "get_star_ts": 1734326791,
+            "star_index": 2698252
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1734412364,
+            "star_index": 2787354
+          },
+          "2": {
+            "get_star_ts": 1734444549,
+            "star_index": 2826423
+          }
+        },
+        "18": {
+          "1": {
+            "get_star_ts": 1734498711,
+            "star_index": 2874884
+          },
+          "2": {
+            "get_star_ts": 1734499395,
+            "star_index": 2878014
+          }
+        },
+        "19": {
+          "1": {
+            "get_star_ts": 1734585785,
+            "star_index": 2968390
+          },
+          "2": {
+            "get_star_ts": 1734585883,
+            "star_index": 2968723
+          }
+        },
         "2": {
           "1": {
             "get_star_ts": 1733116101,
@@ -1309,6 +1700,66 @@
           "2": {
             "get_star_ts": 1733116938,
             "star_index": 222752
+          }
+        },
+        "20": {
+          "1": {
+            "get_star_ts": 1734672134,
+            "star_index": 3050369
+          },
+          "2": {
+            "get_star_ts": 1734672933,
+            "star_index": 3051883
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1734788842,
+            "star_index": 3142551
+          },
+          "2": {
+            "get_star_ts": 1734793746,
+            "star_index": 3146323
+          }
+        },
+        "22": {
+          "1": {
+            "get_star_ts": 1734877834,
+            "star_index": 3214367
+          },
+          "2": {
+            "get_star_ts": 1734962826,
+            "star_index": 3288193
+          }
+        },
+        "23": {
+          "1": {
+            "get_star_ts": 1734962975,
+            "star_index": 3288340
+          },
+          "2": {
+            "get_star_ts": 1734992616,
+            "star_index": 3315079
+          }
+        },
+        "24": {
+          "1": {
+            "get_star_ts": 1735046854,
+            "star_index": 3353310
+          },
+          "2": {
+            "get_star_ts": 1735051361,
+            "star_index": 3357355
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1735130655,
+            "star_index": 3414334
+          },
+          "2": {
+            "get_star_ts": 1735130665,
+            "star_index": 3414348
           }
         },
         "3": {
@@ -1384,10 +1835,10 @@
       },
       "global_score": 0,
       "id": 641575,
-      "last_star_ts": 1734241567,
-      "local_score": 1509,
+      "last_star_ts": 1735130665,
+      "local_score": 2510,
       "name": "Marie Payne",
-      "stars": 30
+      "stars": 50
     },
     "659809": {
       "completion_day_level": {},
@@ -1399,13 +1850,44 @@
       "stars": 0
     },
     "796818": {
-      "completion_day_level": {},
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": 1734335118,
+            "star_index": 2710046
+          },
+          "2": {
+            "get_star_ts": 1734338247,
+            "star_index": 2713460
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": 1734497323,
+            "star_index": 2872891
+          },
+          "2": {
+            "get_star_ts": 1734755150,
+            "star_index": 3122562
+          }
+        },
+        "3": {
+          "1": {
+            "get_star_ts": 1734756915,
+            "star_index": 3123078
+          },
+          "2": {
+            "get_star_ts": 1734758437,
+            "star_index": 3123472
+          }
+        }
+      },
       "global_score": 0,
       "id": 796818,
-      "last_star_ts": 0,
-      "local_score": 0,
+      "last_star_ts": 1734758437,
+      "local_score": 247,
       "name": "Mark Armstrong",
-      "stars": 0
+      "stars": 6
     },
     "986209": {
       "completion_day_level": {},
